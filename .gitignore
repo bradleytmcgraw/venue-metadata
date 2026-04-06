@@ -1,0 +1,35 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+
+# IDE
+.idea/
+
+# Large external datasets
+GHSL-urban-centre-db/
+
+# Generated database
+venues.db
+
+# Large API results / generated data
+venues/city_venue_search.json
+venues/.city_search_progress.json
+venues/venues_details.json
+
+# Large source PDF
+venues/niva_venues.pdf
+
+# One-off test output
+beachland_result.json
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Lock files
+*.~lock.*
+
+# AI tool configs
+.opencode/
+.claude/

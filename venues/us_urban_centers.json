@@ -1,0 +1,3442 @@
+[
+  {
+    "ucdb_id": 8099,
+    "name": "New York City",
+    "alt_names": "New York; Newark; Jersey City; Yonkers; Paterson; Elizabeth; New Rochelle; Mount Vernon; Brentwood; Hempstead; Levittown; New Brunswick",
+    "population": 14197658.75,
+    "area_km2": 3031,
+    "latitude": 40.736898,
+    "longitude": -73.940171,
+    "is_capital": 0
+  },
+  {
+    "ucdb_id": 2007,
+    "name": "Los Angeles",
+    "alt_names": "Los Angeles; Long Beach; Anaheim; Santa Ana; Irvine; Glendale; San Bernardino; Fontana; Huntington Beach; Ontario; Garden Grove; Rancho Cucamonga; Pomona; Torrance; Pasadena; Fullerton; Orange; Inglewood; Downey; El Monte; Costa Mesa; West Covina; Norwalk; Burbank; South Gate; Carson; Santa Monica",
+    "population": 13474332.62,
+    "area_km2": 4498,
+    "latitude": 33.988963,
+    "longitude": -118.074085,
+    "is_capital": 0
+  },
+  {
+    "ucdb_id": 7168,
+    "name": "Miami",
+    "alt_names": "Miami; Hialeah; Fort Lauderdale; Pembroke Pines; Hollywood; Coral Springs; Kendall; West Palm Beach; Miramar; Pompano Beach; Sunrise; Miami Beach; Boca Raton; Deerfield Beach; Weston; Riviera Beach",
+    "population": 5733041.657,
+    "area_km2": 2784,
+    "latitude": 26.062414,
+    "longitude": -80.230532,
+    "is_capital": 0
+  },
+  {
+    "ucdb_id": 7532,
+    "name": "Chicago",
+    "alt_names": "Chicago; Evanston; Elmhurst",
+    "population": 5318734.586,
+    "area_km2": 2046,
+    "latitude": 41.875605,
+    "longitude": -87.754685,
+    "is_capital": 0
+  },
+  {
+    "ucdb_id": 1461,
+    "name": "San Francisco",
+    "alt_names": "San Jose; San Francisco; Oakland; Fremont; Hayward; Sunnyvale; Santa Clara; Berkeley; Richmond; San Mateo; Daly City; Redwood City; Milpitas; Mountain View; Alameda; Palo Alto; South San Francisco; Cupertino",
+    "population": 4718348.828,
+    "area_km2": 1614,
+    "latitude": 37.578683,
+    "longitude": -122.097063,
+    "is_capital": 0
+  },
+  {
+    "ucdb_id": 6167,
+    "name": "Houston",
+    "alt_names": "Houston; Pasadena; Sugar Land",
+    "population": 4301460.936,
+    "area_km2": 1859,
+    "latitude": 29.784911,
+    "longitude": -95.46334,
+    "is_capital": 0
+  },
+  {
+    "ucdb_id": 7910,
+    "name": "Washington",
+    "alt_names": "Washington; Arlington; Alexandria; Silver Spring; Gaithersburg; Bethesda; Rockville; Reston; College Park; Fairfax; Hyattsville",
+    "population": 3471725.09,
+    "area_km2": 1301,
+    "latitude": 38.922724,
+    "longitude": -77.111576,
+    "is_capital": 1
+  },
+  {
+    "ucdb_id": 4699,
+    "name": "Phoenix",
+    "alt_names": "Phoenix; Glendale; Scottsdale; Peoria; Surprise; Avondale",
+    "population": 2608874.085,
+    "area_km2": 1304,
+    "latitude": 33.554192,
+    "longitude": -112.142705,
+    "is_capital": 0
+  },
+  {
+    "ucdb_id": 6397,
+    "name": "Dallas",
+    "alt_names": "Dallas; Plano; Garland; Mesquite; Carrollton; Richardson",
+    "population": 2577308.218,
+    "area_km2": 1237,
+    "latitude": 32.896666,
+    "longitude": -96.757084,
+    "is_capital": 0
+  },
+  {
+    "ucdb_id": 5932,
+    "name": "Denver",
+    "alt_names": "Denver; Aurora; Lakewood; Thornton; Centennial; Westminster",
+    "population": 2425086.009,
+    "area_km2": 1194,
+    "latitude": 39.723239,
+    "longitude": -104.967161,
+    "is_capital": 0
+  },
+  {
+    "ucdb_id": 4625,
+    "name": "Las Vegas",
+    "alt_names": "Las Vegas; Henderson; North Las Vegas",
+    "population": 2371780.056,
+    "area_km2": 851,
+    "latitude": 36.142891,
+    "longitude": -115.156724,
+    "is_capital": 0
+  },
+  {
+    "ucdb_id": 8029,
+    "name": "Philadelphia",
+    "alt_names": "Philadelphia; Camden",
+    "population": 2286396.408,
+    "area_km2": 654,
+    "latitude": 39.979216,
+    "longitude": -75.155931,
+    "is_capital": 0
+  },
+  {
+    "ucdb_id": 5098,
+    "name": "Seattle",
+    "alt_names": "Seattle; Bellevue",
+    "population": 2099643.254,
+    "area_km2": 1123,
+    "latitude": 47.629515,
+    "longitude": -122.2756,
+    "is_capital": 0
+  },
+  {
+    "ucdb_id": 2471,
+    "name": "San Diego",
+    "alt_names": "San Diego; Chula Vista; El Cajon",
+    "population": 1977278.929,
+    "area_km2": 778,
+    "latitude": 32.730957,
+    "longitude": -117.083728,
+    "is_capital": 0
+  },
+  {
+    "ucdb_id": 7784,
+    "name": "Detroit",
+    "alt_names": "Detroit; Sterling Heights; Warren; Dearborn; Royal Oak",
+    "population": 1918653.086,
+    "area_km2": 1170,
+    "latitude": 42.409743,
+    "longitude": -83.123315,
+    "is_capital": 0
+  },
+  {
+    "ucdb_id": 4941,
+    "name": "Portland",
+    "alt_names": "Portland; Vancouver; Gresham; Hillsboro; Beaverton; Tigard",
+    "population": 1839775.879,
+    "area_km2": 877,
+    "latitude": 45.523709,
+    "longitude": -122.664498,
+    "is_capital": 0
+  },
+  {
+    "ucdb_id": 4736,
+    "name": "Mesa",
+    "alt_names": "Mesa; Chandler; Gilbert; Tempe",
+    "population": 1724503.365,
+    "area_km2": 867,
+    "latitude": 33.364896,
+    "longitude": -111.828799,
+    "is_capital": 0
+  },
+  {
+    "ucdb_id": 4092,
+    "name": "Sacramento",
+    "alt_names": "Sacramento; Elk Grove; Roseville",
+    "population": 1697183.792,
+    "area_km2": 759,
+    "latitude": 38.587665,
+    "longitude": -121.394975,
+    "is_capital": 0
+  },
+  {
+    "ucdb_id": 8255,
+    "name": "Boston",
+    "alt_names": "Boston; Cambridge; Quincy; Newton; Somerville; Waltham; Revere; Chelsea",
+    "population": 1669310.016,
+    "area_km2": 508,
+    "latitude": 42.351985,
+    "longitude": -71.092722,
+    "is_capital": 0
+  },
+  {
+    "ucdb_id": 5951,
+    "name": "Austin",
+    "alt_names": "Austin; Round Rock",
+    "population": 1580153.318,
+    "area_km2": 628,
+    "latitude": 30.355231,
+    "longitude": -97.733788,
+    "is_capital": 0
+  },
+  {
+    "ucdb_id": 5794,
+    "name": "San Antonio",
+    "alt_names": "San Antonio",
+    "population": 1513874.436,
+    "area_km2": 640,
+    "latitude": 29.47203,
+    "longitude": -98.526083,
+    "is_capital": 0
+  },
+  {
+    "ucdb_id": 7243,
+    "name": "Orlando",
+    "alt_names": "Orlando; Kissimmee",
+    "population": 1231650.392,
+    "area_km2": 750,
+    "latitude": 28.523512,
+    "longitude": -81.387904,
+    "is_capital": 0
+  },
+  {
+    "ucdb_id": 7181,
+    "name": "Minneapolis [Saint Paul]",
+    "alt_names": "Minneapolis; Saint Paul",
+    "population": 1217972.426,
+    "area_km2": 611,
+    "latitude": 44.968711,
+    "longitude": -93.237918,
+    "is_capital": 0
+  },
+  {
+    "ucdb_id": 7959,
+    "name": "Baltimore",
+    "alt_names": "Baltimore; Dundalk; Towson",
+    "population": 1127337.892,
+    "area_km2": 449,
+    "latitude": 39.32415,
+    "longitude": -76.624457,
+    "is_capital": 0
+  },
+  {
+    "ucdb_id": 5377,
+    "name": "Salt Lake City",
+    "alt_names": "Salt Lake City; West Valley City; Sandy",
+    "population": 1108953.042,
+    "area_km2": 527,
+    "latitude": 40.657073,
+    "longitude": -111.921886,
+    "is_capital": 0
+  },
+  {
+    "ucdb_id": 6904,
+    "name": "Saint Petersburg",
+    "alt_names": "Saint Petersburg; Clearwater",
+    "population": 942906.5027,
+    "area_km2": 705,
+    "latitude": 27.883439,
+    "longitude": -82.730089,
+    "is_capital": 0
+  },
+  {
+    "ucdb_id": 7735,
+    "name": "Columbus",
+    "alt_names": "Columbus",
+    "population": 875004.3611,
+    "area_km2": 442,
+    "latitude": 40.016812,
+    "longitude": -82.948087,
+    "is_capital": 0
+  },
+  {
+    "ucdb_id": 7611,
+    "name": "Milwaukee",
+    "alt_names": "Milwaukee",
+    "population": 833927.3349,
+    "area_km2": 391,
+    "latitude": 43.036449,
+    "longitude": -87.955773,
+    "is_capital": 0
+  },
+  {
+    "ucdb_id": 6607,
+    "name": "New Orleans",
+    "alt_names": "New Orleans",
+    "population": 821135.4605,
+    "area_km2": 417,
+    "latitude": 29.960121,
+    "longitude": -90.112094,
+    "is_capital": 0
+  },
+  {
+    "ucdb_id": 6876,
+    "name": "St. Louis",
+    "alt_names": "St. Louis",
+    "population": 797219.7287,
+    "area_km2": 439,
+    "latitude": 38.663692,
+    "longitude": -90.299323,
+    "is_capital": 0
+  },
+  {
+    "ucdb_id": 4008,
+    "name": "Fresno",
+    "alt_names": "Fresno",
+    "population": 747153.9112,
+    "area_km2": 334,
+    "latitude": 36.789016,
+    "longitude": -119.772608,
+    "is_capital": 0
+  },
+  {
+    "ucdb_id": 7833,
+    "name": "Cleveland",
+    "alt_names": "Cleveland",
+    "population": 722539.6877,
+    "area_km2": 413,
+    "latitude": 41.473684,
+    "longitude": -81.663228,
+    "is_capital": 0
+  },
+  {
+    "ucdb_id": 7012,
+    "name": "Tampa",
+    "alt_names": "Tampa",
+    "population": 709022.9745,
+    "area_km2": 431,
+    "latitude": 28.002717,
+    "longitude": -82.482066,
+    "is_capital": 0
+  },
+  {
+    "ucdb_id": 6269,
+    "name": "Arlington",
+    "alt_names": "Arlington; Grand Prairie",
+    "population": 698786.0852,
+    "area_km2": 361,
+    "latitude": 32.695059,
+    "longitude": -97.092274,
+    "is_capital": 0
+  },
+  {
+    "ucdb_id": 3104,
+    "name": "Bakersfield",
+    "alt_names": "Bakersfield",
+    "population": 644120.8269,
+    "area_km2": 298,
+    "latitude": 35.357522,
+    "longitude": -119.038306,
+    "is_capital": 0
+  },
+  {
+    "ucdb_id": 5036,
+    "name": "El Paso",
+    "alt_names": "El Paso",
+    "population": 639025.5472,
+    "area_km2": 289,
+    "latitude": 31.786681,
+    "longitude": -106.365394,
+    "is_capital": 0
+  },
+  {
+    "ucdb_id": 7882,
+    "name": "Norfolk",
+    "alt_names": "Norfolk; Portsmouth",
+    "population": 622410.207,
+    "area_km2": 380,
+    "latitude": 36.843846,
+    "longitude": -76.214641,
+    "is_capital": 0
+  },
+  {
+    "ucdb_id": 7219,
+    "name": "Atlanta",
+    "alt_names": "Atlanta",
+    "population": 602708.1902,
+    "area_km2": 292,
+    "latitude": 33.789182,
+    "longitude": -84.337128,
+    "is_capital": 0
+  },
+  {
+    "ucdb_id": 193,
+    "name": "Honolulu",
+    "alt_names": "Honolulu; Waipahu; Pearl City; Aiea",
+    "population": 541956.7544,
+    "area_km2": 177,
+    "latitude": 21.336319,
+    "longitude": -157.887133,
+    "is_capital": 0
+  },
+  {
+    "ucdb_id": 5351,
+    "name": "Provo",
+    "alt_names": "Provo; Lehi",
+    "population": 534551.9818,
+    "area_km2": 183,
+    "latitude": 40.307758,
+    "longitude": -111.714972,
+    "is_capital": 0
+  },
+  {
+    "ucdb_id": 6252,
+    "name": "North Richland Hills",
+    "alt_names": "North Richland Hills; Euless; Bedford; Haltom City; Hurst; Watauga",
+    "population": 523625.3282,
+    "area_km2": 268,
+    "latitude": 32.853461,
+    "longitude": -97.205094,
+    "is_capital": 0
+  },
+  {
+    "ucdb_id": 7424,
+    "name": "Louisville",
+    "alt_names": "Louisville",
+    "population": 505689.8991,
+    "area_km2": 352,
+    "latitude": 38.211666,
+    "longitude": -85.695812,
+    "is_capital": 0
+  },
+  {
+    "ucdb_id": 3273,
+    "name": "Riverside",
+    "alt_names": "Riverside; Corona",
+    "population": 495766.989,
+    "area_km2": 198,
+    "latitude": 33.915745,
+    "longitude": -117.476088,
+    "is_capital": 0
+  },
+  {
+    "ucdb_id": 6517,
+    "name": "Oklahoma City",
+    "alt_names": "Oklahoma City",
+    "population": 492130.2164,
+    "area_km2": 313,
+    "latitude": 35.453643,
+    "longitude": -97.561284,
+    "is_capital": 0
+  },
+  {
+    "ucdb_id": 7847,
+    "name": "Pittsburgh",
+    "alt_names": "Pittsburgh",
+    "population": 490507.7336,
+    "area_km2": 245,
+    "latitude": 40.427894,
+    "longitude": -79.983125,
+    "is_capital": 0
+  },
+  {
+    "ucdb_id": 4843,
+    "name": "Tucson",
+    "alt_names": "Tucson",
+    "population": 466091.8057,
+    "area_km2": 237,
+    "latitude": 32.233706,
+    "longitude": -110.904178,
+    "is_capital": 0
+  },
+  {
+    "ucdb_id": 5453,
+    "name": "Albuquerque",
+    "alt_names": "Albuquerque",
+    "population": 456284.6029,
+    "area_km2": 214,
+    "latitude": 35.111348,
+    "longitude": -106.568471,
+    "is_capital": 0
+  },
+  {
+    "ucdb_id": 3045,
+    "name": "Escondido",
+    "alt_names": "Escondido; Vista",
+    "population": 449581.3416,
+    "area_km2": 193,
+    "latitude": 33.173506,
+    "longitude": -117.204526,
+    "is_capital": 0
+  },
+  {
+    "ucdb_id": 5913,
+    "name": "Colorado Springs",
+    "alt_names": "Colorado Springs",
+    "population": 445670.1323,
+    "area_km2": 229,
+    "latitude": 38.873335,
+    "longitude": -104.76495,
+    "is_capital": 0
+  },
+  {
+    "ucdb_id": 7980,
+    "name": "Buffalo",
+    "alt_names": "Buffalo",
+    "population": 439526.679,
+    "area_km2": 228,
+    "latitude": 42.9237,
+    "longitude": -78.826497,
+    "is_capital": 0
+  },
+  {
+    "ucdb_id": 8237,
+    "name": "Providence",
+    "alt_names": "Providence; Cranston; Pawtucket; East Providence; Central Falls",
+    "population": 437120.5596,
+    "area_km2": 177,
+    "latitude": 41.831556,
+    "longitude": -71.416829,
+    "is_capital": 0
+  },
+  {
+    "ucdb_id": 6577,
+    "name": "Tulsa",
+    "alt_names": "Tulsa",
+    "population": 434183.0803,
+    "area_km2": 277,
+    "latitude": 36.099245,
+    "longitude": -95.902665,
+    "is_capital": 0
+  },
+  {
+    "ucdb_id": 7559,
+    "name": "Indianapolis",
+    "alt_names": "Indianapolis",
+    "population": 418056.6458,
+    "area_km2": 254,
+    "latitude": 39.790779,
+    "longitude": -86.167579,
+    "is_capital": 0
+  },
+  {
+    "ucdb_id": 7627,
+    "name": "Cincinnati",
+    "alt_names": "Cincinnati",
+    "population": 414285.7157,
+    "area_km2": 221,
+    "latitude": 39.132521,
+    "longitude": -84.506798,
+    "is_capital": 0
+  },
+  {
+    "ucdb_id": 3383,
+    "name": "Stockton",
+    "alt_names": "Stockton",
+    "population": 408517.1329,
+    "area_km2": 162,
+    "latitude": 37.983333,
+    "longitude": -121.303301,
+    "is_capital": 0
+  },
+  {
+    "ucdb_id": 6757,
+    "name": "Memphis",
+    "alt_names": "Memphis",
+    "population": 402281.1712,
+    "area_km2": 274,
+    "latitude": 35.100428,
+    "longitude": -89.938962,
+    "is_capital": 0
+  },
+  {
+    "ucdb_id": 6697,
+    "name": "Kansas City",
+    "alt_names": "Kansas City; Overland Park; Lenexa",
+    "population": 398609.568,
+    "area_km2": 244,
+    "latitude": 39.022773,
+    "longitude": -94.623443,
+    "is_capital": 0
+  },
+  {
+    "ucdb_id": 6285,
+    "name": "The Woodlands",
+    "alt_names": "The Woodlands",
+    "population": 398009.8169,
+    "area_km2": 130,
+    "latitude": 30.165623,
+    "longitude": -95.485139,
+    "is_capital": 0
+  },
+  {
+    "ucdb_id": 7353,
+    "name": "Jacksonville",
+    "alt_names": "Jacksonville",
+    "population": 379642.6937,
+    "area_km2": 291,
+    "latitude": 30.300962,
+    "longitude": -81.656058,
+    "is_capital": 0
+  },
+  {
+    "ucdb_id": 2671,
+    "name": "Mission Viejo",
+    "alt_names": "Mission Viejo",
+    "population": 370029.2788,
+    "area_km2": 184,
+    "latitude": 33.597772,
+    "longitude": -117.679545,
+    "is_capital": 0
+  },
+  {
+    "ucdb_id": 6727,
+    "name": "Omaha",
+    "alt_names": "Omaha",
+    "population": 368050.2779,
+    "area_km2": 191,
+    "latitude": 41.250796,
+    "longitude": -95.998834,
+    "is_capital": 0
+  },
+  {
+    "ucdb_id": 5666,
+    "name": "McAllen",
+    "alt_names": "McAllen",
+    "population": 367656.1312,
+    "area_km2": 169,
+    "latitude": 26.220845,
+    "longitude": -98.233708,
+    "is_capital": 0
+  },
+  {
+    "ucdb_id": 7460,
+    "name": "Aurora",
+    "alt_names": "Aurora; Naperville",
+    "population": 359036.7811,
+    "area_km2": 207,
+    "latitude": 41.753746,
+    "longitude": -88.234546,
+    "is_capital": 0
+  },
+  {
+    "ucdb_id": 5216,
+    "name": "Boise",
+    "alt_names": "Boise; Meridian",
+    "population": 348689.1449,
+    "area_km2": 193,
+    "latitude": 43.620381,
+    "longitude": -116.292741,
+    "is_capital": 0
+  },
+  {
+    "ucdb_id": 3437,
+    "name": "Modesto",
+    "alt_names": "Modesto",
+    "population": 334844.7468,
+    "area_km2": 145,
+    "latitude": 37.650762,
+    "longitude": -120.988481,
+    "is_capital": 0
+  },
+  {
+    "ucdb_id": 4974,
+    "name": "Tacoma",
+    "alt_names": "Tacoma",
+    "population": 330413.9109,
+    "area_km2": 191,
+    "latitude": 47.215782,
+    "longitude": -122.475663,
+    "is_capital": 0
+  },
+  {
+    "ucdb_id": 5688,
+    "name": "Spokane",
+    "alt_names": "Spokane",
+    "population": 308681.0018,
+    "area_km2": 184,
+    "latitude": 47.67204,
+    "longitude": -117.363031,
+    "is_capital": 0
+  },
+  {
+    "ucdb_id": 6973,
+    "name": "Cape Coral",
+    "alt_names": "Cape Coral; Fort Myers",
+    "population": 308438.3529,
+    "area_km2": 270,
+    "latitude": 26.586825,
+    "longitude": -81.929977,
+    "is_capital": 0
+  },
+  {
+    "ucdb_id": 7577,
+    "name": "Lexington",
+    "alt_names": "Lexington",
+    "population": 295163.9507,
+    "area_km2": 166,
+    "latitude": 38.017041,
+    "longitude": -84.500276,
+    "is_capital": 0
+  },
+  {
+    "ucdb_id": 7721,
+    "name": "Grand Rapids",
+    "alt_names": "Grand Rapids; Wyoming",
+    "population": 293006.3464,
+    "area_km2": 173,
+    "latitude": 42.930605,
+    "longitude": -85.657892,
+    "is_capital": 0
+  },
+  {
+    "ucdb_id": 2246,
+    "name": "Concord",
+    "alt_names": "Concord",
+    "population": 285552.8092,
+    "area_km2": 142,
+    "latitude": 37.953045,
+    "longitude": -122.04222,
+    "is_capital": 0
+  },
+  {
+    "ucdb_id": 7090,
+    "name": "Nashville",
+    "alt_names": "Nashville",
+    "population": 280464.4627,
+    "area_km2": 160,
+    "latitude": 36.114169,
+    "longitude": -86.737056,
+    "is_capital": 0
+  },
+  {
+    "ucdb_id": 7487,
+    "name": "Bolingbrook",
+    "alt_names": "Bolingbrook; Downers Grove; Romeoville; Woodridge; Westmont; Darien",
+    "population": 279554.1979,
+    "area_km2": 185,
+    "latitude": 41.726345,
+    "longitude": -88.043799,
+    "is_capital": 0
+  },
+  {
+    "ucdb_id": 6201,
+    "name": "Edgecliff Village",
+    "alt_names": "Edgecliff Village",
+    "population": 267808.0441,
+    "area_km2": 121,
+    "latitude": 32.669553,
+    "longitude": -97.359838,
+    "is_capital": 0
+  },
+  {
+    "ucdb_id": 2735,
+    "name": "Poway",
+    "alt_names": "Poway",
+    "population": 262038.2523,
+    "area_km2": 132,
+    "latitude": 32.947258,
+    "longitude": -117.107207,
+    "is_capital": 0
+  },
+  {
+    "ucdb_id": 5621,
+    "name": "Laredo",
+    "alt_names": "Laredo",
+    "population": 260013.4578,
+    "area_km2": 88,
+    "latitude": 27.520194,
+    "longitude": -99.479418,
+    "is_capital": 0
+  },
+  {
+    "ucdb_id": 6412,
+    "name": "Lewisville",
+    "alt_names": "Lewisville",
+    "population": 258935.9551,
+    "area_km2": 158,
+    "latitude": 33.017486,
+    "longitude": -97.019978,
+    "is_capital": 0
+  },
+  {
+    "ucdb_id": 7728,
+    "name": "Urbancrest",
+    "alt_names": "Urbancrest",
+    "population": 256240.5115,
+    "area_km2": 144,
+    "latitude": 39.953545,
+    "longitude": -83.106965,
+    "is_capital": 0
+  },
+  {
+    "ucdb_id": 6114,
+    "name": "Cinco Ranch",
+    "alt_names": "Cinco Ranch",
+    "population": 248654.9113,
+    "area_km2": 112,
+    "latitude": 29.764786,
+    "longitude": -95.747486,
+    "is_capital": 0
+  },
+  {
+    "ucdb_id": 1148,
+    "name": "Oxnard",
+    "alt_names": "Oxnard",
+    "population": 247773.1298,
+    "area_km2": 80,
+    "latitude": 34.1892,
+    "longitude": -119.181447,
+    "is_capital": 0
+  },
+  {
+    "ucdb_id": 8036,
+    "name": "Rochester",
+    "alt_names": "Rochester",
+    "population": 247644.1314,
+    "area_km2": 101,
+    "latitude": 43.165213,
+    "longitude": -77.607185,
+    "is_capital": 0
+  },
+  {
+    "ucdb_id": 6817,
+    "name": "Des Moines",
+    "alt_names": "Des Moines; Urbandale",
+    "population": 242764.6177,
+    "area_km2": 143,
+    "latitude": 41.600879,
+    "longitude": -93.647567,
+    "is_capital": 0
+  },
+  {
+    "ucdb_id": 4772,
+    "name": "Eugene",
+    "alt_names": "Eugene; Springfield",
+    "population": 241884.9839,
+    "area_km2": 133,
+    "latitude": 44.061334,
+    "longitude": -123.080143,
+    "is_capital": 0
+  },
+  {
+    "ucdb_id": 5814,
+    "name": "Corpus Christi",
+    "alt_names": "Corpus Christi",
+    "population": 239777.0267,
+    "area_km2": 140,
+    "latitude": 27.731392,
+    "longitude": -97.398856,
+    "is_capital": 0
+  },
+  {
+    "ucdb_id": 6547,
+    "name": "Wichita",
+    "alt_names": "Wichita",
+    "population": 238759.5028,
+    "area_km2": 150,
+    "latitude": 37.681163,
+    "longitude": -97.317437,
+    "is_capital": 0
+  },
+  {
+    "ucdb_id": 8177,
+    "name": "Bridgeport",
+    "alt_names": "Bridgeport",
+    "population": 234491.0868,
+    "area_km2": 100,
+    "latitude": 41.191861,
+    "longitude": -73.186359,
+    "is_capital": 0
+  },
+  {
+    "ucdb_id": 4551,
+    "name": "Reno",
+    "alt_names": "Reno; Sparks",
+    "population": 233376.4633,
+    "area_km2": 110,
+    "latitude": 39.523585,
+    "longitude": -119.792102,
+    "is_capital": 0
+  },
+  {
+    "ucdb_id": 3593,
+    "name": "Temecula",
+    "alt_names": "Temecula",
+    "population": 231862.1793,
+    "area_km2": 115,
+    "latitude": 33.533874,
+    "longitude": -117.147208,
+    "is_capital": 0
+  },
+  {
+    "ucdb_id": 7707,
+    "name": "Charlotte",
+    "alt_names": "Charlotte",
+    "population": 229305.4845,
+    "area_km2": 131,
+    "latitude": 35.210502,
+    "longitude": -80.788557,
+    "is_capital": 0
+  },
+  {
+    "ucdb_id": 4909,
+    "name": "Salem",
+    "alt_names": "Salem",
+    "population": 228919.6332,
+    "area_km2": 115,
+    "latitude": 44.941875,
+    "longitude": -123.01483,
+    "is_capital": 0
+  },
+  {
+    "ucdb_id": 6652,
+    "name": "Lincoln",
+    "alt_names": "Lincoln",
+    "population": 226803.8453,
+    "area_km2": 138,
+    "latitude": 40.80566,
+    "longitude": -96.668265,
+    "is_capital": 0
+  },
+  {
+    "ucdb_id": 6592,
+    "name": "Baton Rouge",
+    "alt_names": "Baton Rouge",
+    "population": 226126.1949,
+    "area_km2": 137,
+    "latitude": 30.442389,
+    "longitude": -91.117606,
+    "is_capital": 0
+  },
+  {
+    "ucdb_id": 5244,
+    "name": "Anchorage",
+    "alt_names": "Anchorage",
+    "population": 225127.9138,
+    "area_km2": 119,
+    "latitude": 61.183943,
+    "longitude": -149.847987,
+    "is_capital": 0
+  },
+  {
+    "ucdb_id": 5773,
+    "name": "Valley Hi",
+    "alt_names": "Valley Hi",
+    "population": 213375.5483,
+    "area_km2": 84,
+    "latitude": 29.400625,
+    "longitude": -98.655128,
+    "is_capital": 0
+  },
+  {
+    "ucdb_id": 5527,
+    "name": "Layton",
+    "alt_names": "Layton",
+    "population": 210470.4227,
+    "area_km2": 112,
+    "latitude": 41.109276,
+    "longitude": -112.017595,
+    "is_capital": 0
+  },
+  {
+    "ucdb_id": 3966,
+    "name": "Moreno Valley",
+    "alt_names": "Moreno Valley",
+    "population": 210389.6834,
+    "area_km2": 86,
+    "latitude": 33.924828,
+    "longitude": -117.236732,
+    "is_capital": 0
+  },
+  {
+    "ucdb_id": 4439,
+    "name": "Indio",
+    "alt_names": "Indio",
+    "population": 209723.6758,
+    "area_km2": 98,
+    "latitude": 33.71285,
+    "longitude": -116.235885,
+    "is_capital": 0
+  },
+  {
+    "ucdb_id": 6932,
+    "name": "Bradenton",
+    "alt_names": "Bradenton",
+    "population": 207806.4539,
+    "area_km2": 154,
+    "latitude": 27.47076,
+    "longitude": -82.573908,
+    "is_capital": 0
+  },
+  {
+    "ucdb_id": 7756,
+    "name": "Toledo",
+    "alt_names": "Toledo",
+    "population": 194258.6836,
+    "area_km2": 120,
+    "latitude": 41.668823,
+    "longitude": -83.572438,
+    "is_capital": 0
+  },
+  {
+    "ucdb_id": 7903,
+    "name": "Dale City",
+    "alt_names": "Dale City; Lake Ridge; Montclair",
+    "population": 192927.0109,
+    "area_km2": 101,
+    "latitude": 38.653885,
+    "longitude": -77.313204,
+    "is_capital": 0
+  },
+  {
+    "ucdb_id": 6986,
+    "name": "Naples",
+    "alt_names": "Naples",
+    "population": 192263.8761,
+    "area_km2": 155,
+    "latitude": 26.175027,
+    "longitude": -81.763916,
+    "is_capital": 0
+  },
+  {
+    "ucdb_id": 7505,
+    "name": "Wheaton",
+    "alt_names": "Wheaton; Carol Stream; Glendale Heights; Glen Ellyn",
+    "population": 191148.096,
+    "area_km2": 111,
+    "latitude": 41.898808,
+    "longitude": -88.104519,
+    "is_capital": 0
+  },
+  {
+    "ucdb_id": 2607,
+    "name": "Antioch",
+    "alt_names": "Antioch",
+    "population": 187963.5613,
+    "area_km2": 97,
+    "latitude": 37.999745,
+    "longitude": -121.8527,
+    "is_capital": 0
+  },
+  {
+    "ucdb_id": 8219,
+    "name": "Hartford",
+    "alt_names": "Hartford",
+    "population": 187629.2206,
+    "area_km2": 73,
+    "latitude": 41.758853,
+    "longitude": -72.699735,
+    "is_capital": 0
+  },
+  {
+    "ucdb_id": 6365,
+    "name": "Irving",
+    "alt_names": "Irving",
+    "population": 186668.2783,
+    "area_km2": 71,
+    "latitude": 32.830191,
+    "longitude": -96.971551,
+    "is_capital": 0
+  },
+  {
+    "ucdb_id": 7798,
+    "name": "New Hope",
+    "alt_names": "New Hope; Millbrook; Mini City; Lake Anne; Lake Lynn; North Hills",
+    "population": 184970.0298,
+    "area_km2": 98,
+    "latitude": 35.861745,
+    "longitude": -78.644389,
+    "is_capital": 0
+  },
+  {
+    "ucdb_id": 5428,
+    "name": "South Valley",
+    "alt_names": "South Valley",
+    "population": 184311.9177,
+    "area_km2": 82,
+    "latitude": 35.080047,
+    "longitude": -106.714088,
+    "is_capital": 0
+  },
+  {
+    "ucdb_id": 8093,
+    "name": "Trenton",
+    "alt_names": "Trenton",
+    "population": 179668.313,
+    "area_km2": 59,
+    "latitude": 40.220915,
+    "longitude": -74.752152,
+    "is_capital": 0
+  },
+  {
+    "ucdb_id": 5752,
+    "name": "Lubbock",
+    "alt_names": "Lubbock",
+    "population": 178646.8977,
+    "area_km2": 118,
+    "latitude": 33.552336,
+    "longitude": -101.896723,
+    "is_capital": 0
+  },
+  {
+    "ucdb_id": 7276,
+    "name": "Norcross",
+    "alt_names": "Norcross",
+    "population": 171141.5356,
+    "area_km2": 92,
+    "latitude": 33.912807,
+    "longitude": -84.21027,
+    "is_capital": 0
+  },
+  {
+    "ucdb_id": 6918,
+    "name": "Sarasota",
+    "alt_names": "Sarasota",
+    "population": 170962.3936,
+    "area_km2": 145,
+    "latitude": 27.311656,
+    "longitude": -82.509836,
+    "is_capital": 0
+  },
+  {
+    "ucdb_id": 7331,
+    "name": "Port Saint Lucie",
+    "alt_names": "Port Saint Lucie",
+    "population": 167173.7599,
+    "area_km2": 108,
+    "latitude": 27.28124,
+    "longitude": -80.369573,
+    "is_capital": 0
+  },
+  {
+    "ucdb_id": 1032,
+    "name": "Salinas",
+    "alt_names": "Salinas",
+    "population": 164375.8959,
+    "area_km2": 53,
+    "latitude": 36.690166,
+    "longitude": -121.635815,
+    "is_capital": 0
+  },
+  {
+    "ucdb_id": 6562,
+    "name": "Lafayette",
+    "alt_names": "Lafayette",
+    "population": 158412.5305,
+    "area_km2": 92,
+    "latitude": 30.204057,
+    "longitude": -92.032957,
+    "is_capital": 0
+  },
+  {
+    "ucdb_id": 8123,
+    "name": "Syracuse",
+    "alt_names": "Syracuse",
+    "population": 155390.9826,
+    "area_km2": 67,
+    "latitude": 43.046571,
+    "longitude": -76.137867,
+    "is_capital": 0
+  },
+  {
+    "ucdb_id": 7675,
+    "name": "Dayton",
+    "alt_names": "Dayton",
+    "population": 153881.228,
+    "area_km2": 92,
+    "latitude": 39.749161,
+    "longitude": -84.169774,
+    "is_capital": 0
+  },
+  {
+    "ucdb_id": 7791,
+    "name": "Raleigh",
+    "alt_names": "Raleigh",
+    "population": 152973.0235,
+    "area_km2": 72,
+    "latitude": 35.779371,
+    "longitude": -78.660849,
+    "is_capital": 0
+  },
+  {
+    "ucdb_id": 7861,
+    "name": "Richmond",
+    "alt_names": "Richmond",
+    "population": 151923.5315,
+    "area_km2": 72,
+    "latitude": 37.559439,
+    "longitude": -77.446965,
+    "is_capital": 0
+  },
+  {
+    "ucdb_id": 5834,
+    "name": "Wetmore",
+    "alt_names": "Wetmore",
+    "population": 151760.6683,
+    "area_km2": 62,
+    "latitude": 29.57427,
+    "longitude": -98.412101,
+    "is_capital": 0
+  },
+  {
+    "ucdb_id": 7442,
+    "name": "Rockford",
+    "alt_names": "Rockford",
+    "population": 151022.4692,
+    "area_km2": 100,
+    "latitude": 42.277983,
+    "longitude": -89.066879,
+    "is_capital": 0
+  },
+  {
+    "ucdb_id": 2325,
+    "name": "Vallejo",
+    "alt_names": "Vallejo",
+    "population": 149890.9945,
+    "area_km2": 86,
+    "latitude": 38.1116,
+    "longitude": -122.225755,
+    "is_capital": 0
+  },
+  {
+    "ucdb_id": 6317,
+    "name": "Jacinto City",
+    "alt_names": "Jacinto City",
+    "population": 149871.8148,
+    "area_km2": 79,
+    "latitude": 29.789116,
+    "longitude": -95.183949,
+    "is_capital": 0
+  },
+  {
+    "ucdb_id": 6667,
+    "name": "Olathe",
+    "alt_names": "Olathe",
+    "population": 149409.6652,
+    "area_km2": 89,
+    "latitude": 38.885078,
+    "longitude": -94.757432,
+    "is_capital": 0
+  },
+  {
+    "ucdb_id": 7742,
+    "name": "Greensboro",
+    "alt_names": "Greensboro",
+    "population": 147671.3352,
+    "area_km2": 106,
+    "latitude": 36.067968,
+    "longitude": -79.823097,
+    "is_capital": 0
+  },
+  {
+    "ucdb_id": 2087,
+    "name": "Santa Rosa",
+    "alt_names": "Santa Rosa",
+    "population": 147435.946,
+    "area_km2": 62,
+    "latitude": 38.439875,
+    "longitude": -122.724732,
+    "is_capital": 0
+  },
+  {
+    "ucdb_id": 7478,
+    "name": "Madison",
+    "alt_names": "Madison",
+    "population": 147384.3248,
+    "area_km2": 77,
+    "latitude": 43.080056,
+    "longitude": -89.373818,
+    "is_capital": 0
+  },
+  {
+    "ucdb_id": 8183,
+    "name": "New Haven",
+    "alt_names": "New Haven",
+    "population": 147120.6447,
+    "area_km2": 49,
+    "latitude": 41.315154,
+    "longitude": -72.924375,
+    "is_capital": 0
+  },
+  {
+    "ucdb_id": 6060,
+    "name": "Fort Collins",
+    "alt_names": "Fort Collins",
+    "population": 146901.3694,
+    "area_km2": 76,
+    "latitude": 40.55243,
+    "longitude": -105.081313,
+    "is_capital": 0
+  },
+  {
+    "ucdb_id": 7342,
+    "name": "Palm Bay",
+    "alt_names": "Palm Bay; Melbourne",
+    "population": 145611.3122,
+    "area_km2": 133,
+    "latitude": 28.075726,
+    "longitude": -80.651228,
+    "is_capital": 0
+  },
+  {
+    "ucdb_id": 4172,
+    "name": "Hemet",
+    "alt_names": "Hemet; San Jacinto",
+    "population": 145151.1669,
+    "area_km2": 69,
+    "latitude": 33.756059,
+    "longitude": -116.959453,
+    "is_capital": 0
+  },
+  {
+    "ucdb_id": 7142,
+    "name": "Homestead",
+    "alt_names": "Homestead",
+    "population": 143551.8056,
+    "area_km2": 66,
+    "latitude": 25.483867,
+    "longitude": -80.447568,
+    "is_capital": 0
+  },
+  {
+    "ucdb_id": 7394,
+    "name": "Daytona Beach",
+    "alt_names": "Daytona Beach",
+    "population": 140506.4447,
+    "area_km2": 118,
+    "latitude": 29.230495,
+    "longitude": -81.038948,
+    "is_capital": 0
+  },
+  {
+    "ucdb_id": 7287,
+    "name": "Hopkins Mill",
+    "alt_names": "Hopkins Mill; Adams Crossroads",
+    "population": 139283.2056,
+    "area_km2": 72,
+    "latitude": 33.943293,
+    "longitude": -84.109215,
+    "is_capital": 0
+  },
+  {
+    "ucdb_id": 5551,
+    "name": "Ogden",
+    "alt_names": "Ogden",
+    "population": 138934.1887,
+    "area_km2": 71,
+    "latitude": 41.217683,
+    "longitude": -111.961911,
+    "is_capital": 0
+  },
+  {
+    "ucdb_id": 5874,
+    "name": "Amarillo",
+    "alt_names": "Amarillo",
+    "population": 138828.7872,
+    "area_km2": 101,
+    "latitude": 35.183222,
+    "longitude": -101.864165,
+    "is_capital": 0
+  },
+  {
+    "ucdb_id": 6862,
+    "name": "Birmingham",
+    "alt_names": "Birmingham",
+    "population": 136699.7048,
+    "area_km2": 91,
+    "latitude": 33.496759,
+    "longitude": -86.830843,
+    "is_capital": 0
+  },
+  {
+    "ucdb_id": 6427,
+    "name": "Denton",
+    "alt_names": "Denton",
+    "population": 136135.8713,
+    "area_km2": 64,
+    "latitude": 33.19566,
+    "longitude": -97.116046,
+    "is_capital": 0
+  },
+  {
+    "ucdb_id": 8008,
+    "name": "Wilmington",
+    "alt_names": "Wilmington",
+    "population": 135688.2456,
+    "area_km2": 56,
+    "latitude": 39.745843,
+    "longitude": -75.562588,
+    "is_capital": 0
+  },
+  {
+    "ucdb_id": 8231,
+    "name": "Worcester",
+    "alt_names": "Worcester",
+    "population": 134217.3147,
+    "area_km2": 48,
+    "latitude": 42.259752,
+    "longitude": -71.807044,
+    "is_capital": 0
+  },
+  {
+    "ucdb_id": 8015,
+    "name": "Reading",
+    "alt_names": "Reading",
+    "population": 134068.7129,
+    "area_km2": 51,
+    "latitude": 40.334302,
+    "longitude": -75.942211,
+    "is_capital": 0
+  },
+  {
+    "ucdb_id": 2167,
+    "name": "Pleasanton",
+    "alt_names": "Pleasanton; San Ramon; Dublin",
+    "population": 133551.7596,
+    "area_km2": 68,
+    "latitude": 37.705662,
+    "longitude": -121.907404,
+    "is_capital": 0
+  },
+  {
+    "ucdb_id": 5731,
+    "name": "Brownsville",
+    "alt_names": "Brownsville",
+    "population": 133551.6717,
+    "area_km2": 72,
+    "latitude": 25.928381,
+    "longitude": -97.480329,
+    "is_capital": 0
+  },
+  {
+    "ucdb_id": 8050,
+    "name": "Allentown",
+    "alt_names": "Allentown",
+    "population": 133164.4677,
+    "area_km2": 41,
+    "latitude": 40.604295,
+    "longitude": -75.479013,
+    "is_capital": 0
+  },
+  {
+    "ucdb_id": 6682,
+    "name": "Springfield",
+    "alt_names": "Springfield",
+    "population": 132417.8075,
+    "area_km2": 88,
+    "latitude": 37.193434,
+    "longitude": -93.288453,
+    "is_capital": 0
+  },
+  {
+    "ucdb_id": 7025,
+    "name": "Fargo",
+    "alt_names": "Fargo",
+    "population": 131027.4873,
+    "area_km2": 72,
+    "latitude": 46.862567,
+    "longitude": -96.819493,
+    "is_capital": 0
+  },
+  {
+    "ucdb_id": 4808,
+    "name": "Drexel Heights",
+    "alt_names": "Drexel Heights",
+    "population": 130465.6218,
+    "area_km2": 58,
+    "latitude": 32.152326,
+    "longitude": -110.967737,
+    "is_capital": 0
+  },
+  {
+    "ucdb_id": 7586,
+    "name": "Waukegan",
+    "alt_names": "Waukegan",
+    "population": 130399.0327,
+    "area_km2": 75,
+    "latitude": 42.358076,
+    "longitude": -87.858662,
+    "is_capital": 0
+  },
+  {
+    "ucdb_id": 5272,
+    "name": "Kennewick",
+    "alt_names": "Kennewick; Pasco",
+    "population": 129728.5231,
+    "area_km2": 71,
+    "latitude": 46.215525,
+    "longitude": -119.155132,
+    "is_capital": 0
+  },
+  {
+    "ucdb_id": 5478,
+    "name": "Paradise Hills",
+    "alt_names": "Paradise Hills; Rio Rancho; Rio Rancho Estates",
+    "population": 128728.2211,
+    "area_km2": 72,
+    "latitude": 35.221562,
+    "longitude": -106.689066,
+    "is_capital": 0
+  },
+  {
+    "ucdb_id": 6472,
+    "name": "Stonebridge",
+    "alt_names": null,
+    "population": 128192.7844,
+    "area_km2": 65,
+    "latitude": 33.180872,
+    "longitude": -96.711949,
+    "is_capital": 0
+  },
+  {
+    "ucdb_id": 7103,
+    "name": "Lakeland",
+    "alt_names": "Lakeland",
+    "population": 124948.1547,
+    "area_km2": 89,
+    "latitude": 28.022144,
+    "longitude": -81.942573,
+    "is_capital": 0
+  },
+  {
+    "ucdb_id": 4401,
+    "name": "Palm Desert",
+    "alt_names": "Palm Desert; Indian Wells",
+    "population": 124015.5752,
+    "area_km2": 77,
+    "latitude": 33.775317,
+    "longitude": -116.421927,
+    "is_capital": 0
+  },
+  {
+    "ucdb_id": 8285,
+    "name": "Lynn",
+    "alt_names": "Lynn",
+    "population": 119551.9511,
+    "area_km2": 44,
+    "latitude": 42.4685,
+    "longitude": -70.955897,
+    "is_capital": 0
+  },
+  {
+    "ucdb_id": 7826,
+    "name": "Akron",
+    "alt_names": "Akron",
+    "population": 119273.8379,
+    "area_km2": 63,
+    "latitude": 41.067517,
+    "longitude": -81.519868,
+    "is_capital": 0
+  },
+  {
+    "ucdb_id": 6024,
+    "name": "Killeen",
+    "alt_names": "Killeen",
+    "population": 118366.2406,
+    "area_km2": 79,
+    "latitude": 31.097572,
+    "longitude": -97.72678,
+    "is_capital": 0
+  },
+  {
+    "ucdb_id": 8249,
+    "name": "New Bedford",
+    "alt_names": "New Bedford",
+    "population": 117685.8388,
+    "area_km2": 40,
+    "latitude": 41.644394,
+    "longitude": -70.929148,
+    "is_capital": 0
+  },
+  {
+    "ucdb_id": 6832,
+    "name": "Montgomery",
+    "alt_names": "Montgomery",
+    "population": 117536.5135,
+    "area_km2": 76,
+    "latitude": 32.378726,
+    "longitude": -86.274692,
+    "is_capital": 0
+  },
+  {
+    "ucdb_id": 6712,
+    "name": "Chalco",
+    "alt_names": "Chalco; Millard",
+    "population": 117411.6934,
+    "area_km2": 73,
+    "latitude": 41.214712,
+    "longitude": -96.146955,
+    "is_capital": 0
+  },
+  {
+    "ucdb_id": 6999,
+    "name": "Bayonet Point",
+    "alt_names": "Bayonet Point; New Port Richey; Elfers; Jasmine Estates",
+    "population": 117386.0437,
+    "area_km2": 72,
+    "latitude": 28.272612,
+    "longitude": -82.71495,
+    "is_capital": 0
+  },
+  {
+    "ucdb_id": 6132,
+    "name": "College Station",
+    "alt_names": "College Station; Bryan",
+    "population": 117186.8816,
+    "area_km2": 69,
+    "latitude": 30.621112,
+    "longitude": -96.332952,
+    "is_capital": 0
+  },
+  {
+    "ucdb_id": 2862,
+    "name": "Oceanside",
+    "alt_names": "Oceanside; Carlsbad",
+    "population": 116636.8732,
+    "area_km2": 68,
+    "latitude": 33.176892,
+    "longitude": -117.34469,
+    "is_capital": 0
+  },
+  {
+    "ucdb_id": 8147,
+    "name": "Stamford",
+    "alt_names": "Stamford",
+    "population": 115807.1567,
+    "area_km2": 52,
+    "latitude": 41.060055,
+    "longitude": -73.534859,
+    "is_capital": 0
+  },
+  {
+    "ucdb_id": 7550,
+    "name": "Savannah",
+    "alt_names": "Savannah",
+    "population": 115675.9329,
+    "area_km2": 66,
+    "latitude": 32.035785,
+    "longitude": -81.102062,
+    "is_capital": 0
+  },
+  {
+    "ucdb_id": 8291,
+    "name": "Peabody",
+    "alt_names": "Peabody; Salem; Beverly",
+    "population": 114640.4097,
+    "area_km2": 71,
+    "latitude": 42.525608,
+    "longitude": -70.897451,
+    "is_capital": 0
+  },
+  {
+    "ucdb_id": 8243,
+    "name": "Fall River",
+    "alt_names": "Fall River",
+    "population": 111575.4187,
+    "area_km2": 42,
+    "latitude": 41.701111,
+    "longitude": -71.152137,
+    "is_capital": 0
+  },
+  {
+    "ucdb_id": 7868,
+    "name": "Erie",
+    "alt_names": "Erie",
+    "population": 111536.5153,
+    "area_km2": 61,
+    "latitude": 42.113477,
+    "longitude": -80.075638,
+    "is_capital": 0
+  },
+  {
+    "ucdb_id": 7749,
+    "name": "Lansing",
+    "alt_names": "Lansing; East Lansing",
+    "population": 111165.4761,
+    "area_km2": 59,
+    "latitude": 42.726102,
+    "longitude": -84.530632,
+    "is_capital": 0
+  },
+  {
+    "ucdb_id": 8063,
+    "name": "Bethlehem",
+    "alt_names": "Bethlehem",
+    "population": 110410.2981,
+    "area_km2": 51,
+    "latitude": 40.628412,
+    "longitude": -75.377657,
+    "is_capital": 0
+  },
+  {
+    "ucdb_id": 8225,
+    "name": "Springfield",
+    "alt_names": "Springfield",
+    "population": 110005.3014,
+    "area_km2": 41,
+    "latitude": 42.105239,
+    "longitude": -72.580343,
+    "is_capital": 0
+  },
+  {
+    "ucdb_id": 7659,
+    "name": "South Bend",
+    "alt_names": "South Bend; Mishawaka",
+    "population": 109856.572,
+    "area_km2": 72,
+    "latitude": 41.673399,
+    "longitude": -86.23179,
+    "is_capital": 0
+  },
+  {
+    "ucdb_id": 8279,
+    "name": "Lawrence",
+    "alt_names": "Lawrence; Methuen",
+    "population": 108912.7573,
+    "area_km2": 32,
+    "latitude": 42.707599,
+    "longitude": -71.163984,
+    "is_capital": 0
+  },
+  {
+    "ucdb_id": 7683,
+    "name": "Fort Wayne",
+    "alt_names": "Fort Wayne",
+    "population": 108272.2891,
+    "area_km2": 76,
+    "latitude": 41.072216,
+    "longitude": -85.130704,
+    "is_capital": 0
+  },
+  {
+    "ucdb_id": 1923,
+    "name": "Simi Valley",
+    "alt_names": "Simi Valley",
+    "population": 105845.655,
+    "area_km2": 47,
+    "latitude": 34.273623,
+    "longitude": -118.73265,
+    "is_capital": 0
+  },
+  {
+    "ucdb_id": 7777,
+    "name": "Cary",
+    "alt_names": "Cary",
+    "population": 105582.5086,
+    "area_km2": 59,
+    "latitude": 35.797444,
+    "longitude": -78.806663,
+    "is_capital": 0
+  },
+  {
+    "ucdb_id": 6487,
+    "name": "Allen",
+    "alt_names": "Allen",
+    "population": 105209.4236,
+    "area_km2": 52,
+    "latitude": 33.10178,
+    "longitude": -96.659538,
+    "is_capital": 0
+  },
+  {
+    "ucdb_id": 8267,
+    "name": "Lowell",
+    "alt_names": "Lowell",
+    "population": 104075.1971,
+    "area_km2": 30,
+    "latitude": 42.641734,
+    "longitude": -71.318174,
+    "is_capital": 0
+  },
+  {
+    "ucdb_id": 6235,
+    "name": "Handley",
+    "alt_names": "Handley; Ederville",
+    "population": 103212.3485,
+    "area_km2": 53,
+    "latitude": 32.729974,
+    "longitude": -97.245022,
+    "is_capital": 0
+  },
+  {
+    "ucdb_id": 5005,
+    "name": "Montoya",
+    "alt_names": "Montoya; Coronado Hills",
+    "population": 102378.2817,
+    "area_km2": 44,
+    "latitude": 31.847222,
+    "longitude": -106.544694,
+    "is_capital": 0
+  },
+  {
+    "ucdb_id": 648,
+    "name": "Santa Maria",
+    "alt_names": "Santa Maria",
+    "population": 102215.9631,
+    "area_km2": 32,
+    "latitude": 34.952451,
+    "longitude": -120.437207,
+    "is_capital": 0
+  },
+  {
+    "ucdb_id": 6218,
+    "name": "Fort Worth",
+    "alt_names": "Fort Worth",
+    "population": 102172.847,
+    "area_km2": 60,
+    "latitude": 32.787979,
+    "longitude": -97.366575,
+    "is_capital": 0
+  },
+  {
+    "ucdb_id": 6078,
+    "name": "Greeley",
+    "alt_names": "Greeley",
+    "population": 101983.7452,
+    "area_km2": 46,
+    "latitude": 40.406859,
+    "longitude": -104.715234,
+    "is_capital": 0
+  },
+  {
+    "ucdb_id": 2924,
+    "name": "Fairfield",
+    "alt_names": "Fairfield",
+    "population": 101521.8112,
+    "area_km2": 38,
+    "latitude": 38.261156,
+    "longitude": -122.027432,
+    "is_capital": 0
+  },
+  {
+    "ucdb_id": 5158,
+    "name": "Yakima",
+    "alt_names": "Yakima",
+    "population": 100894.3667,
+    "area_km2": 50,
+    "latitude": 46.593542,
+    "longitude": -120.53833,
+    "is_capital": 0
+  },
+  {
+    "ucdb_id": 7404,
+    "name": "Beechwood",
+    "alt_names": "Beechwood; Sandalwood; Kensington; Holiday Harbor; Isle of Palms",
+    "population": 100764.1914,
+    "area_km2": 64,
+    "latitude": 30.305396,
+    "longitude": -81.482431,
+    "is_capital": 0
+  },
+  {
+    "ucdb_id": 6960,
+    "name": "Huntsville",
+    "alt_names": "Huntsville",
+    "population": 100172.4756,
+    "area_km2": 66,
+    "latitude": 34.730361,
+    "longitude": -86.606681,
+    "is_capital": 0
+  },
+  {
+    "ucdb_id": 7254,
+    "name": "Dunwoody",
+    "alt_names": "Dunwoody; Doraville",
+    "population": 99853.6263,
+    "area_km2": 52,
+    "latitude": 33.938124,
+    "longitude": -84.325608,
+    "is_capital": 0
+  },
+  {
+    "ucdb_id": 8201,
+    "name": "Albany",
+    "alt_names": "Albany",
+    "population": 99832.54191,
+    "area_km2": 37,
+    "latitude": 42.659878,
+    "longitude": -73.781592,
+    "is_capital": 0
+  },
+  {
+    "ucdb_id": 8075,
+    "name": "Levittown",
+    "alt_names": "Levittown",
+    "population": 98545.57269,
+    "area_km2": 52,
+    "latitude": 40.153528,
+    "longitude": -74.86818,
+    "is_capital": 0
+  },
+  {
+    "ucdb_id": 7889,
+    "name": "Newport News",
+    "alt_names": "Newport News; Hampton",
+    "population": 97455.95321,
+    "area_km2": 76,
+    "latitude": 37.015443,
+    "longitude": -76.396938,
+    "is_capital": 0
+  },
+  {
+    "ucdb_id": 7469,
+    "name": "Joliet",
+    "alt_names": "Joliet",
+    "population": 96889.58164,
+    "area_km2": 49,
+    "latitude": 41.531995,
+    "longitude": -88.100413,
+    "is_capital": 0
+  },
+  {
+    "ucdb_id": 6847,
+    "name": "O\u2019Fallon",
+    "alt_names": "O\u2019Fallon",
+    "population": 96609.19981,
+    "area_km2": 55,
+    "latitude": 38.777203,
+    "longitude": -90.650258,
+    "is_capital": 0
+  },
+  {
+    "ucdb_id": 8195,
+    "name": "Waterbury",
+    "alt_names": "Waterbury",
+    "population": 96593.97824,
+    "area_km2": 43,
+    "latitude": 41.557093,
+    "longitude": -73.036694,
+    "is_capital": 0
+  },
+  {
+    "ucdb_id": 784,
+    "name": "Santa Barbara",
+    "alt_names": "Santa Barbara",
+    "population": 96521.30264,
+    "area_km2": 41,
+    "latitude": 34.425533,
+    "longitude": -119.713851,
+    "is_capital": 0
+  },
+  {
+    "ucdb_id": 4133,
+    "name": "Visalia",
+    "alt_names": "Visalia",
+    "population": 96382.52604,
+    "area_km2": 66,
+    "latitude": 36.326873,
+    "longitude": -119.310601,
+    "is_capital": 0
+  },
+  {
+    "ucdb_id": 5988,
+    "name": "Boulder",
+    "alt_names": "Boulder",
+    "population": 95315.17562,
+    "area_km2": 41,
+    "latitude": 40.014163,
+    "longitude": -105.261121,
+    "is_capital": 0
+  },
+  {
+    "ucdb_id": 7699,
+    "name": "Green Bay",
+    "alt_names": "Green Bay",
+    "population": 95228.22955,
+    "area_km2": 65,
+    "latitude": 44.508107,
+    "longitude": -88.019746,
+    "is_capital": 0
+  },
+  {
+    "ucdb_id": 3162,
+    "name": "Tracy",
+    "alt_names": "Tracy",
+    "population": 94817.56671,
+    "area_km2": 43,
+    "latitude": 37.733006,
+    "longitude": -121.438928,
+    "is_capital": 0
+  },
+  {
+    "ucdb_id": 6742,
+    "name": "Mobile",
+    "alt_names": "Mobile",
+    "population": 93512.21732,
+    "area_km2": 73,
+    "latitude": 30.677542,
+    "longitude": -88.111264,
+    "is_capital": 0
+  },
+  {
+    "ucdb_id": 912,
+    "name": "Santa Cruz",
+    "alt_names": "Santa Cruz",
+    "population": 93032.12262,
+    "area_km2": 41,
+    "latitude": 36.972,
+    "longitude": -122.00343,
+    "is_capital": 0
+  },
+  {
+    "ucdb_id": 5503,
+    "name": "Bountiful",
+    "alt_names": "Bountiful; North Salt Lake; Centerville; Woods Cross",
+    "population": 91729.57841,
+    "area_km2": 47,
+    "latitude": 40.879516,
+    "longitude": -111.888962,
+    "is_capital": 0
+  },
+  {
+    "ucdb_id": 4477,
+    "name": "Chico",
+    "alt_names": "Chico",
+    "population": 91701.62104,
+    "area_km2": 47,
+    "latitude": 39.745253,
+    "longitude": -121.839656,
+    "is_capital": 0
+  },
+  {
+    "ucdb_id": 7298,
+    "name": "Alafaya",
+    "alt_names": "Alafaya",
+    "population": 89707.49251,
+    "area_km2": 44,
+    "latitude": 28.569203,
+    "longitude": -81.192545,
+    "is_capital": 0
+  },
+  {
+    "ucdb_id": 7496,
+    "name": "Elgin",
+    "alt_names": "Elgin",
+    "population": 88854.16898,
+    "area_km2": 41,
+    "latitude": 42.04118,
+    "longitude": -88.283947,
+    "is_capital": 0
+  },
+  {
+    "ucdb_id": 5644,
+    "name": "Midland",
+    "alt_names": "Midland",
+    "population": 88805.92242,
+    "area_km2": 65,
+    "latitude": 32.006932,
+    "longitude": -102.114478,
+    "is_capital": 0
+  },
+  {
+    "ucdb_id": 7116,
+    "name": "Davenport",
+    "alt_names": "Davenport; Moline; Rock Island",
+    "population": 88647.02564,
+    "area_km2": 61,
+    "latitude": 41.519529,
+    "longitude": -90.569092,
+    "is_capital": 0
+  },
+  {
+    "ucdb_id": 7643,
+    "name": "Columbia",
+    "alt_names": "Columbia",
+    "population": 88320.48662,
+    "area_km2": 57,
+    "latitude": 34.009571,
+    "longitude": -81.0077,
+    "is_capital": 0
+  },
+  {
+    "ucdb_id": 8135,
+    "name": "Spring Valley",
+    "alt_names": "Spring Valley; Monsey; New Square; Hillcrest; Kaser",
+    "population": 87894.8541,
+    "area_km2": 23,
+    "latitude": 41.120004,
+    "longitude": -74.048558,
+    "is_capital": 0
+  },
+  {
+    "ucdb_id": 7952,
+    "name": "Columbia",
+    "alt_names": "Columbia",
+    "population": 87350.18098,
+    "area_km2": 55,
+    "latitude": 39.204358,
+    "longitude": -76.839877,
+    "is_capital": 0
+  },
+  {
+    "ucdb_id": 7320,
+    "name": "Champaign",
+    "alt_names": "Champaign; Urbana",
+    "population": 86488.20317,
+    "area_km2": 42,
+    "latitude": 40.110504,
+    "longitude": -88.242097,
+    "is_capital": 0
+  },
+  {
+    "ucdb_id": 4588,
+    "name": "Medford",
+    "alt_names": "Medford",
+    "population": 86430.0037,
+    "area_km2": 47,
+    "latitude": 42.340363,
+    "longitude": -122.873797,
+    "is_capital": 0
+  },
+  {
+    "ucdb_id": 6301,
+    "name": "Webster",
+    "alt_names": "Webster",
+    "population": 86110.96559,
+    "area_km2": 40,
+    "latitude": 29.569407,
+    "longitude": -95.124411,
+    "is_capital": 0
+  },
+  {
+    "ucdb_id": 3743,
+    "name": "Merced",
+    "alt_names": "Merced",
+    "population": 85960.78581,
+    "area_km2": 37,
+    "latitude": 37.308764,
+    "longitude": -120.477427,
+    "is_capital": 0
+  },
+  {
+    "ucdb_id": 6532,
+    "name": "Edmond",
+    "alt_names": "Edmond",
+    "population": 85411.63124,
+    "area_km2": 61,
+    "latitude": 35.644505,
+    "longitude": -97.493363,
+    "is_capital": 0
+  },
+  {
+    "ucdb_id": 5187,
+    "name": "Nampa",
+    "alt_names": "Nampa",
+    "population": 85368.87759,
+    "area_km2": 52,
+    "latitude": 43.569245,
+    "longitude": -116.569093,
+    "is_capital": 0
+  },
+  {
+    "ucdb_id": 7854,
+    "name": "Lakeside",
+    "alt_names": "Lakeside",
+    "population": 85237.35736,
+    "area_km2": 45,
+    "latitude": 37.623932,
+    "longitude": -77.546929,
+    "is_capital": 0
+  },
+  {
+    "ucdb_id": 8189,
+    "name": "Schenectady",
+    "alt_names": "Schenectady",
+    "population": 84995.03275,
+    "area_km2": 36,
+    "latitude": 42.801492,
+    "longitude": -73.933835,
+    "is_capital": 0
+  },
+  {
+    "ucdb_id": 5598,
+    "name": "Odessa",
+    "alt_names": "Odessa",
+    "population": 84418.62813,
+    "area_km2": 67,
+    "latitude": 31.867948,
+    "longitude": -102.369598,
+    "is_capital": 0
+  },
+  {
+    "ucdb_id": 8165,
+    "name": "Lake Ronkonkoma",
+    "alt_names": "Lake Ronkonkoma; Lake Grove",
+    "population": 84189.24621,
+    "area_km2": 61,
+    "latitude": 40.820944,
+    "longitude": -73.106902,
+    "is_capital": 0
+  },
+  {
+    "ucdb_id": 7875,
+    "name": "Courthouse Green",
+    "alt_names": "Courthouse Green; Wendwood; Beech Lake Estates; Bayberry",
+    "population": 83445.10417,
+    "area_km2": 53,
+    "latitude": 37.119878,
+    "longitude": -76.518134,
+    "is_capital": 0
+  },
+  {
+    "ucdb_id": 3218,
+    "name": "Vacaville",
+    "alt_names": "Vacaville",
+    "population": 83182.98973,
+    "area_km2": 33,
+    "latitude": 38.3444,
+    "longitude": -121.968403,
+    "is_capital": 0
+  },
+  {
+    "ucdb_id": 7994,
+    "name": "Lancaster",
+    "alt_names": "Lancaster",
+    "population": 83179.20907,
+    "area_km2": 29,
+    "latitude": 40.039287,
+    "longitude": -76.310051,
+    "is_capital": 0
+  },
+  {
+    "ucdb_id": 7987,
+    "name": "Harrisburg",
+    "alt_names": "Harrisburg",
+    "population": 81706.80422,
+    "area_km2": 43,
+    "latitude": 40.272233,
+    "longitude": -76.865694,
+    "is_capital": 0
+  },
+  {
+    "ucdb_id": 6622,
+    "name": "Little Rock",
+    "alt_names": "Little Rock",
+    "population": 81252.41372,
+    "area_km2": 60,
+    "latitude": 34.751222,
+    "longitude": -92.340937,
+    "is_capital": 0
+  },
+  {
+    "ucdb_id": 6457,
+    "name": "Billings",
+    "alt_names": "Billings",
+    "population": 80941.67075,
+    "area_km2": 52,
+    "latitude": 45.779033,
+    "longitude": -108.558498,
+    "is_capital": 0
+  },
+  {
+    "ucdb_id": 6890,
+    "name": "Tallahassee",
+    "alt_names": "Tallahassee",
+    "population": 80597.26862,
+    "area_km2": 34,
+    "latitude": 30.448167,
+    "longitude": -84.307356,
+    "is_capital": 0
+  },
+  {
+    "ucdb_id": 7651,
+    "name": "Hamilton",
+    "alt_names": "Hamilton",
+    "population": 80532.24549,
+    "area_km2": 83,
+    "latitude": 39.349138,
+    "longitude": -84.527798,
+    "is_capital": 0
+  },
+  {
+    "ucdb_id": 8141,
+    "name": "White Plains",
+    "alt_names": "White Plains",
+    "population": 80465.95685,
+    "area_km2": 30,
+    "latitude": 41.034637,
+    "longitude": -73.777505,
+    "is_capital": 0
+  },
+  {
+    "ucdb_id": 7514,
+    "name": "Lafayette",
+    "alt_names": "Lafayette",
+    "population": 79644.20599,
+    "area_km2": 47,
+    "latitude": 40.413591,
+    "longitude": -86.886625,
+    "is_capital": 0
+  },
+  {
+    "ucdb_id": 7896,
+    "name": "Manassas Park",
+    "alt_names": "Manassas Park",
+    "population": 79610.97791,
+    "area_km2": 28,
+    "latitude": 38.779353,
+    "longitude": -77.486669,
+    "is_capital": 0
+  },
+  {
+    "ucdb_id": 6772,
+    "name": "Sioux Falls",
+    "alt_names": "Sioux Falls",
+    "population": 79285.41647,
+    "area_km2": 43,
+    "latitude": 43.538723,
+    "longitude": -96.712693,
+    "is_capital": 0
+  },
+  {
+    "ucdb_id": 2799,
+    "name": "Encinitas",
+    "alt_names": "Encinitas",
+    "population": 78795.81213,
+    "area_km2": 44,
+    "latitude": 33.060053,
+    "longitude": -117.266833,
+    "is_capital": 0
+  },
+  {
+    "ucdb_id": 5575,
+    "name": "Grand Junction",
+    "alt_names": "Grand Junction",
+    "population": 78680.33903,
+    "area_km2": 56,
+    "latitude": 39.083369,
+    "longitude": -108.512817,
+    "is_capital": 0
+  },
+  {
+    "ucdb_id": 3789,
+    "name": "Davis",
+    "alt_names": "Davis",
+    "population": 78088.97252,
+    "area_km2": 28,
+    "latitude": 38.553074,
+    "longitude": -121.743334,
+    "is_capital": 0
+  },
+  {
+    "ucdb_id": 6006,
+    "name": "Longmont",
+    "alt_names": "Longmont",
+    "population": 77241.15525,
+    "area_km2": 41,
+    "latitude": 40.176335,
+    "longitude": -105.108515,
+    "is_capital": 0
+  },
+  {
+    "ucdb_id": 7265,
+    "name": "Bloomington",
+    "alt_names": "Bloomington",
+    "population": 77176.98115,
+    "area_km2": 47,
+    "latitude": 40.497091,
+    "longitude": -88.979641,
+    "is_capital": 0
+  },
+  {
+    "ucdb_id": 7595,
+    "name": "Kenosha",
+    "alt_names": "Kenosha",
+    "population": 77138.46272,
+    "area_km2": 45,
+    "latitude": 42.577847,
+    "longitude": -87.842338,
+    "is_capital": 0
+  },
+  {
+    "ucdb_id": 2541,
+    "name": "Napa",
+    "alt_names": "Napa",
+    "population": 76799.75972,
+    "area_km2": 32,
+    "latitude": 38.308165,
+    "longitude": -122.301043,
+    "is_capital": 0
+  },
+  {
+    "ucdb_id": 7568,
+    "name": "Lawrence",
+    "alt_names": "Lawrence",
+    "population": 76753.85469,
+    "area_km2": 45,
+    "latitude": 39.826345,
+    "longitude": -86.019937,
+    "is_capital": 0
+  },
+  {
+    "ucdb_id": 6184,
+    "name": "White Settlement",
+    "alt_names": "White Settlement",
+    "population": 76679.676,
+    "area_km2": 39,
+    "latitude": 32.734155,
+    "longitude": -97.462238,
+    "is_capital": 0
+  },
+  {
+    "ucdb_id": 7917,
+    "name": "Ashburn",
+    "alt_names": "Ashburn",
+    "population": 76087.33456,
+    "area_km2": 33,
+    "latitude": 39.035446,
+    "longitude": -77.494041,
+    "is_capital": 0
+  },
+  {
+    "ucdb_id": 7763,
+    "name": "Ann Arbor",
+    "alt_names": "Ann Arbor",
+    "population": 75953.71046,
+    "area_km2": 32,
+    "latitude": 42.267934,
+    "longitude": -83.744747,
+    "is_capital": 0
+  },
+  {
+    "ucdb_id": 8069,
+    "name": "Bensalem Township",
+    "alt_names": "Bensalem Township",
+    "population": 75461.44338,
+    "area_km2": 29,
+    "latitude": 40.089791,
+    "longitude": -74.958844,
+    "is_capital": 0
+  },
+  {
+    "ucdb_id": 5854,
+    "name": "Mineral Palace",
+    "alt_names": "Mineral Palace; Regency; Sunset; Mesa Junction; Aberdeen",
+    "population": 75212.07021,
+    "area_km2": 44,
+    "latitude": 38.257455,
+    "longitude": -104.624532,
+    "is_capital": 0
+  },
+  {
+    "ucdb_id": 8087,
+    "name": "Scranton",
+    "alt_names": "Scranton",
+    "population": 74950.79519,
+    "area_km2": 33,
+    "latitude": 41.414246,
+    "longitude": -75.659505,
+    "is_capital": 0
+  },
+  {
+    "ucdb_id": 7667,
+    "name": "Appleton",
+    "alt_names": "Appleton",
+    "population": 74930.79837,
+    "area_km2": 48,
+    "latitude": 44.263407,
+    "longitude": -88.405385,
+    "is_capital": 0
+  },
+  {
+    "ucdb_id": 7309,
+    "name": "Lawrenceville",
+    "alt_names": "Lawrenceville",
+    "population": 74753.36141,
+    "area_km2": 48,
+    "latitude": 33.97105,
+    "longitude": -84.008823,
+    "is_capital": 0
+  },
+  {
+    "ucdb_id": 2985,
+    "name": "Brentwood",
+    "alt_names": "Brentwood; Oakley",
+    "population": 74478.06754,
+    "area_km2": 42,
+    "latitude": 37.961545,
+    "longitude": -121.713724,
+    "is_capital": 0
+  },
+  {
+    "ucdb_id": 4662,
+    "name": "Providence",
+    "alt_names": "Providence; Tule Springs",
+    "population": 74470.41029,
+    "area_km2": 27,
+    "latitude": 36.299797,
+    "longitude": -115.287215,
+    "is_capital": 0
+  },
+  {
+    "ucdb_id": 2400,
+    "name": "Livermore",
+    "alt_names": "Livermore",
+    "population": 74099.92886,
+    "area_km2": 42,
+    "latitude": 37.683807,
+    "longitude": -121.762813,
+    "is_capital": 0
+  },
+  {
+    "ucdb_id": 8022,
+    "name": "Chester",
+    "alt_names": "Chester",
+    "population": 73125.73068,
+    "area_km2": 48,
+    "latitude": 39.852502,
+    "longitude": -75.38456,
+    "is_capital": 0
+  },
+  {
+    "ucdb_id": 3834,
+    "name": "Lodi",
+    "alt_names": "Lodi",
+    "population": 73053.43309,
+    "area_km2": 28,
+    "latitude": 38.126662,
+    "longitude": -121.283317,
+    "is_capital": 0
+  },
+  {
+    "ucdb_id": 7924,
+    "name": "Leesburg",
+    "alt_names": "Leesburg",
+    "population": 72977.47285,
+    "area_km2": 36,
+    "latitude": 39.104182,
+    "longitude": -77.530012,
+    "is_capital": 0
+  },
+  {
+    "ucdb_id": 7603,
+    "name": "Racine",
+    "alt_names": "Racine",
+    "population": 72878.55675,
+    "area_km2": 40,
+    "latitude": 42.725577,
+    "longitude": -87.803275,
+    "is_capital": 0
+  },
+  {
+    "ucdb_id": 7945,
+    "name": "Laurel",
+    "alt_names": "Laurel",
+    "population": 72841.42439,
+    "area_km2": 43,
+    "latitude": 39.099848,
+    "longitude": -76.850822,
+    "is_capital": 0
+  },
+  {
+    "ucdb_id": 7973,
+    "name": "York",
+    "alt_names": "York",
+    "population": 72505.95179,
+    "area_km2": 33,
+    "latitude": 39.963213,
+    "longitude": -76.720575,
+    "is_capital": 0
+  },
+  {
+    "ucdb_id": 7231,
+    "name": "Riverwood",
+    "alt_names": "Riverwood; Stonewall; Woodmere; Chattahoochee Bluffs",
+    "population": 72343.71518,
+    "area_km2": 34,
+    "latitude": 33.902366,
+    "longitude": -84.481362,
+    "is_capital": 0
+  },
+  {
+    "ucdb_id": 3541,
+    "name": "Turlock",
+    "alt_names": "Turlock",
+    "population": 72284.46149,
+    "area_km2": 31,
+    "latitude": 37.508287,
+    "longitude": -120.850424,
+    "is_capital": 0
+  },
+  {
+    "ucdb_id": 1361,
+    "name": "Ventura",
+    "alt_names": "Ventura",
+    "population": 72162.89916,
+    "area_km2": 34,
+    "latitude": 34.273276,
+    "longitude": -119.245152,
+    "is_capital": 0
+  },
+  {
+    "ucdb_id": 8261,
+    "name": "Brockton",
+    "alt_names": "Brockton",
+    "population": 72110.94581,
+    "area_km2": 26,
+    "latitude": 42.084085,
+    "longitude": -71.019072,
+    "is_capital": 0
+  },
+  {
+    "ucdb_id": 4514,
+    "name": "Yuma",
+    "alt_names": "Yuma",
+    "population": 72053.03068,
+    "area_km2": 41,
+    "latitude": 32.696435,
+    "longitude": -114.641825,
+    "is_capital": 0
+  },
+  {
+    "ucdb_id": 6502,
+    "name": "Norman",
+    "alt_names": "Norman",
+    "population": 71139.12612,
+    "area_km2": 41,
+    "latitude": 35.214651,
+    "longitude": -97.451206,
+    "is_capital": 0
+  },
+  {
+    "ucdb_id": 5970,
+    "name": "Leander",
+    "alt_names": "Leander",
+    "population": 71045.95958,
+    "area_km2": 29,
+    "latitude": 30.549239,
+    "longitude": -97.850403,
+    "is_capital": 0
+  },
+  {
+    "ucdb_id": 8129,
+    "name": "Asbury Park",
+    "alt_names": "Asbury Park",
+    "population": 70944.39208,
+    "area_km2": 42,
+    "latitude": 40.203759,
+    "longitude": -74.025424,
+    "is_capital": 0
+  },
+  {
+    "ucdb_id": 8111,
+    "name": "Lakewood Township",
+    "alt_names": "Lakewood Township",
+    "population": 70894.40536,
+    "area_km2": 25,
+    "latitude": 40.092345,
+    "longitude": -74.217845,
+    "is_capital": 0
+  },
+  {
+    "ucdb_id": 7384,
+    "name": "Palm Coast",
+    "alt_names": "Palm Coast",
+    "population": 70622.93393,
+    "area_km2": 56,
+    "latitude": 29.549374,
+    "longitude": -81.230578,
+    "is_capital": 0
+  },
+  {
+    "ucdb_id": 7064,
+    "name": "Brandon",
+    "alt_names": "Brandon",
+    "population": 70421.20544,
+    "area_km2": 38,
+    "latitude": 27.912633,
+    "longitude": -82.314506,
+    "is_capital": 0
+  },
+  {
+    "ucdb_id": 3489,
+    "name": "Palmdale",
+    "alt_names": "Palmdale",
+    "population": 70308.41787,
+    "area_km2": 34,
+    "latitude": 34.567418,
+    "longitude": -118.077494,
+    "is_capital": 0
+  },
+  {
+    "ucdb_id": 7619,
+    "name": "Florence",
+    "alt_names": "Florence; Erlanger",
+    "population": 69728.29166,
+    "area_km2": 53,
+    "latitude": 38.997193,
+    "longitude": -84.631238,
+    "is_capital": 0
+  },
+  {
+    "ucdb_id": 3923,
+    "name": "Madera",
+    "alt_names": "Madera",
+    "population": 69217.56117,
+    "area_km2": 28,
+    "latitude": 36.963227,
+    "longitude": -120.063703,
+    "is_capital": 0
+  },
+  {
+    "ucdb_id": 8213,
+    "name": "New Britain",
+    "alt_names": "New Britain",
+    "population": 68405.33455,
+    "area_km2": 26,
+    "latitude": 41.673366,
+    "longitude": -72.780061,
+    "is_capital": 0
+  },
+  {
+    "ucdb_id": 7129,
+    "name": "Evansville",
+    "alt_names": "Evansville",
+    "population": 67985.48328,
+    "area_km2": 43,
+    "latitude": 37.968331,
+    "longitude": -87.543321,
+    "is_capital": 0
+  },
+  {
+    "ucdb_id": 1656,
+    "name": "San Rafael",
+    "alt_names": "San Rafael",
+    "population": 67983.67397,
+    "area_km2": 38,
+    "latitude": 37.981635,
+    "longitude": -122.53886,
+    "is_capital": 0
+  },
+  {
+    "ucdb_id": 8297,
+    "name": "Portland",
+    "alt_names": "Portland; South Portland",
+    "population": 67689.55023,
+    "area_km2": 43,
+    "latitude": 43.659625,
+    "longitude": -70.269654,
+    "is_capital": 0
+  },
+  {
+    "ucdb_id": 8273,
+    "name": "Manchester",
+    "alt_names": "Manchester",
+    "population": 67542.11058,
+    "area_km2": 21,
+    "latitude": 42.985403,
+    "longitude": -71.457772,
+    "is_capital": 0
+  },
+  {
+    "ucdb_id": 7194,
+    "name": "Rochester",
+    "alt_names": "Rochester",
+    "population": 67266.32746,
+    "area_km2": 37,
+    "latitude": 44.039174,
+    "longitude": -92.479307,
+    "is_capital": 0
+  },
+  {
+    "ucdb_id": 7077,
+    "name": "Spring Hill",
+    "alt_names": "Spring Hill",
+    "population": 67107.64199,
+    "area_km2": 60,
+    "latitude": 28.481068,
+    "longitude": -82.559076,
+    "is_capital": 0
+  },
+  {
+    "ucdb_id": 8057,
+    "name": "Wilkes-Barre",
+    "alt_names": "Wilkes-Barre",
+    "population": 67033.99629,
+    "area_km2": 33,
+    "latitude": 41.252584,
+    "longitude": -75.89086,
+    "is_capital": 0
+  },
+  {
+    "ucdb_id": 6637,
+    "name": "Lawrence",
+    "alt_names": "Lawrence",
+    "population": 66968.40056,
+    "area_km2": 38,
+    "latitude": 38.954002,
+    "longitude": -95.259504,
+    "is_capital": 0
+  },
+  {
+    "ucdb_id": 7541,
+    "name": "Chicago Heights",
+    "alt_names": "Chicago Heights",
+    "population": 66583.58234,
+    "area_km2": 44,
+    "latitude": 41.495843,
+    "longitude": -87.670359,
+    "is_capital": 0
+  },
+  {
+    "ucdb_id": 8171,
+    "name": "Selden",
+    "alt_names": "Selden; Terryville",
+    "population": 66490.72703,
+    "area_km2": 37,
+    "latitude": 40.880553,
+    "longitude": -73.04812,
+    "is_capital": 0
+  },
+  {
+    "ucdb_id": 4876,
+    "name": "Casas Adobes",
+    "alt_names": "Casas Adobes",
+    "population": 66460.86438,
+    "area_km2": 51,
+    "latitude": 32.341493,
+    "longitude": -111.021129,
+    "is_capital": 0
+  },
+  {
+    "ucdb_id": 5710,
+    "name": "Edinburg",
+    "alt_names": "Edinburg",
+    "population": 66402.26203,
+    "area_km2": 30,
+    "latitude": 26.300258,
+    "longitude": -98.173335,
+    "is_capital": 0
+  },
+  {
+    "ucdb_id": 7364,
+    "name": "Jupiter",
+    "alt_names": "Jupiter",
+    "population": 65986.00609,
+    "area_km2": 52,
+    "latitude": 26.934786,
+    "longitude": -80.110742,
+    "is_capital": 0
+  },
+  {
+    "ucdb_id": 5325,
+    "name": "Bellingham",
+    "alt_names": "Bellingham",
+    "population": 65926.46037,
+    "area_km2": 34,
+    "latitude": 48.746873,
+    "longitude": -122.472075,
+    "is_capital": 0
+  },
+  {
+    "ucdb_id": 8117,
+    "name": "Point Pleasant",
+    "alt_names": "Point Pleasant; Point Pleasant Beach",
+    "population": 65285.03331,
+    "area_km2": 45,
+    "latitude": 40.085193,
+    "longitude": -74.097956,
+    "is_capital": 0
+  },
+  {
+    "ucdb_id": 7770,
+    "name": "Wilmington",
+    "alt_names": "Wilmington",
+    "population": 64491.95016,
+    "area_km2": 45,
+    "latitude": 34.235097,
+    "longitude": -77.898103,
+    "is_capital": 0
+  },
+  {
+    "ucdb_id": 7451,
+    "name": "Westhaven Trails",
+    "alt_names": "Westhaven Trails; Skyview Meadows; Prairie Hills; Oakbridge; Sauk Creek; Woodland Hills; Wexford Village; Stonefield Woods-Ridge; Appalachian Ridge",
+    "population": 64481.20512,
+    "area_km2": 39,
+    "latitude": 43.041271,
+    "longitude": -89.497458,
+    "is_capital": 0
+  },
+  {
+    "ucdb_id": 6442,
+    "name": "Little Elm",
+    "alt_names": null,
+    "population": 64381.26677,
+    "area_km2": 31,
+    "latitude": 33.166812,
+    "longitude": -96.883228,
+    "is_capital": 0
+  },
+  {
+    "ucdb_id": 8043,
+    "name": "Norristown",
+    "alt_names": "Norristown; Conshohocken",
+    "population": 64344.56978,
+    "area_km2": 30,
+    "latitude": 40.11082,
+    "longitude": -75.333815,
+    "is_capital": 0
+  },
+  {
+    "ucdb_id": 6802,
+    "name": "Panama City",
+    "alt_names": "Panama City",
+    "population": 64271.56774,
+    "area_km2": 79,
+    "latitude": 30.164258,
+    "longitude": -85.643744,
+    "is_capital": 0
+  },
+  {
+    "ucdb_id": 7523,
+    "name": "Lake in the Hills",
+    "alt_names": "Lake in the Hills",
+    "population": 63893.51226,
+    "area_km2": 42,
+    "latitude": 42.195732,
+    "longitude": -88.350772,
+    "is_capital": 0
+  },
+  {
+    "ucdb_id": 3695,
+    "name": "Lancaster",
+    "alt_names": "Lancaster",
+    "population": 63792.85533,
+    "area_km2": 34,
+    "latitude": 34.691195,
+    "longitude": -118.121629,
+    "is_capital": 0
+  },
+  {
+    "ucdb_id": 8207,
+    "name": "Troy",
+    "alt_names": "Troy",
+    "population": 63526.94525,
+    "area_km2": 28,
+    "latitude": 42.741996,
+    "longitude": -73.68962,
+    "is_capital": 0
+  },
+  {
+    "ucdb_id": 7812,
+    "name": "Encore Townhomes",
+    "alt_names": "Encore Townhomes",
+    "population": 63514.28607,
+    "area_km2": 38,
+    "latitude": 42.609147,
+    "longitude": -82.971782,
+    "is_capital": 0
+  },
+  {
+    "ucdb_id": 1560,
+    "name": "Camarillo",
+    "alt_names": "Camarillo",
+    "population": 63042.37005,
+    "area_km2": 30,
+    "latitude": 34.227669,
+    "longitude": -119.028902,
+    "is_capital": 0
+  },
+  {
+    "ucdb_id": 8153,
+    "name": "Huntington Station",
+    "alt_names": "Huntington Station; South Huntington; Huntington",
+    "population": 63013.70945,
+    "area_km2": 30,
+    "latitude": 40.840675,
+    "longitude": -73.402759,
+    "is_capital": 0
+  },
+  {
+    "ucdb_id": 7207,
+    "name": "Fair Oaks",
+    "alt_names": "Fair Oaks",
+    "population": 62799.68636,
+    "area_km2": 31,
+    "latitude": 33.904048,
+    "longitude": -84.553445,
+    "is_capital": 0
+  },
+  {
+    "ucdb_id": 4287,
+    "name": "Yuba City",
+    "alt_names": "Yuba City",
+    "population": 62503.2726,
+    "area_km2": 28,
+    "latitude": 39.129795,
+    "longitude": -121.631539,
+    "is_capital": 0
+  },
+  {
+    "ucdb_id": 5894,
+    "name": "Abilene",
+    "alt_names": "Abilene",
+    "population": 62023.67675,
+    "area_km2": 49,
+    "latitude": 32.436797,
+    "longitude": -99.762737,
+    "is_capital": 0
+  },
+  {
+    "ucdb_id": 8159,
+    "name": "Norwalk",
+    "alt_names": "Norwalk",
+    "population": 61650.614,
+    "area_km2": 24,
+    "latitude": 41.109827,
+    "longitude": -73.417484,
+    "is_capital": 0
+  },
+  {
+    "ucdb_id": 5067,
+    "name": "Las Cruces",
+    "alt_names": "Las Cruces",
+    "population": 61229.69545,
+    "area_km2": 38,
+    "latitude": 32.313039,
+    "longitude": -106.769469,
+    "is_capital": 0
+  },
+  {
+    "ucdb_id": 5128,
+    "name": "Auburn",
+    "alt_names": "Auburn",
+    "population": 61115.54306,
+    "area_km2": 36,
+    "latitude": 47.292327,
+    "longitude": -122.214709,
+    "is_capital": 0
+  },
+  {
+    "ucdb_id": 6349,
+    "name": "Atascocita",
+    "alt_names": "Atascocita",
+    "population": 61027.88957,
+    "area_km2": 27,
+    "latitude": 29.992655,
+    "longitude": -95.178958,
+    "is_capital": 0
+  },
+  {
+    "ucdb_id": 7714,
+    "name": "Kalamazoo",
+    "alt_names": "Kalamazoo",
+    "population": 61021.85835,
+    "area_km2": 34,
+    "latitude": 42.282832,
+    "longitude": -85.599888,
+    "is_capital": 0
+  },
+  {
+    "ucdb_id": 4249,
+    "name": "Natoma Station",
+    "alt_names": "Natoma Station; Prairie Oaks; Willow Springs; Lexington Hills; The Parkway",
+    "population": 60602.60173,
+    "area_km2": 31,
+    "latitude": 38.66996,
+    "longitude": -121.148056,
+    "is_capital": 0
+  },
+  {
+    "ucdb_id": 8001,
+    "name": "New Castle",
+    "alt_names": "New Castle",
+    "population": 60561.31291,
+    "area_km2": 39,
+    "latitude": 39.652254,
+    "longitude": -75.64774,
+    "is_capital": 0
+  },
+  {
+    "ucdb_id": 7966,
+    "name": "Glen Burnie",
+    "alt_names": "Glen Burnie",
+    "population": 60513.46328,
+    "area_km2": 29,
+    "latitude": 39.141394,
+    "longitude": -76.62105,
+    "is_capital": 0
+  },
+  {
+    "ucdb_id": 7635,
+    "name": "North College Hill",
+    "alt_names": "North College Hill; Mount Healthy",
+    "population": 60385.72652,
+    "area_km2": 33,
+    "latitude": 39.211253,
+    "longitude": -84.558704,
+    "is_capital": 0
+  },
+  {
+    "ucdb_id": 6381,
+    "name": "Pittsville",
+    "alt_names": "Pittsville",
+    "population": 59468.91122,
+    "area_km2": 30,
+    "latitude": 30.063224,
+    "longitude": -95.199897,
+    "is_capital": 0
+  },
+  {
+    "ucdb_id": 3328,
+    "name": "Manteca",
+    "alt_names": "Manteca",
+    "population": 59238.7273,
+    "area_km2": 24,
+    "latitude": 37.804956,
+    "longitude": -121.2249,
+    "is_capital": 0
+  },
+  {
+    "ucdb_id": 4363,
+    "name": "Rocklin",
+    "alt_names": null,
+    "population": 59092.335,
+    "area_km2": 26,
+    "latitude": 38.802151,
+    "longitude": -121.266591,
+    "is_capital": 0
+  },
+  {
+    "ucdb_id": 7819,
+    "name": "Canton",
+    "alt_names": "Canton",
+    "population": 58892.10409,
+    "area_km2": 39,
+    "latitude": 40.808648,
+    "longitude": -81.387168,
+    "is_capital": 0
+  },
+  {
+    "ucdb_id": 6333,
+    "name": "Duncanville",
+    "alt_names": "Duncanville",
+    "population": 58733.69841,
+    "area_km2": 31,
+    "latitude": 32.649292,
+    "longitude": -96.897369,
+    "is_capital": 0
+  },
+  {
+    "ucdb_id": 1257,
+    "name": "Watsonville",
+    "alt_names": "Watsonville",
+    "population": 58506.6287,
+    "area_km2": 19,
+    "latitude": 36.920844,
+    "longitude": -121.763868,
+    "is_capital": 0
+  },
+  {
+    "ucdb_id": 8081,
+    "name": "Easton",
+    "alt_names": "Easton",
+    "population": 58283.20238,
+    "area_km2": 23,
+    "latitude": 40.689794,
+    "longitude": -75.212063,
+    "is_capital": 0
+  },
+  {
+    "ucdb_id": 7931,
+    "name": "Sugarland Run",
+    "alt_names": "Sugarland Run; Cascades; Lowes Island; Countryside; Dulles Town Center; University Center",
+    "population": 58093.19581,
+    "area_km2": 20,
+    "latitude": 39.042268,
+    "longitude": -77.388826,
+    "is_capital": 0
+  },
+  {
+    "ucdb_id": 3645,
+    "name": "Hanford",
+    "alt_names": "Hanford",
+    "population": 57595.21034,
+    "area_km2": 28,
+    "latitude": 36.338778,
+    "longitude": -119.651078,
+    "is_capital": 0
+  },
+  {
+    "ucdb_id": 4211,
+    "name": "Porterville",
+    "alt_names": "Porterville",
+    "population": 57544.66296,
+    "area_km2": 26,
+    "latitude": 36.072122,
+    "longitude": -119.037792,
+    "is_capital": 0
+  },
+  {
+    "ucdb_id": 7414,
+    "name": "Jacksonville Beach",
+    "alt_names": "Jacksonville Beach; Atlantic Beach",
+    "population": 57072.3199,
+    "area_km2": 39,
+    "latitude": 30.30848,
+    "longitude": -81.403344,
+    "is_capital": 0
+  },
+  {
+    "ucdb_id": 6946,
+    "name": "Venice",
+    "alt_names": "Venice",
+    "population": 56827.48177,
+    "area_km2": 73,
+    "latitude": 27.088277,
+    "longitude": -82.431345,
+    "is_capital": 0
+  },
+  {
+    "ucdb_id": 5403,
+    "name": "Wenatchee",
+    "alt_names": "Wenatchee",
+    "population": 56780.62744,
+    "area_km2": 35,
+    "latitude": 47.419228,
+    "longitude": -120.307751,
+    "is_capital": 0
+  },
+  {
+    "ucdb_id": 6042,
+    "name": "Loveland",
+    "alt_names": "Loveland",
+    "population": 56553.69396,
+    "area_km2": 36,
+    "latitude": 40.419563,
+    "longitude": -105.080131,
+    "is_capital": 0
+  },
+  {
+    "ucdb_id": 7433,
+    "name": "Bloomington",
+    "alt_names": "Bloomington",
+    "population": 56286.28266,
+    "area_km2": 25,
+    "latitude": 39.166075,
+    "longitude": -86.519329,
+    "is_capital": 0
+  },
+  {
+    "ucdb_id": 7805,
+    "name": "Buena Vista",
+    "alt_names": "Buena Vista",
+    "population": 56131.12037,
+    "area_km2": 40,
+    "latitude": 43.4293,
+    "longitude": -83.974018,
+    "is_capital": 0
+  },
+  {
+    "ucdb_id": 7840,
+    "name": "Cuyahoga Falls",
+    "alt_names": "Cuyahoga Falls",
+    "population": 56086.144,
+    "area_km2": 31,
+    "latitude": 41.127135,
+    "longitude": -81.490861,
+    "is_capital": 0
+  },
+  {
+    "ucdb_id": 6787,
+    "name": "Fort Walton Beach",
+    "alt_names": "Fort Walton Beach",
+    "population": 55899.60972,
+    "area_km2": 50,
+    "latitude": 30.432424,
+    "longitude": -86.626957,
+    "is_capital": 0
+  },
+  {
+    "ucdb_id": 7051,
+    "name": "Cedar Rapids",
+    "alt_names": "Cedar Rapids",
+    "population": 55742.45684,
+    "area_km2": 34,
+    "latitude": 41.983257,
+    "longitude": -91.679425,
+    "is_capital": 0
+  },
+  {
+    "ucdb_id": 8105,
+    "name": "Beachwood",
+    "alt_names": "Beachwood; Pine Beach; Ocean Gate; Island Heights",
+    "population": 55496.90849,
+    "area_km2": 45,
+    "latitude": 39.959263,
+    "longitude": -74.160933,
+    "is_capital": 0
+  },
+  {
+    "ucdb_id": 4050,
+    "name": "Woodland",
+    "alt_names": "Woodland",
+    "population": 54503.37336,
+    "area_km2": 23,
+    "latitude": 38.673835,
+    "longitude": -121.770603,
+    "is_capital": 0
+  },
+  {
+    "ucdb_id": 7938,
+    "name": "Fairland",
+    "alt_names": "Fairland; Colesville; Calverton",
+    "population": 53968.11284,
+    "area_km2": 24,
+    "latitude": 39.066962,
+    "longitude": -76.953983,
+    "is_capital": 0
+  },
+  {
+    "ucdb_id": 3,
+    "name": "Ewa Beach",
+    "alt_names": "Ewa Beach",
+    "population": 53720.65818,
+    "area_km2": 15,
+    "latitude": 21.327397,
+    "longitude": -158.01922,
+    "is_capital": 0
+  },
+  {
+    "ucdb_id": 7691,
+    "name": "Carmel Commons",
+    "alt_names": "Carmel Commons; Falcon Bridge; Sharonbrook; Hebron; Colony Acres; British Woods; Montclaire South",
+    "population": 53715.05773,
+    "area_km2": 28,
+    "latitude": 35.119444,
+    "longitude": -80.867401,
+    "is_capital": 0
+  },
+  {
+    "ucdb_id": 4325,
+    "name": "Palm Springs",
+    "alt_names": "Palm Springs",
+    "population": 53538.07129,
+    "area_km2": 35,
+    "latitude": 33.829273,
+    "longitude": -116.530488,
+    "is_capital": 0
+  },
+  {
+    "ucdb_id": 1748,
+    "name": "Thousand Oaks",
+    "alt_names": "Thousand Oaks",
+    "population": 53507.04975,
+    "area_km2": 27,
+    "latitude": 34.204851,
+    "longitude": -118.859244,
+    "is_capital": 0
+  },
+  {
+    "ucdb_id": 7038,
+    "name": "Iowa City",
+    "alt_names": "Iowa City",
+    "population": 53322.17468,
+    "area_km2": 25,
+    "latitude": 41.653305,
+    "longitude": -91.530283,
+    "is_capital": 0
+  },
+  {
+    "ucdb_id": 1836,
+    "name": "Petaluma",
+    "alt_names": "Petaluma",
+    "population": 53297.71077,
+    "area_km2": 25,
+    "latitude": 38.247301,
+    "longitude": -122.626895,
+    "is_capital": 0
+  },
+  {
+    "ucdb_id": 5299,
+    "name": "Spanish Fork",
+    "alt_names": "Spanish Fork",
+    "population": 53226.84703,
+    "area_km2": 16,
+    "latitude": 40.103246,
+    "longitude": -111.635304,
+    "is_capital": 0
+  },
+  {
+    "ucdb_id": 7155,
+    "name": "Saint Cloud",
+    "alt_names": "Saint Cloud",
+    "population": 52701.63967,
+    "area_km2": 30,
+    "latitude": 45.556931,
+    "longitude": -94.168444,
+    "is_capital": 0
+  },
+  {
+    "ucdb_id": 6096,
+    "name": "Waco",
+    "alt_names": "Waco",
+    "population": 52606.72308,
+    "area_km2": 31,
+    "latitude": 31.546822,
+    "longitude": -97.157286,
+    "is_capital": 0
+  },
+  {
+    "ucdb_id": 7374,
+    "name": "Fort Pierce",
+    "alt_names": "Fort Pierce",
+    "population": 52518.68802,
+    "area_km2": 33,
+    "latitude": 27.437075,
+    "longitude": -80.340293,
+    "is_capital": 0
+  },
+  {
+    "ucdb_id": 356,
+    "name": "Mililani",
+    "alt_names": "Mililani",
+    "population": 51805.77418,
+    "area_km2": 17,
+    "latitude": 21.46,
+    "longitude": -158.007442,
+    "is_capital": 0
+  },
+  {
+    "ucdb_id": 3879,
+    "name": "Rancho las Perris",
+    "alt_names": "Rancho las Perris; Vista Creek",
+    "population": 51757.49941,
+    "area_km2": 18,
+    "latitude": 33.816107,
+    "longitude": -117.211116,
+    "is_capital": 0
+  },
+  {
+    "ucdb_id": 506,
+    "name": "Kahului",
+    "alt_names": "Kahului; Wailuku",
+    "population": 51667.89837,
+    "area_km2": 25,
+    "latitude": 20.887556,
+    "longitude": -156.485305,
+    "is_capital": 0
+  },
+  {
+    "ucdb_id": 6150,
+    "name": "Greatwood",
+    "alt_names": "Greatwood; New Territory",
+    "population": 51317.15895,
+    "area_km2": 24,
+    "latitude": 29.57075,
+    "longitude": -95.6788,
+    "is_capital": 0
+  }
+]

@@ -1,0 +1,6379 @@
+[
+  {
+    "name": "American Music Theatre",
+    "city": "Lancaster",
+    "state": "PA",
+    "raw_line": "American Music Theatre | Lancaster, PA",
+    "pollstar_id": null
+  },
+  {
+    "name": "Ardmore Music Hall",
+    "city": "Ardmore",
+    "state": "PA",
+    "raw_line": "Ardmore Music Hall | Ardmore, PA",
+    "pollstar_id": null
+  },
+  {
+    "name": "Bearsville Theater",
+    "city": "Woodstock",
+    "state": "NY",
+    "raw_line": "Bearsville Theater | Woodstock, NY",
+    "pollstar_id": null
+  },
+  {
+    "name": "Bergen Performing Arts Center",
+    "city": "Englewood",
+    "state": "NJ",
+    "raw_line": "Bergen Performing Arts Center | Englewood, NJ",
+    "pollstar_id": null
+  },
+  {
+    "name": "Blue Note Jazz Club",
+    "city": "New York",
+    "state": "NY",
+    "raw_line": "Blue Note Jazz Club | New York, NY",
+    "pollstar_id": null
+  },
+  {
+    "name": "BNH Stage",
+    "city": "Concord",
+    "state": "NH",
+    "raw_line": "BNH Stage | Concord, NH",
+    "pollstar_id": null
+  },
+  {
+    "name": "Center For Arts In Natick",
+    "city": "Natick",
+    "state": "MA",
+    "raw_line": "Center For Arts In Natick | Natick, MA",
+    "pollstar_id": null
+  },
+  {
+    "name": "City Winery Boston",
+    "city": "Boston",
+    "state": "MA",
+    "raw_line": "City Winery Boston | Boston, MA",
+    "pollstar_id": null
+  },
+  {
+    "name": "City Winery New York City",
+    "city": "New York",
+    "state": "NY",
+    "raw_line": "City Winery New York City | New York, NY",
+    "pollstar_id": null
+  },
+  {
+    "name": "City Winery Philadelphia",
+    "city": "Philadelphia",
+    "state": "PA",
+    "raw_line": "City Winery Philadelphia | Philadelphia, PA",
+    "pollstar_id": null
+  },
+  {
+    "name": "City Winery Pittsburgh",
+    "city": "Pittsburgh",
+    "state": "PA",
+    "raw_line": "City Winery Pittsburgh | Pittsburgh, PA",
+    "pollstar_id": null
+  },
+  {
+    "name": "College Street Music Hall",
+    "city": "New Haven",
+    "state": "CT",
+    "raw_line": "College Street Music Hall | New Haven, CT",
+    "pollstar_id": null
+  },
+  {
+    "name": "Colonial Theatre Laconia",
+    "city": "Laconia",
+    "state": "NH",
+    "raw_line": "Colonial Theatre Laconia | Laconia, NH",
+    "pollstar_id": null
+  },
+  {
+    "name": "Drom",
+    "city": "New York",
+    "state": "NY",
+    "raw_line": "Drom | New York, NY",
+    "pollstar_id": null
+  },
+  {
+    "name": "Greenwich Odeum",
+    "city": "East Greenwich",
+    "state": "RI",
+    "raw_line": "Greenwich Odeum | East Greenwich, RI",
+    "pollstar_id": null
+  },
+  {
+    "name": "Indian Ranch",
+    "city": "Webster",
+    "state": "MA",
+    "raw_line": "Indian Ranch | Webster, MA",
+    "pollstar_id": null
+  },
+  {
+    "name": "Isola Brooklyn",
+    "city": "Brooklyn",
+    "state": "NY",
+    "raw_line": "Isola Brooklyn | Brooklyn, NY",
+    "pollstar_id": null
+  },
+  {
+    "name": "Le Poisson Rouge",
+    "city": "New York",
+    "state": "NY",
+    "raw_line": "Le Poisson Rouge | New York, NY",
+    "pollstar_id": null
+  },
+  {
+    "name": "Lowell Memorial Auditorium",
+    "city": "Lowell",
+    "state": "MA",
+    "raw_line": "Lowell Memorial Auditorium | Lowell, MA",
+    "pollstar_id": null
+  },
+  {
+    "name": "Nashua Center for the Arts",
+    "city": "Nashua",
+    "state": "NH",
+    "raw_line": "Nashua Center for the Arts | Nashua, NH",
+    "pollstar_id": null
+  },
+  {
+    "name": "Rochester Opera House",
+    "city": "Rochester",
+    "state": "NH",
+    "raw_line": "Rochester Opera House | Rochester, NH",
+    "pollstar_id": null
+  },
+  {
+    "name": "Sellersville Theater",
+    "city": "Sellersville",
+    "state": "PA",
+    "raw_line": "Sellersville Theater | Sellersville, PA",
+    "pollstar_id": null
+  },
+  {
+    "name": "Sherman Showcase",
+    "city": "Stroudsburg",
+    "state": "PA",
+    "raw_line": "Sherman Showcase | Stroudsburg, PA",
+    "pollstar_id": null
+  },
+  {
+    "name": "Sherman Theater",
+    "city": "Stroudsburg",
+    "state": "PA",
+    "raw_line": "Sherman Theater | Stroudsburg, PA",
+    "pollstar_id": null
+  },
+  {
+    "name": "Sony Hall",
+    "city": "New York",
+    "state": "NY",
+    "raw_line": "Sony Hall | New York, NY",
+    "pollstar_id": null
+  },
+  {
+    "name": "Soundcheck Studios",
+    "city": "Pembroke",
+    "state": "MA",
+    "raw_line": "Soundcheck Studios | Pembroke, MA",
+    "pollstar_id": null
+  },
+  {
+    "name": "Space Ballroom",
+    "city": "Hamden",
+    "state": "CT",
+    "raw_line": "Space Ballroom | Hamden, CT",
+    "pollstar_id": null
+  },
+  {
+    "name": "St. George Theatre",
+    "city": "Staten Island",
+    "state": "NY",
+    "raw_line": "St. George Theatre | Staten Island, NY",
+    "pollstar_id": null
+  },
+  {
+    "name": "State Theatre New Jersey",
+    "city": "New Brunswick",
+    "state": "NJ",
+    "raw_line": "State Theatre New Jersey | New Brunswick, NJ",
+    "pollstar_id": null
+  },
+  {
+    "name": "Stone Church",
+    "city": "Brattleboro",
+    "state": "VT",
+    "raw_line": "Stone Church | Brattleboro, VT",
+    "pollstar_id": null
+  },
+  {
+    "name": "Taffeta Music Hall",
+    "city": "Lowell",
+    "state": "MA",
+    "raw_line": "Taffeta Music Hall | Lowell, MA",
+    "pollstar_id": null
+  },
+  {
+    "name": "The Historic Park Theatre & Event",
+    "city": "Cranston",
+    "state": "RI",
+    "raw_line": "The Historic Park Theatre & Event | Cranston, RI",
+    "pollstar_id": null
+  },
+  {
+    "name": "The Town Hall",
+    "city": "New York",
+    "state": "NY",
+    "raw_line": "The Town Hall | New York, NY",
+    "pollstar_id": null
+  },
+  {
+    "name": "The Warehouse at FTC",
+    "city": "Fairfield",
+    "state": "CT",
+    "raw_line": "The Warehouse at FTC | Fairfield, CT",
+    "pollstar_id": null
+  },
+  {
+    "name": "Thunderbird Caf\u00e9 & Music Hall",
+    "city": "Pittsburgh",
+    "state": "PA",
+    "raw_line": "Thunderbird Caf\u00e9 & Music Hall | Pittsburgh, PA",
+    "pollstar_id": null
+  },
+  {
+    "name": "Underground Arts",
+    "city": "Philadelphia",
+    "state": "PA",
+    "raw_line": "Underground Arts | Philadelphia, PA",
+    "pollstar_id": null
+  },
+  {
+    "name": "XL Live",
+    "city": "Harrisburg",
+    "state": "PA",
+    "raw_line": "XL Live | Harrisburg, PA",
+    "pollstar_id": null
+  },
+  {
+    "name": "118 NORTH",
+    "city": "Wayne",
+    "state": "PA",
+    "raw_line": "118 NORTH | Wayne, PA",
+    "pollstar_id": null
+  },
+  {
+    "name": "1932 Criterion Theatre",
+    "city": "Bar Harbor",
+    "state": "ME",
+    "raw_line": "1932 Criterion Theatre | Bar Harbor, ME",
+    "pollstar_id": null
+  },
+  {
+    "name": "19th Street Theatre",
+    "city": "Allentown",
+    "state": "PA",
+    "raw_line": "19th Street Theatre | Allentown, PA",
+    "pollstar_id": null
+  },
+  {
+    "name": "Alchemy",
+    "city": "Providence",
+    "state": "RI",
+    "raw_line": "Alchemy | Providence, RI",
+    "pollstar_id": null
+  },
+  {
+    "name": "Apollo Theater",
+    "city": "New York",
+    "state": "NY",
+    "raw_line": "Apollo Theater | New York, NY",
+    "pollstar_id": null
+  },
+  {
+    "name": "Arts Quest Center",
+    "city": "Bethlehem",
+    "state": "PA",
+    "raw_line": "Arts Quest Center | Bethlehem, PA",
+    "pollstar_id": null
+  },
+  {
+    "name": "ArtsRiot",
+    "city": "Burlington",
+    "state": "VT",
+    "raw_line": "ArtsRiot | Burlington, VT",
+    "pollstar_id": null
+  },
+  {
+    "name": "Babeville",
+    "city": "Buffalo",
+    "state": "NY",
+    "raw_line": "Babeville | Buffalo, NY",
+    "pollstar_id": null
+  },
+  {
+    "name": "Banana Factory Arts and Educatio",
+    "city": "Bethlehem",
+    "state": "PA",
+    "raw_line": "Banana Factory Arts and Educatio | Bethlehem, PA",
+    "pollstar_id": null
+  },
+  {
+    "name": "Bananas Comedy Club",
+    "city": "Rutherford",
+    "state": "NJ",
+    "raw_line": "Bananas Comedy Club | Rutherford, NJ",
+    "pollstar_id": null
+  },
+  {
+    "name": "Bangor Arts Exchange",
+    "city": "Bangor",
+    "state": "ME",
+    "raw_line": "Bangor Arts Exchange | Bangor, ME",
+    "pollstar_id": null
+  },
+  {
+    "name": "Bijou Theatre",
+    "city": "Bridgeport",
+    "state": "CT",
+    "raw_line": "Bijou Theatre | Bridgeport, CT",
+    "pollstar_id": null
+  },
+  {
+    "name": "Birdland",
+    "city": "New York",
+    "state": "NY",
+    "raw_line": "Birdland | New York, NY",
+    "pollstar_id": null
+  },
+  {
+    "name": "Boch Center - Shubert Theatre",
+    "city": "Boston",
+    "state": "MA",
+    "raw_line": "Boch Center - Shubert Theatre | Boston, MA",
+    "pollstar_id": null
+  },
+  {
+    "name": "Boch Center - Wang Theatre",
+    "city": "Boston",
+    "state": "MA",
+    "raw_line": "Boch Center - Wang Theatre | Boston, MA",
+    "pollstar_id": null
+  },
+  {
+    "name": "Brooklyn Comedy Collective (BCC)",
+    "city": "Kings County",
+    "state": "NY",
+    "raw_line": "Brooklyn Comedy Collective (BCC) | Kings County, NY",
+    "pollstar_id": null
+  },
+  {
+    "name": "Buffalo Iron Works",
+    "city": "Buffalo",
+    "state": "NY",
+    "raw_line": "Buffalo Iron Works | Buffalo, NY",
+    "pollstar_id": null
+  },
+  {
+    "name": "Cafe Wha?",
+    "city": "New York",
+    "state": "NY",
+    "raw_line": "Cafe Wha? | New York, NY",
+    "pollstar_id": null
+  },
+  {
+    "name": "Caff\u00e8 Lena",
+    "city": "Saratoga Springs",
+    "state": "NY",
+    "raw_line": "Caff\u00e8 Lena | Saratoga Springs, NY",
+    "pollstar_id": null
+  },
+  {
+    "name": "Cape Cod Melody Tent",
+    "city": "Hyannis",
+    "state": "MA",
+    "raw_line": "Cape Cod Melody Tent | Hyannis, MA",
+    "pollstar_id": null
+  },
+  {
+    "name": "Carnegie Library of Homestead",
+    "city": "Munhall",
+    "state": "PA",
+    "raw_line": "Carnegie Library of Homestead | Munhall, PA",
+    "pollstar_id": null
+  },
+  {
+    "name": "Carolines On Broadway",
+    "city": "New York",
+    "state": "NY",
+    "raw_line": "Carolines On Broadway | New York, NY",
+    "pollstar_id": null
+  },
+  {
+    "name": "Chocolate Church Arts Center",
+    "city": "Bath",
+    "state": "ME",
+    "raw_line": "Chocolate Church Arts Center | Bath, ME",
+    "pollstar_id": null
+  },
+  {
+    "name": "Chris' Jazz Cafe",
+    "city": "Philadelphia",
+    "state": "PA",
+    "raw_line": "Chris' Jazz Cafe | Philadelphia, PA",
+    "pollstar_id": null
+  },
+  {
+    "name": "Chubb Theatre",
+    "city": "Concord",
+    "state": "NH",
+    "raw_line": "Chubb Theatre | Concord, NH",
+    "pollstar_id": null
+  },
+  {
+    "name": "Comedy Connection",
+    "city": "East Providence",
+    "state": "RI",
+    "raw_line": "Comedy Connection | East Providence, RI",
+    "pollstar_id": null
+  },
+  {
+    "name": "Eichelberger Performing Arts",
+    "city": "Hanover",
+    "state": "PA",
+    "raw_line": "Eichelberger Performing Arts | Hanover, PA",
+    "pollstar_id": null
+  },
+  {
+    "name": "Eleanor's Lounge",
+    "city": "Bohemia",
+    "state": "NY",
+    "raw_line": "Eleanor's Lounge | Bohemia, NY",
+    "pollstar_id": null
+  },
+  {
+    "name": "Elsewhere",
+    "city": "Brooklyn",
+    "state": "NY",
+    "raw_line": "Elsewhere | Brooklyn, NY",
+    "pollstar_id": null
+  },
+  {
+    "name": "Emelin Theatre",
+    "city": "Mamaroneck",
+    "state": "NY",
+    "raw_line": "Emelin Theatre | Mamaroneck, NY",
+    "pollstar_id": null
+  },
+  {
+    "name": "Fort Adams State Park",
+    "city": "Newport",
+    "state": "RI",
+    "raw_line": "Fort Adams State Park | Newport, RI",
+    "pollstar_id": null
+  },
+  {
+    "name": "Freda",
+    "city": "Ridgewood",
+    "state": "NY",
+    "raw_line": "Freda | Ridgewood, NY",
+    "pollstar_id": null
+  },
+  {
+    "name": "Godfrey Daniels",
+    "city": "Bethlehem",
+    "state": "PA",
+    "raw_line": "Godfrey Daniels | Bethlehem, PA",
+    "pollstar_id": null
+  },
+  {
+    "name": "Grand Point North",
+    "city": "Burlington",
+    "state": "VT",
+    "raw_line": "Grand Point North | Burlington, VT",
+    "pollstar_id": null
+  },
+  {
+    "name": "Groove",
+    "city": "New York",
+    "state": "NY",
+    "raw_line": "Groove | New York, NY",
+    "pollstar_id": null
+  },
+  {
+    "name": "Hackensack Meridian Health",
+    "city": "Red Bank",
+    "state": "NJ",
+    "raw_line": "Hackensack Meridian Health | Red Bank, NJ",
+    "pollstar_id": null
+  },
+  {
+    "name": "Harrisburg Midtown Arts Center",
+    "city": "Harrisburg",
+    "state": "PA",
+    "raw_line": "Harrisburg Midtown Arts Center | Harrisburg, PA",
+    "pollstar_id": null
+  },
+  {
+    "name": "Harry Brown\u2019s Farm",
+    "city": "Starks",
+    "state": "ME",
+    "raw_line": "Harry Brown\u2019s Farm | Starks, ME",
+    "pollstar_id": null
+  },
+  {
+    "name": "Heinz Hall For the Performing Arts",
+    "city": "Pittsburgh",
+    "state": "PA",
+    "raw_line": "Heinz Hall For the Performing Arts | Pittsburgh, PA",
+    "pollstar_id": null
+  },
+  {
+    "name": "Higher Ground",
+    "city": "South Burlington",
+    "state": "VT",
+    "raw_line": "Higher Ground | South Burlington, VT",
+    "pollstar_id": null
+  },
+  {
+    "name": "Hopewell Theater",
+    "city": "Hopewell",
+    "state": "NJ",
+    "raw_line": "Hopewell Theater | Hopewell, NJ",
+    "pollstar_id": null
+  },
+  {
+    "name": "House of Yes",
+    "city": "Brooklyn",
+    "state": "NY",
+    "raw_line": "House of Yes | Brooklyn, NY",
+    "pollstar_id": null
+  },
+  {
+    "name": "Improv Asylum",
+    "city": "Boston",
+    "state": "MA",
+    "raw_line": "Improv Asylum | Boston, MA",
+    "pollstar_id": null
+  },
+  {
+    "name": "Infinity Hall Hartford",
+    "city": "Hartford",
+    "state": "CT",
+    "raw_line": "Infinity Hall Hartford | Hartford, CT",
+    "pollstar_id": null
+  },
+  {
+    "name": "Infinity Music Hall - Norfolk",
+    "city": "Norfolk",
+    "state": "CT",
+    "raw_line": "Infinity Music Hall - Norfolk | Norfolk, CT",
+    "pollstar_id": null
+  },
+  {
+    "name": "ISSUE Project Room",
+    "city": "Brooklyn",
+    "state": "NY",
+    "raw_line": "ISSUE Project Room | Brooklyn, NY",
+    "pollstar_id": null
+  },
+  {
+    "name": "Jalopy Theatre and School of Music",
+    "city": "Brooklyn",
+    "state": "NY",
+    "raw_line": "Jalopy Theatre and School of Music | Brooklyn, NY",
+    "pollstar_id": null
+  },
+  {
+    "name": "Kelly Center",
+    "city": "Havertown",
+    "state": "PA",
+    "raw_line": "Kelly Center | Havertown, PA",
+    "pollstar_id": null
+  },
+  {
+    "name": "Kennett Flash",
+    "city": "Kennett Square",
+    "state": "PA",
+    "raw_line": "Kennett Flash | Kennett Square, PA",
+    "pollstar_id": null
+  },
+  {
+    "name": "Kimberton Arts Alliance",
+    "city": "Phoenixville",
+    "state": "PA",
+    "raw_line": "Kimberton Arts Alliance | Phoenixville, PA",
+    "pollstar_id": null
+  },
+  {
+    "name": "Knockdown Center",
+    "city": "Maspeth",
+    "state": "NY",
+    "raw_line": "Knockdown Center | Maspeth, NY",
+    "pollstar_id": null
+  },
+  {
+    "name": "Levitt Pavilion SteelStacks",
+    "city": "Bethlehem",
+    "state": "PA",
+    "raw_line": "Levitt Pavilion SteelStacks | Bethlehem, PA",
+    "pollstar_id": null
+  },
+  {
+    "name": "Levoy Theatre",
+    "city": "Millville",
+    "state": "NJ",
+    "raw_line": "Levoy Theatre | Millville, NJ",
+    "pollstar_id": null
+  },
+  {
+    "name": "Lovedraft's Brewing Co",
+    "city": "Mechanicsburg",
+    "state": "PA",
+    "raw_line": "Lovedraft's Brewing Co | Mechanicsburg, PA",
+    "pollstar_id": null
+  },
+  {
+    "name": "Maine Savings Amphitheater",
+    "city": "Bangor",
+    "state": "ME",
+    "raw_line": "Maine Savings Amphitheater | Bangor, ME",
+    "pollstar_id": null
+  },
+  {
+    "name": "Mercury Lounge",
+    "city": "New York",
+    "state": "NY",
+    "raw_line": "Mercury Lounge | New York, NY",
+    "pollstar_id": null
+  },
+  {
+    "name": "Midway Cafe",
+    "city": "Boston",
+    "state": "MA",
+    "raw_line": "Midway Cafe | Boston, MA",
+    "pollstar_id": null
+  },
+  {
+    "name": "MilkBoy",
+    "city": "Philadelphia",
+    "state": "PA",
+    "raw_line": "MilkBoy | Philadelphia, PA",
+    "pollstar_id": null
+  },
+  {
+    "name": "MilkBoy South Street",
+    "city": "Philadelphia",
+    "state": "PA",
+    "raw_line": "MilkBoy South Street | Philadelphia, PA",
+    "pollstar_id": null
+  },
+  {
+    "name": "MoJo's Cafe & Gallery",
+    "city": "Troy",
+    "state": "NY",
+    "raw_line": "MoJo's Cafe & Gallery | Troy, NY",
+    "pollstar_id": null
+  },
+  {
+    "name": "Mr. Smalls Theatre, Funhouse & Caf\u00e9",
+    "city": "Millvale",
+    "state": "PA",
+    "raw_line": "Mr. Smalls Theatre, Funhouse & Caf\u00e9 | Millvale, PA",
+    "pollstar_id": null
+  },
+  {
+    "name": "Narrows Center For The Arts",
+    "city": "Fall River",
+    "state": "MA",
+    "raw_line": "Narrows Center For The Arts | Fall River, MA",
+    "pollstar_id": null
+  },
+  {
+    "name": "North Shore Music Theatre",
+    "city": "Beverly",
+    "state": "MA",
+    "raw_line": "North Shore Music Theatre | Beverly, MA",
+    "pollstar_id": null
+  },
+  {
+    "name": "NOTO Philadelphia",
+    "city": "Philadelphia",
+    "state": "PA",
+    "raw_line": "NOTO Philadelphia | Philadelphia, PA",
+    "pollstar_id": null
+  },
+  {
+    "name": "Nowadays",
+    "city": "Ridgewood",
+    "state": "NY",
+    "raw_line": "Nowadays | Ridgewood, NY",
+    "pollstar_id": null
+  },
+  {
+    "name": "OFC Creations Theatre Center",
+    "city": "Rochester",
+    "state": "NY",
+    "raw_line": "OFC Creations Theatre Center | Rochester, NY",
+    "pollstar_id": null
+  },
+  {
+    "name": "Once Ballroom",
+    "city": "Somerville",
+    "state": "MA",
+    "raw_line": "Once Ballroom | Somerville, MA",
+    "pollstar_id": null
+  },
+  {
+    "name": "One Longfellow Square",
+    "city": "Portland",
+    "state": "ME",
+    "raw_line": "One Longfellow Square | Portland, ME",
+    "pollstar_id": null
+  },
+  {
+    "name": "Park City Music Hall",
+    "city": "Bridgeport",
+    "state": "CT",
+    "raw_line": "Park City Music Hall | Bridgeport, CT",
+    "pollstar_id": null
+  },
+  {
+    "name": "Parkside Lounge",
+    "city": "New York",
+    "state": "NY",
+    "raw_line": "Parkside Lounge | New York, NY",
+    "pollstar_id": null
+  },
+  {
+    "name": "Patchogue Theatre for the Performing",
+    "city": "Patchogue",
+    "state": "NY",
+    "raw_line": "Patchogue Theatre for the Performing | Patchogue, NY",
+    "pollstar_id": null
+  },
+  {
+    "name": "PAUSA art house",
+    "city": "Buffalo",
+    "state": "NY",
+    "raw_line": "PAUSA art house | Buffalo, NY",
+    "pollstar_id": null
+  },
+  {
+    "name": "Payomet Performing Arts",
+    "city": "North Truro",
+    "state": "MA",
+    "raw_line": "Payomet Performing Arts | North Truro, MA",
+    "pollstar_id": null
+  },
+  {
+    "name": "People's Pub Bayport",
+    "city": "Bayport",
+    "state": "NY",
+    "raw_line": "People's Pub Bayport | Bayport, NY",
+    "pollstar_id": null
+  },
+  {
+    "name": "PhilaMOCA",
+    "city": "Philadelphia",
+    "state": "PA",
+    "raw_line": "PhilaMOCA | Philadelphia, PA",
+    "pollstar_id": null
+  },
+  {
+    "name": "Pianos",
+    "city": "New York",
+    "state": "NY",
+    "raw_line": "Pianos | New York, NY",
+    "pollstar_id": null
+  },
+  {
+    "name": "Pine Box Rock Shop",
+    "city": "Brooklyn",
+    "state": "NY",
+    "raw_line": "Pine Box Rock Shop | Brooklyn, NY",
+    "pollstar_id": null
+  },
+  {
+    "name": "Pine Grove Hall",
+    "city": "Pine Grove Mills",
+    "state": "PA",
+    "raw_line": "Pine Grove Hall | Pine Grove Mills, PA",
+    "pollstar_id": null
+  },
+  {
+    "name": "Providence Performing Arts",
+    "city": "Providence",
+    "state": "RI",
+    "raw_line": "Providence Performing Arts | Providence, RI",
+    "pollstar_id": null
+  },
+  {
+    "name": "Q.E.D.",
+    "city": "Queens County",
+    "state": "NY",
+    "raw_line": "Q.E.D. | Queens County, NY",
+    "pollstar_id": null
+  },
+  {
+    "name": "Rec Room",
+    "city": "Buffalo",
+    "state": "NY",
+    "raw_line": "Rec Room | Buffalo, NY",
+    "pollstar_id": null
+  },
+  {
+    "name": "Reverb",
+    "city": "Reading",
+    "state": "PA",
+    "raw_line": "Reverb | Reading, PA",
+    "pollstar_id": null
+  },
+  {
+    "name": "Royale",
+    "city": "Boston",
+    "state": "MA",
+    "raw_line": "Royale | Boston, MA",
+    "pollstar_id": null
+  },
+  {
+    "name": "Shubert Theatre",
+    "city": "New Haven",
+    "state": "CT",
+    "raw_line": "Shubert Theatre | New Haven, CT",
+    "pollstar_id": null
+  },
+  {
+    "name": "Six String Grill & Stage",
+    "city": "Foxborough",
+    "state": "MA",
+    "raw_line": "Six String Grill & Stage | Foxborough, MA",
+    "pollstar_id": null
+  },
+  {
+    "name": "Smoke Jazz Club",
+    "city": "New York",
+    "state": "NY",
+    "raw_line": "Smoke Jazz Club | New York, NY",
+    "pollstar_id": null
+  },
+  {
+    "name": "SOB's",
+    "city": "New York",
+    "state": "NY",
+    "raw_line": "SOB's | New York, NY",
+    "pollstar_id": null
+  },
+  {
+    "name": "South Farms",
+    "city": "Morris",
+    "state": "CT",
+    "raw_line": "South Farms | Morris, CT",
+    "pollstar_id": null
+  },
+  {
+    "name": "South Shore Music Circus",
+    "city": "Cohasset",
+    "state": "MA",
+    "raw_line": "South Shore Music Circus | Cohasset, MA",
+    "pollstar_id": null
+  },
+  {
+    "name": "SPACE Gallery",
+    "city": "Portland",
+    "state": "ME",
+    "raw_line": "SPACE Gallery | Portland, ME",
+    "pollstar_id": null
+  },
+  {
+    "name": "Spire Center for Performing Arts",
+    "city": "Plymouth",
+    "state": "MA",
+    "raw_line": "Spire Center for Performing Arts | Plymouth, MA",
+    "pollstar_id": null
+  },
+  {
+    "name": "Spirit",
+    "city": "Pittsburgh",
+    "state": "PA",
+    "raw_line": "Spirit | Pittsburgh, PA",
+    "pollstar_id": null
+  },
+  {
+    "name": "State Theatre",
+    "city": "Boyertown",
+    "state": "PA",
+    "raw_line": "State Theatre | Boyertown, PA",
+    "pollstar_id": null
+  },
+  {
+    "name": "State Theatre Center for the Arts",
+    "city": "Easton",
+    "state": "PA",
+    "raw_line": "State Theatre Center for the Arts | Easton, PA",
+    "pollstar_id": null
+  },
+  {
+    "name": "Stone Mountain Arts Center",
+    "city": "Brownfield",
+    "state": "ME",
+    "raw_line": "Stone Mountain Arts Center | Brownfield, ME",
+    "pollstar_id": null
+  },
+  {
+    "name": "Tag's Summer Stage - The",
+    "city": "Big Flats",
+    "state": "NY",
+    "raw_line": "Tag's Summer Stage - The | Big Flats, NY",
+    "pollstar_id": null
+  },
+  {
+    "name": "TD Pavilion at the Mann",
+    "city": "Philadelphia",
+    "state": "PA",
+    "raw_line": "TD Pavilion at the Mann | Philadelphia, PA",
+    "pollstar_id": null
+  },
+  {
+    "name": "Terra Blues",
+    "city": "New York",
+    "state": "NY",
+    "raw_line": "Terra Blues | New York, NY",
+    "pollstar_id": null
+  },
+  {
+    "name": "The 443 Social Club & Lounge",
+    "city": "Syracuse",
+    "state": "NY",
+    "raw_line": "The 443 Social Club & Lounge | Syracuse, NY",
+    "pollstar_id": null
+  },
+  {
+    "name": "The Barbary",
+    "city": "Philadelphia",
+    "state": "PA",
+    "raw_line": "The Barbary | Philadelphia, PA",
+    "pollstar_id": null
+  },
+  {
+    "name": "The Bell House",
+    "city": "Brooklyn",
+    "state": "NY",
+    "raw_line": "The Bell House | Brooklyn, NY",
+    "pollstar_id": null
+  },
+  {
+    "name": "The Bunker",
+    "city": "Guilderland",
+    "state": "NY",
+    "raw_line": "The Bunker | Guilderland, NY",
+    "pollstar_id": null
+  },
+  {
+    "name": "The Cabot",
+    "city": "Beverly",
+    "state": "MA",
+    "raw_line": "The Cabot | Beverly, MA",
+    "pollstar_id": null
+  },
+  {
+    "name": "The Cock",
+    "city": "New York",
+    "state": "NY",
+    "raw_line": "The Cock | New York, NY",
+    "pollstar_id": null
+  },
+  {
+    "name": "The Comedy Shop",
+    "city": "New York",
+    "state": "NY",
+    "raw_line": "The Comedy Shop | New York, NY",
+    "pollstar_id": null
+  },
+  {
+    "name": "The Hill Arts",
+    "city": "Portland",
+    "state": "ME",
+    "raw_line": "The Hill Arts | Portland, ME",
+    "pollstar_id": null
+  },
+  {
+    "name": "The Jungle Community Music",
+    "city": "Somerville",
+    "state": "MA",
+    "raw_line": "The Jungle Community Music | Somerville, MA",
+    "pollstar_id": null
+  },
+  {
+    "name": "The Loading Dock",
+    "city": "Littleton",
+    "state": "NH",
+    "raw_line": "The Loading Dock | Littleton, NH",
+    "pollstar_id": null
+  },
+  {
+    "name": "The Muse",
+    "city": "Kings County",
+    "state": "NY",
+    "raw_line": "The Muse | Kings County, NY",
+    "pollstar_id": null
+  },
+  {
+    "name": "The Palace Theatre",
+    "city": "Stamford",
+    "state": "CT",
+    "raw_line": "The Palace Theatre | Stamford, CT",
+    "pollstar_id": null
+  },
+  {
+    "name": "The Park Theater",
+    "city": "Glens Falls",
+    "state": "NY",
+    "raw_line": "The Park Theater | Glens Falls, NY",
+    "pollstar_id": null
+  },
+  {
+    "name": "The Parlour",
+    "city": "Providence",
+    "state": "RI",
+    "raw_line": "The Parlour | Providence, RI",
+    "pollstar_id": null
+  },
+  {
+    "name": "The Range",
+    "city": "Mason",
+    "state": "NH",
+    "raw_line": "The Range | Mason, NH",
+    "pollstar_id": null
+  },
+  {
+    "name": "The Rapids Theatre",
+    "city": "Niagara Falls",
+    "state": "NY",
+    "raw_line": "The Rapids Theatre | Niagara Falls, NY",
+    "pollstar_id": null
+  },
+  {
+    "name": "The Song & Dance",
+    "city": "Syracuse",
+    "state": "NY",
+    "raw_line": "The Song & Dance | Syracuse, NY",
+    "pollstar_id": null
+  },
+  {
+    "name": "The Stand",
+    "city": "New York",
+    "state": "NY",
+    "raw_line": "The Stand | New York, NY",
+    "pollstar_id": null
+  },
+  {
+    "name": "The Stephen Talkhouse",
+    "city": "Amagansett",
+    "state": "NY",
+    "raw_line": "The Stephen Talkhouse | Amagansett, NY",
+    "pollstar_id": null
+  },
+  {
+    "name": "The Vogel at Count Basie Center for th",
+    "city": "Red Bank",
+    "state": "NJ",
+    "raw_line": "The Vogel at Count Basie Center for th | Red Bank, NJ",
+    "pollstar_id": null
+  },
+  {
+    "name": "The Word Barn",
+    "city": "Exeter",
+    "state": "NH",
+    "raw_line": "The Word Barn | Exeter, NH",
+    "pollstar_id": null
+  },
+  {
+    "name": "Thompson's Point",
+    "city": "Portland",
+    "state": "ME",
+    "raw_line": "Thompson's Point | Portland, ME",
+    "pollstar_id": null
+  },
+  {
+    "name": "Toad's Place",
+    "city": "New Haven",
+    "state": "CT",
+    "raw_line": "Toad's Place | New Haven, CT",
+    "pollstar_id": null
+  },
+  {
+    "name": "Town Ballroom",
+    "city": "Buffalo",
+    "state": "NY",
+    "raw_line": "Town Ballroom | Buffalo, NY",
+    "pollstar_id": null
+  },
+  {
+    "name": "Tralf",
+    "city": "Buffalo",
+    "state": "NY",
+    "raw_line": "Tralf | Buffalo, NY",
+    "pollstar_id": null
+  },
+  {
+    "name": "Troy Savings Bank Music Hall",
+    "city": "Troy",
+    "state": "NY",
+    "raw_line": "Troy Savings Bank Music Hall | Troy, NY",
+    "pollstar_id": null
+  },
+  {
+    "name": "Tubby's",
+    "city": "Kingston",
+    "state": "NY",
+    "raw_line": "Tubby's | Kingston, NY",
+    "pollstar_id": null
+  },
+  {
+    "name": "TV Eye",
+    "city": "Ridgewood",
+    "state": "NY",
+    "raw_line": "TV Eye | Ridgewood, NY",
+    "pollstar_id": null
+  },
+  {
+    "name": "Ulster Performing Arts Center",
+    "city": "Kingston",
+    "state": "NY",
+    "raw_line": "Ulster Performing Arts Center | Kingston, NY",
+    "pollstar_id": null
+  },
+  {
+    "name": "United Palace",
+    "city": "New York",
+    "state": "NY",
+    "raw_line": "United Palace | New York, NY",
+    "pollstar_id": null
+  },
+  {
+    "name": "Uptown Theater",
+    "city": "Providence",
+    "state": "RI",
+    "raw_line": "Uptown Theater | Providence, RI",
+    "pollstar_id": null
+  },
+  {
+    "name": "Westville Music Bowl",
+    "city": "New Haven",
+    "state": "CT",
+    "raw_line": "Westville Music Bowl | New Haven, CT",
+    "pollstar_id": null
+  },
+  {
+    "name": "White Eagle Hall",
+    "city": "Jersey City",
+    "state": "NJ",
+    "raw_line": "White Eagle Hall | Jersey City, NJ",
+    "pollstar_id": null
+  },
+  {
+    "name": "Widow Jane Mine",
+    "city": "Rosendale",
+    "state": "NY",
+    "raw_line": "Widow Jane Mine | Rosendale, NY",
+    "pollstar_id": null
+  },
+  {
+    "name": "Williams Center",
+    "city": "Rutherford",
+    "state": "NJ",
+    "raw_line": "Williams Center | Rutherford, NJ",
+    "pollstar_id": null
+  },
+  {
+    "name": "World Cafe Live",
+    "city": "Philadelphia",
+    "state": "PA",
+    "raw_line": "World Cafe Live | Philadelphia, PA",
+    "pollstar_id": null
+  },
+  {
+    "name": "Wunderbar",
+    "city": "Syracuse",
+    "state": "NY",
+    "raw_line": "Wunderbar | Syracuse, NY",
+    "pollstar_id": null
+  },
+  {
+    "name": "ZeroSpace",
+    "city": "New York",
+    "state": "NY",
+    "raw_line": "ZeroSpace | New York, NY",
+    "pollstar_id": null
+  },
+  {
+    "name": "Beachland Ballroom & Tavern Beat Kitchen",
+    "city": "Chicago",
+    "state": "IL",
+    "raw_line": "Beachland Ballroom & Tavern Beat Kitchen | Chicago, IL",
+    "pollstar_id": null
+  },
+  {
+    "name": "City Winery Chicago",
+    "city": "Chicago",
+    "state": "IL",
+    "raw_line": "City Winery Chicago | Chicago, IL",
+    "pollstar_id": null
+  },
+  {
+    "name": "City Winery St. Louis",
+    "city": "St. Louis",
+    "state": "MO",
+    "raw_line": "City Winery St. Louis | St. Louis, MO",
+    "pollstar_id": null
+  },
+  {
+    "name": "Dakota",
+    "city": "Minneapolis",
+    "state": "MN",
+    "raw_line": "Dakota | Minneapolis, MN",
+    "pollstar_id": null
+  },
+  {
+    "name": "Fine Line",
+    "city": "Minneapolis",
+    "state": "MN",
+    "raw_line": "Fine Line | Minneapolis, MN",
+    "pollstar_id": null
+  },
+  {
+    "name": "First Avenue",
+    "city": "Minneapolis",
+    "state": "MN",
+    "raw_line": "First Avenue | Minneapolis, MN",
+    "pollstar_id": null
+  },
+  {
+    "name": "Grand Theater",
+    "city": "Wausau",
+    "state": "WI",
+    "raw_line": "Grand Theater | Wausau, WI",
+    "pollstar_id": null
+  },
+  {
+    "name": "Grewal Hall at 224",
+    "city": "Lansing",
+    "state": "MI",
+    "raw_line": "Grewal Hall at 224 | Lansing, MI",
+    "pollstar_id": null
+  },
+  {
+    "name": "Grog Shop",
+    "city": "Cleveland",
+    "state": "OH",
+    "raw_line": "Grog Shop | Cleveland, OH",
+    "pollstar_id": null
+  },
+  {
+    "name": "James Ballentine \"Uptown\" VFW Po",
+    "city": "Minneapolis",
+    "state": "MN",
+    "raw_line": "James Ballentine \"Uptown\" VFW Po | Minneapolis, MN",
+    "pollstar_id": null
+  },
+  {
+    "name": "Miller High Life Theatre",
+    "city": "Milwaukee",
+    "state": "WI",
+    "raw_line": "Miller High Life Theatre | Milwaukee, WI",
+    "pollstar_id": null
+  },
+  {
+    "name": "Natalie's Grandview (Music",
+    "city": "Columbus",
+    "state": "OH",
+    "raw_line": "Natalie's Grandview (Music | Columbus, OH",
+    "pollstar_id": null
+  },
+  {
+    "name": "Orpheum Theatre",
+    "city": "Minneapolis",
+    "state": "MN",
+    "raw_line": "Orpheum Theatre | Minneapolis, MN",
+    "pollstar_id": null
+  },
+  {
+    "name": "Pabst Theater",
+    "city": "Milwaukee",
+    "state": "WI",
+    "raw_line": "Pabst Theater | Milwaukee, WI",
+    "pollstar_id": null
+  },
+  {
+    "name": "Pantages Theatre",
+    "city": "Minneapolis",
+    "state": "MN",
+    "raw_line": "Pantages Theatre | Minneapolis, MN",
+    "pollstar_id": null
+  },
+  {
+    "name": "Riverside Theater",
+    "city": "Milwaukee",
+    "state": "WI",
+    "raw_line": "Riverside Theater | Milwaukee, WI",
+    "pollstar_id": null
+  },
+  {
+    "name": "Rumba Cafe",
+    "city": "Columbus",
+    "state": "OH",
+    "raw_line": "Rumba Cafe | Columbus, OH",
+    "pollstar_id": null
+  },
+  {
+    "name": "Skullys Music Diner",
+    "city": "Columbus",
+    "state": "OH",
+    "raw_line": "Skullys Music Diner | Columbus, OH",
+    "pollstar_id": null
+  },
+  {
+    "name": "Subterranean",
+    "city": "Chicago",
+    "state": "IL",
+    "raw_line": "Subterranean | Chicago, IL",
+    "pollstar_id": null
+  },
+  {
+    "name": "The Acorn",
+    "city": "Three Oaks",
+    "state": "MI",
+    "raw_line": "The Acorn | Three Oaks, MI",
+    "pollstar_id": null
+  },
+  {
+    "name": "The Ark",
+    "city": "Ann Arbor",
+    "state": "MI",
+    "raw_line": "The Ark | Ann Arbor, MI",
+    "pollstar_id": null
+  },
+  {
+    "name": "The Castle Theatre",
+    "city": "Bloomington",
+    "state": "IL",
+    "raw_line": "The Castle Theatre | Bloomington, IL",
+    "pollstar_id": null
+  },
+  {
+    "name": "The Factory",
+    "city": "Chesterfield",
+    "state": "MO",
+    "raw_line": "The Factory | Chesterfield, MO",
+    "pollstar_id": null
+  },
+  {
+    "name": "The Hook and Ladder Theater &",
+    "city": "Minneapolis",
+    "state": "MN",
+    "raw_line": "The Hook and Ladder Theater & | Minneapolis, MN",
+    "pollstar_id": null
+  },
+  {
+    "name": "The Kent Stage",
+    "city": "Kent",
+    "state": "OH",
+    "raw_line": "The Kent Stage | Kent, OH",
+    "pollstar_id": null
+  },
+  {
+    "name": "The Rave / Eagles Club",
+    "city": "Milwaukee",
+    "state": "WI",
+    "raw_line": "The Rave / Eagles Club | Milwaukee, WI",
+    "pollstar_id": null
+  },
+  {
+    "name": "The Vogue",
+    "city": "Indianapolis",
+    "state": "IN",
+    "raw_line": "The Vogue | Indianapolis, IN",
+    "pollstar_id": null
+  },
+  {
+    "name": "Turner Hall Ballroom",
+    "city": "Milwaukee",
+    "state": "WI",
+    "raw_line": "Turner Hall Ballroom | Milwaukee, WI",
+    "pollstar_id": null
+  },
+  {
+    "name": "Vivarium",
+    "city": "Milwaukee",
+    "state": "WI",
+    "raw_line": "Vivarium | Milwaukee, WI",
+    "pollstar_id": null
+  },
+  {
+    "name": ".ZACK",
+    "city": "St Louis",
+    "state": "MO",
+    "raw_line": ".ZACK | St Louis, MO",
+    "pollstar_id": null
+  },
+  {
+    "name": "20 Front Street",
+    "city": "Lake Orion",
+    "state": "MI",
+    "raw_line": "20 Front Street | Lake Orion, MI",
+    "pollstar_id": null
+  },
+  {
+    "name": "7th St Entry",
+    "city": "Minneapolis",
+    "state": "MN",
+    "raw_line": "7th St Entry | Minneapolis, MN",
+    "pollstar_id": null
+  },
+  {
+    "name": "Aetos Center For The Performing Arts",
+    "city": "Nixa",
+    "state": "MO",
+    "raw_line": "Aetos Center For The Performing Arts | Nixa, MO",
+    "pollstar_id": null
+  },
+  {
+    "name": "Amsterdam Bar and Hall",
+    "city": "Saint Paul",
+    "state": "MN",
+    "raw_line": "Amsterdam Bar and Hall | Saint Paul, MN",
+    "pollstar_id": null
+  },
+  {
+    "name": "Ann Arbor Comedy Showcase",
+    "city": "Ann Arbor",
+    "state": "MI",
+    "raw_line": "Ann Arbor Comedy Showcase | Ann Arbor, MI",
+    "pollstar_id": null
+  },
+  {
+    "name": "Aronoff Center for the Arts",
+    "city": "Cincinnati",
+    "state": "OH",
+    "raw_line": "Aronoff Center for the Arts | Cincinnati, OH",
+    "pollstar_id": null
+  },
+  {
+    "name": "Athenaeum Center for Thought and",
+    "city": "Chicago",
+    "state": "IL",
+    "raw_line": "Athenaeum Center for Thought and | Chicago, IL",
+    "pollstar_id": null
+  },
+  {
+    "name": "AtwoodFest",
+    "city": "Madison",
+    "state": "WI",
+    "raw_line": "AtwoodFest | Madison, WI",
+    "pollstar_id": null
+  },
+  {
+    "name": "Auditorium Theatre",
+    "city": "Chicago",
+    "state": "IL",
+    "raw_line": "Auditorium Theatre | Chicago, IL",
+    "pollstar_id": null
+  },
+  {
+    "name": "Avondale Music Hall",
+    "city": "Chicago",
+    "state": "IL",
+    "raw_line": "Avondale Music Hall | Chicago, IL",
+    "pollstar_id": null
+  },
+  {
+    "name": "Azura Amphitheater",
+    "city": "Bonner Springs",
+    "state": "KS",
+    "raw_line": "Azura Amphitheater | Bonner Springs, KS",
+    "pollstar_id": null
+  },
+  {
+    "name": "B Side Lounge",
+    "city": "Cleveland Heights",
+    "state": "OH",
+    "raw_line": "B Side Lounge | Cleveland Heights, OH",
+    "pollstar_id": null
+  },
+  {
+    "name": "Barrymore Theatre",
+    "city": "Madison",
+    "state": "WI",
+    "raw_line": "Barrymore Theatre | Madison, WI",
+    "pollstar_id": null
+  },
+  {
+    "name": "Big Top Chautauqua -",
+    "city": "Bayfield",
+    "state": "WI",
+    "raw_line": "Big Top Chautauqua - | Bayfield, WI",
+    "pollstar_id": null
+  },
+  {
+    "name": "Big Top Chautauqua:",
+    "city": "Bayfield",
+    "state": "WI",
+    "raw_line": "Big Top Chautauqua: | Bayfield, WI",
+    "pollstar_id": null
+  },
+  {
+    "name": "Bogart's Entertainment",
+    "city": "Apple Valley",
+    "state": "MN",
+    "raw_line": "Bogart's Entertainment | Apple Valley, MN",
+    "pollstar_id": null
+  },
+  {
+    "name": "Bottom Lounge",
+    "city": "Chicago",
+    "state": "IL",
+    "raw_line": "Bottom Lounge | Chicago, IL",
+    "pollstar_id": null
+  },
+  {
+    "name": "Bourbon Theatre",
+    "city": "Lincoln",
+    "state": "NE",
+    "raw_line": "Bourbon Theatre | Lincoln, NE",
+    "pollstar_id": null
+  },
+  {
+    "name": "Bradley Symphony Center",
+    "city": "Milwaukee",
+    "state": "WI",
+    "raw_line": "Bradley Symphony Center | Milwaukee, WI",
+    "pollstar_id": null
+  },
+  {
+    "name": "Briar Street Theatre",
+    "city": "Chicago",
+    "state": "IL",
+    "raw_line": "Briar Street Theatre | Chicago, IL",
+    "pollstar_id": null
+  },
+  {
+    "name": "Brown County Playhouse",
+    "city": "Nashville",
+    "state": "IN",
+    "raw_line": "Brown County Playhouse | Nashville, IN",
+    "pollstar_id": null
+  },
+  {
+    "name": "Buzzbin Art & Music Shop",
+    "city": "Canton",
+    "state": "OH",
+    "raw_line": "Buzzbin Art & Music Shop | Canton, OH",
+    "pollstar_id": null
+  },
+  {
+    "name": "Cactus Club",
+    "city": "Milwaukee",
+    "state": "WI",
+    "raw_line": "Cactus Club | Milwaukee, WI",
+    "pollstar_id": null
+  },
+  {
+    "name": "Cain Park \u2013 Evans Amphitheater",
+    "city": "Cleveland Heights",
+    "state": "OH",
+    "raw_line": "Cain Park \u2013 Evans Amphitheater | Cleveland Heights, OH",
+    "pollstar_id": null
+  },
+  {
+    "name": "Camp Shaw-Waw- Nas-See",
+    "city": "Manteno",
+    "state": "IL",
+    "raw_line": "Camp Shaw-Waw- Nas-See | Manteno, IL",
+    "pollstar_id": null
+  },
+  {
+    "name": "Canopy Club",
+    "city": "Urbana",
+    "state": "IL",
+    "raw_line": "Canopy Club | Urbana, IL",
+    "pollstar_id": null
+  },
+  {
+    "name": "Carol's Pub",
+    "city": "Chicago",
+    "state": "IL",
+    "raw_line": "Carol's Pub | Chicago, IL",
+    "pollstar_id": null
+  },
+  {
+    "name": "Chanhassen Dinner Theatres",
+    "city": "Chanhassen",
+    "state": "MN",
+    "raw_line": "Chanhassen Dinner Theatres | Chanhassen, MN",
+    "pollstar_id": null
+  },
+  {
+    "name": "Cincinnati Music Hall",
+    "city": "Cincinnati",
+    "state": "OH",
+    "raw_line": "Cincinnati Music Hall | Cincinnati, OH",
+    "pollstar_id": null
+  },
+  {
+    "name": "Circa '21 Dinner Playhouse",
+    "city": "Rock Island",
+    "state": "IL",
+    "raw_line": "Circa '21 Dinner Playhouse | Rock Island, IL",
+    "pollstar_id": null
+  },
+  {
+    "name": "Cloudland Theater",
+    "city": "Minneapolis",
+    "state": "MN",
+    "raw_line": "Cloudland Theater | Minneapolis, MN",
+    "pollstar_id": null
+  },
+  {
+    "name": "Cole's Bar",
+    "city": "Chicago",
+    "state": "IL",
+    "raw_line": "Cole's Bar | Chicago, IL",
+    "pollstar_id": null
+  },
+  {
+    "name": "Comedy on State",
+    "city": "Madison",
+    "state": "WI",
+    "raw_line": "Comedy on State | Madison, WI",
+    "pollstar_id": null
+  },
+  {
+    "name": "Communication",
+    "city": "Madison",
+    "state": "WI",
+    "raw_line": "Communication | Madison, WI",
+    "pollstar_id": null
+  },
+  {
+    "name": "Constellation",
+    "city": "Chicago",
+    "state": "IL",
+    "raw_line": "Constellation | Chicago, IL",
+    "pollstar_id": null
+  },
+  {
+    "name": "Copernicus Center",
+    "city": "Chicago",
+    "state": "IL",
+    "raw_line": "Copernicus Center | Chicago, IL",
+    "pollstar_id": null
+  },
+  {
+    "name": "Crystal Grand Music Theatre",
+    "city": "Wisconsin Dells",
+    "state": "WI",
+    "raw_line": "Crystal Grand Music Theatre | Wisconsin Dells, WI",
+    "pollstar_id": null
+  },
+  {
+    "name": "Derby Dinner Playhouse",
+    "city": "Clarksville",
+    "state": "IN",
+    "raw_line": "Derby Dinner Playhouse | Clarksville, IN",
+    "pollstar_id": null
+  },
+  {
+    "name": "Door Community Auditorium",
+    "city": "Fish Creek",
+    "state": "WI",
+    "raw_line": "Door Community Auditorium | Fish Creek, WI",
+    "pollstar_id": null
+  },
+  {
+    "name": "Downstairs at Joy Manor",
+    "city": "Westland",
+    "state": "MI",
+    "raw_line": "Downstairs at Joy Manor | Westland, MI",
+    "pollstar_id": null
+  },
+  {
+    "name": "East of Omaha",
+    "city": "Griswold",
+    "state": "IA",
+    "raw_line": "East of Omaha | Griswold, IA",
+    "pollstar_id": null
+  },
+  {
+    "name": "Eau Claire Event District",
+    "city": "Eau Claire",
+    "state": "WI",
+    "raw_line": "Eau Claire Event District | Eau Claire, WI",
+    "pollstar_id": null
+  },
+  {
+    "name": "Egyptian Theatre",
+    "city": "DeKalb",
+    "state": "IL",
+    "raw_line": "Egyptian Theatre | DeKalb, IL",
+    "pollstar_id": null
+  },
+  {
+    "name": "Empty Bottle",
+    "city": "Chicago",
+    "state": "IL",
+    "raw_line": "Empty Bottle | Chicago, IL",
+    "pollstar_id": null
+  },
+  {
+    "name": "Englert Theatre",
+    "city": "Iowa City",
+    "state": "IA",
+    "raw_line": "Englert Theatre | Iowa City, IA",
+    "pollstar_id": null
+  },
+  {
+    "name": "EPIC Event Center",
+    "city": "Green Bay",
+    "state": "WI",
+    "raw_line": "EPIC Event Center | Green Bay, WI",
+    "pollstar_id": null
+  },
+  {
+    "name": "Falcon Bowl",
+    "city": "Milwaukee",
+    "state": "WI",
+    "raw_line": "Falcon Bowl | Milwaukee, WI",
+    "pollstar_id": null
+  },
+  {
+    "name": "Foellinger Theatre",
+    "city": "Fort Wayne",
+    "state": "IN",
+    "raw_line": "Foellinger Theatre | Fort Wayne, IN",
+    "pollstar_id": null
+  },
+  {
+    "name": "Fountain Square",
+    "city": "Cincinnati",
+    "state": "OH",
+    "raw_line": "Fountain Square | Cincinnati, OH",
+    "pollstar_id": null
+  },
+  {
+    "name": "Fraze Pavillion",
+    "city": "Kettering",
+    "state": "OH",
+    "raw_line": "Fraze Pavillion | Kettering, OH",
+    "pollstar_id": null
+  },
+  {
+    "name": "Fur Peace Ranch",
+    "city": "Pomeroy",
+    "state": "OH",
+    "raw_line": "Fur Peace Ranch | Pomeroy, OH",
+    "pollstar_id": null
+  },
+  {
+    "name": "Green Room",
+    "city": "Minneapolis",
+    "state": "MN",
+    "raw_line": "Green Room | Minneapolis, MN",
+    "pollstar_id": null
+  },
+  {
+    "name": "Hancher Auditorium",
+    "city": "Iowa City",
+    "state": "IA",
+    "raw_line": "Hancher Auditorium | Iowa City, IA",
+    "pollstar_id": null
+  },
+  {
+    "name": "Happy Dog",
+    "city": "Cleveland",
+    "state": "OH",
+    "raw_line": "Happy Dog | Cleveland, OH",
+    "pollstar_id": null
+  },
+  {
+    "name": "Helium Comedy Club - Indianapolis",
+    "city": "Indianapolis",
+    "state": "IN",
+    "raw_line": "Helium Comedy Club - Indianapolis | Indianapolis, IN",
+    "pollstar_id": null
+  },
+  {
+    "name": "Hey Nonny",
+    "city": "Arlington Heights",
+    "state": "IL",
+    "raw_line": "Hey Nonny | Arlington Heights, IL",
+    "pollstar_id": null
+  },
+  {
+    "name": "Hideout",
+    "city": "Chicago",
+    "state": "IL",
+    "raw_line": "Hideout | Chicago, IL",
+    "pollstar_id": null
+  },
+  {
+    "name": "High Low",
+    "city": "St. Louis",
+    "state": "MO",
+    "raw_line": "High Low | St. Louis, MO",
+    "pollstar_id": null
+  },
+  {
+    "name": "Hilde Performance Center",
+    "city": "Plymouth",
+    "state": "MN",
+    "raw_line": "Hilde Performance Center | Plymouth, MN",
+    "pollstar_id": null
+  },
+  {
+    "name": "Holland Performing Arts Center",
+    "city": "Omaha",
+    "state": "NE",
+    "raw_line": "Holland Performing Arts Center | Omaha, NE",
+    "pollstar_id": null
+  },
+  {
+    "name": "Hoyt Sherman Place",
+    "city": "Des Moines",
+    "state": "IA",
+    "raw_line": "Hoyt Sherman Place | Des Moines, IA",
+    "pollstar_id": null
+  },
+  {
+    "name": "Jade Presents",
+    "city": "Fargo",
+    "state": "ND",
+    "raw_line": "Jade Presents | Fargo, ND",
+    "pollstar_id": null
+  },
+  {
+    "name": "James Lumber Center for the",
+    "city": "Grayslake",
+    "state": "IL",
+    "raw_line": "James Lumber Center for the | Grayslake, IL",
+    "pollstar_id": null
+  },
+  {
+    "name": "Jilly's Music Room",
+    "city": "Akron",
+    "state": "OH",
+    "raw_line": "Jilly's Music Room | Akron, OH",
+    "pollstar_id": null
+  },
+  {
+    "name": "Joe's Bar on Weed St.",
+    "city": "Chicago",
+    "state": "IL",
+    "raw_line": "Joe's Bar on Weed St. | Chicago, IL",
+    "pollstar_id": null
+  },
+  {
+    "name": "Joe's Live",
+    "city": "Rosemont",
+    "state": "IL",
+    "raw_line": "Joe's Live | Rosemont, IL",
+    "pollstar_id": null
+  },
+  {
+    "name": "Liberty Hall",
+    "city": "Lawrence",
+    "state": "KS",
+    "raw_line": "Liberty Hall | Lawrence, KS",
+    "pollstar_id": null
+  },
+  {
+    "name": "Lincoln Hall",
+    "city": "Chicago",
+    "state": "IL",
+    "raw_line": "Lincoln Hall | Chicago, IL",
+    "pollstar_id": null
+  },
+  {
+    "name": "Lincoln Park",
+    "city": "Chicago",
+    "state": "IL",
+    "raw_line": "Lincoln Park | Chicago, IL",
+    "pollstar_id": null
+  },
+  {
+    "name": "Linneman's Riverwest Inn",
+    "city": "Milwaukee",
+    "state": "WI",
+    "raw_line": "Linneman's Riverwest Inn | Milwaukee, WI",
+    "pollstar_id": null
+  },
+  {
+    "name": "Liquid",
+    "city": "Madison",
+    "state": "WI",
+    "raw_line": "Liquid | Madison, WI",
+    "pollstar_id": null
+  },
+  {
+    "name": "LuCille Tack Center for the Arts",
+    "city": "Spencer",
+    "state": "WI",
+    "raw_line": "LuCille Tack Center for the Arts | Spencer, WI",
+    "pollstar_id": null
+  },
+  {
+    "name": "Magic Stick",
+    "city": "Detroit",
+    "state": "MI",
+    "raw_line": "Magic Stick | Detroit, MI",
+    "pollstar_id": null
+  },
+  {
+    "name": "Marathon Center for the Performing",
+    "city": "Findlay",
+    "state": "OH",
+    "raw_line": "Marathon Center for the Performing | Findlay, OH",
+    "pollstar_id": null
+  },
+  {
+    "name": "Marcus Performing Arts Center",
+    "city": "Milwaukee",
+    "state": "WI",
+    "raw_line": "Marcus Performing Arts Center | Milwaukee, WI",
+    "pollstar_id": null
+  },
+  {
+    "name": "Mark Ridley's Comedy Castle",
+    "city": "Royal Oak",
+    "state": "MI",
+    "raw_line": "Mark Ridley's Comedy Castle | Royal Oak, MI",
+    "pollstar_id": null
+  },
+  {
+    "name": "Martyrs'",
+    "city": "Chicago",
+    "state": "IL",
+    "raw_line": "Martyrs' | Chicago, IL",
+    "pollstar_id": null
+  },
+  {
+    "name": "Metro Chicago",
+    "city": "Chicago",
+    "state": "IL",
+    "raw_line": "Metro Chicago | Chicago, IL",
+    "pollstar_id": null
+  },
+  {
+    "name": "Minibar",
+    "city": "Kansas City",
+    "state": "MO",
+    "raw_line": "Minibar | Kansas City, MO",
+    "pollstar_id": null
+  },
+  {
+    "name": "Miramar Theatre",
+    "city": "Milwaukee",
+    "state": "WI",
+    "raw_line": "Miramar Theatre | Milwaukee, WI",
+    "pollstar_id": null
+  },
+  {
+    "name": "Motr Pub",
+    "city": "Cincinnati",
+    "state": "OH",
+    "raw_line": "Motr Pub | Cincinnati, OH",
+    "pollstar_id": null
+  },
+  {
+    "name": "Music Box Supper Club",
+    "city": "Cleveland",
+    "state": "OH",
+    "raw_line": "Music Box Supper Club | Cleveland, OH",
+    "pollstar_id": null
+  },
+  {
+    "name": "Musica",
+    "city": "Akron",
+    "state": "OH",
+    "raw_line": "Musica | Akron, OH",
+    "pollstar_id": null
+  },
+  {
+    "name": "Myth Live",
+    "city": "Maplewood",
+    "state": "MN",
+    "raw_line": "Myth Live | Maplewood, MN",
+    "pollstar_id": null
+  },
+  {
+    "name": "Naftzger Park",
+    "city": "Wichita",
+    "state": "KS",
+    "raw_line": "Naftzger Park | Wichita, KS",
+    "pollstar_id": null
+  },
+  {
+    "name": "ND Country Fest",
+    "city": "New Salem",
+    "state": "ND",
+    "raw_line": "ND Country Fest | New Salem, ND",
+    "pollstar_id": null
+  },
+  {
+    "name": "Necto Nightclub",
+    "city": "Ann Arbor",
+    "state": "MI",
+    "raw_line": "Necto Nightclub | Ann Arbor, MI",
+    "pollstar_id": null
+  },
+  {
+    "name": "No Name Bar",
+    "city": "Winona",
+    "state": "MN",
+    "raw_line": "No Name Bar | Winona, MN",
+    "pollstar_id": null
+  },
+  {
+    "name": "Noce",
+    "city": "Des Moines",
+    "state": "IA",
+    "raw_line": "Noce | Des Moines, IA",
+    "pollstar_id": null
+  },
+  {
+    "name": "Now That's Class",
+    "city": "Cleveland",
+    "state": "OH",
+    "raw_line": "Now That's Class | Cleveland, OH",
+    "pollstar_id": null
+  },
+  {
+    "name": "Off Broadway",
+    "city": "St. Louis",
+    "state": "MO",
+    "raw_line": "Off Broadway | St. Louis, MO",
+    "pollstar_id": null
+  },
+  {
+    "name": "Old Town School of Folk Music",
+    "city": "Chicago",
+    "state": "IL",
+    "raw_line": "Old Town School of Folk Music | Chicago, IL",
+    "pollstar_id": null
+  },
+  {
+    "name": "One Mike Detroit",
+    "city": "Detroit",
+    "state": "MI",
+    "raw_line": "One Mike Detroit | Detroit, MI",
+    "pollstar_id": null
+  },
+  {
+    "name": "Orpheum Theater",
+    "city": "Omaha",
+    "state": "NE",
+    "raw_line": "Orpheum Theater | Omaha, NE",
+    "pollstar_id": null
+  },
+  {
+    "name": "Oster Regent Theatre",
+    "city": "Cedar Falls",
+    "state": "IA",
+    "raw_line": "Oster Regent Theatre | Cedar Falls, IA",
+    "pollstar_id": null
+  },
+  {
+    "name": "Palace Theatre",
+    "city": "Saint Paul",
+    "state": "MN",
+    "raw_line": "Palace Theatre | Saint Paul, MN",
+    "pollstar_id": null
+  },
+  {
+    "name": "Park Theatre",
+    "city": "Holland",
+    "state": "MI",
+    "raw_line": "Park Theatre | Holland, MI",
+    "pollstar_id": null
+  },
+  {
+    "name": "Patio Theater",
+    "city": "Chicago",
+    "state": "IL",
+    "raw_line": "Patio Theater | Chicago, IL",
+    "pollstar_id": null
+  },
+  {
+    "name": "Peoples Bank Theatre",
+    "city": "Marietta",
+    "state": "OH",
+    "raw_line": "Peoples Bank Theatre | Marietta, OH",
+    "pollstar_id": null
+  },
+  {
+    "name": "Pepsi Legends Theater",
+    "city": "Branson",
+    "state": "MO",
+    "raw_line": "Pepsi Legends Theater | Branson, MO",
+    "pollstar_id": null
+  },
+  {
+    "name": "Pickwick & Frolic Restaurant and",
+    "city": "Cleveland",
+    "state": "OH",
+    "raw_line": "Pickwick & Frolic Restaurant and | Cleveland, OH",
+    "pollstar_id": null
+  },
+  {
+    "name": "PNC Arts Annex",
+    "city": "Dayton",
+    "state": "OH",
+    "raw_line": "PNC Arts Annex | Dayton, OH",
+    "pollstar_id": null
+  },
+  {
+    "name": "Portage Center For the Arts",
+    "city": "Portage",
+    "state": "WI",
+    "raw_line": "Portage Center For the Arts | Portage, WI",
+    "pollstar_id": null
+  },
+  {
+    "name": "recordBar",
+    "city": "Kansas City",
+    "state": "MO",
+    "raw_line": "recordBar | Kansas City, MO",
+    "pollstar_id": null
+  },
+  {
+    "name": "Reggies Rock Club",
+    "city": "Chicago",
+    "state": "IL",
+    "raw_line": "Reggies Rock Club | Chicago, IL",
+    "pollstar_id": null
+  },
+  {
+    "name": "Riverfront Live",
+    "city": "Cincinnati",
+    "state": "OH",
+    "raw_line": "Riverfront Live | Cincinnati, OH",
+    "pollstar_id": null
+  },
+  {
+    "name": "Rock What You Got\u00ae",
+    "city": "Saint Paul",
+    "state": "MN",
+    "raw_line": "Rock What You Got\u00ae | Saint Paul, MN",
+    "pollstar_id": null
+  },
+  {
+    "name": "Rose Bowl",
+    "city": "Urbana",
+    "state": "IL",
+    "raw_line": "Rose Bowl | Urbana, IL",
+    "pollstar_id": null
+  },
+  {
+    "name": "Sacred Heart Music Center",
+    "city": "Duluth",
+    "state": "MN",
+    "raw_line": "Sacred Heart Music Center | Duluth, MN",
+    "pollstar_id": null
+  },
+  {
+    "name": "Sanctuary Events Center",
+    "city": "Fargo",
+    "state": "ND",
+    "raw_line": "Sanctuary Events Center | Fargo, ND",
+    "pollstar_id": null
+  },
+  {
+    "name": "Schubas Tavern",
+    "city": "Chicago",
+    "state": "IL",
+    "raw_line": "Schubas Tavern | Chicago, IL",
+    "pollstar_id": null
+  },
+  {
+    "name": "Seven Steps Up",
+    "city": "Spring Lake",
+    "state": "MI",
+    "raw_line": "Seven Steps Up | Spring Lake, MI",
+    "pollstar_id": null
+  },
+  {
+    "name": "Shi-tty Barn",
+    "city": "Spring Green",
+    "state": "WI",
+    "raw_line": "Shi-tty Barn | Spring Green, WI",
+    "pollstar_id": null
+  },
+  {
+    "name": "Shooters Bar & Grill",
+    "city": "La Porte",
+    "state": "IN",
+    "raw_line": "Shooters Bar & Grill | La Porte, IN",
+    "pollstar_id": null
+  },
+  {
+    "name": "Skyline Comedy Club",
+    "city": "Appleton",
+    "state": "WI",
+    "raw_line": "Skyline Comedy Club | Appleton, WI",
+    "pollstar_id": null
+  },
+  {
+    "name": "Sleeping Village",
+    "city": "Chicago",
+    "state": "IL",
+    "raw_line": "Sleeping Village | Chicago, IL",
+    "pollstar_id": null
+  },
+  {
+    "name": "Slow Down",
+    "city": "Omaha",
+    "state": "NE",
+    "raw_line": "Slow Down | Omaha, NE",
+    "pollstar_id": null
+  },
+  {
+    "name": "Slowdown",
+    "city": "Omaha",
+    "state": "NE",
+    "raw_line": "Slowdown | Omaha, NE",
+    "pollstar_id": null
+  },
+  {
+    "name": "Smartbar",
+    "city": "Chicago",
+    "state": "IL",
+    "raw_line": "Smartbar | Chicago, IL",
+    "pollstar_id": null
+  },
+  {
+    "name": "Sophie's Artist Lounge & Cocktail",
+    "city": "St. Louis",
+    "state": "MO",
+    "raw_line": "Sophie's Artist Lounge & Cocktail | St. Louis, MO",
+    "pollstar_id": null
+  },
+  {
+    "name": "Southern Theatre",
+    "city": "Columbus",
+    "state": "OH",
+    "raw_line": "Southern Theatre | Columbus, OH",
+    "pollstar_id": null
+  },
+  {
+    "name": "Spy Bar",
+    "city": "Chicago",
+    "state": "IL",
+    "raw_line": "Spy Bar | Chicago, IL",
+    "pollstar_id": null
+  },
+  {
+    "name": "St. Cecilia Music Center",
+    "city": "Grand Rapids",
+    "state": "MI",
+    "raw_line": "St. Cecilia Music Center | Grand Rapids, MI",
+    "pollstar_id": null
+  },
+  {
+    "name": "Stambaugh Auditorium",
+    "city": "Youngstown",
+    "state": "OH",
+    "raw_line": "Stambaugh Auditorium | Youngstown, OH",
+    "pollstar_id": null
+  },
+  {
+    "name": "Steelhouse Omaha",
+    "city": "Omaha",
+    "state": "NE",
+    "raw_line": "Steelhouse Omaha | Omaha, NE",
+    "pollstar_id": null
+  },
+  {
+    "name": "Stefanie H. Weill Center for the",
+    "city": "Sheboygan",
+    "state": "WI",
+    "raw_line": "Stefanie H. Weill Center for the | Sheboygan, WI",
+    "pollstar_id": null
+  },
+  {
+    "name": "Stiefel Theatre for the Performing Arts",
+    "city": "Salina",
+    "state": "KS",
+    "raw_line": "Stiefel Theatre for the Performing Arts | Salina, KS",
+    "pollstar_id": null
+  },
+  {
+    "name": "Stoughton Opera House",
+    "city": "Stoughton",
+    "state": "WI",
+    "raw_line": "Stoughton Opera House | Stoughton, WI",
+    "pollstar_id": null
+  },
+  {
+    "name": "Stranahan Theater & Great Hall",
+    "city": "Toledo",
+    "state": "OH",
+    "raw_line": "Stranahan Theater & Great Hall | Toledo, OH",
+    "pollstar_id": null
+  },
+  {
+    "name": "Stuart's Opera House",
+    "city": "Nelsonville",
+    "state": "OH",
+    "raw_line": "Stuart's Opera House | Nelsonville, OH",
+    "pollstar_id": null
+  },
+  {
+    "name": "Sue McLean & Associates",
+    "city": "Minneapolis",
+    "state": "MN",
+    "raw_line": "Sue McLean & Associates | Minneapolis, MN",
+    "pollstar_id": null
+  },
+  {
+    "name": "TAK Music Venue",
+    "city": "Dilworth",
+    "state": "MN",
+    "raw_line": "TAK Music Venue | Dilworth, MN",
+    "pollstar_id": null
+  },
+  {
+    "name": "Temple Theatre",
+    "city": "Saginaw",
+    "state": "MI",
+    "raw_line": "Temple Theatre | Saginaw, MI",
+    "pollstar_id": null
+  },
+  {
+    "name": "Terrace at Memorial Union",
+    "city": "Madison",
+    "state": "WI",
+    "raw_line": "Terrace at Memorial Union | Madison, WI",
+    "pollstar_id": null
+  },
+  {
+    "name": "The Arena at Innovation Mile",
+    "city": "Noblesville",
+    "state": "IN",
+    "raw_line": "The Arena at Innovation Mile | Noblesville, IN",
+    "pollstar_id": null
+  },
+  {
+    "name": "The Aretha Franklin Amphitheatre",
+    "city": "Detroit",
+    "state": "MI",
+    "raw_line": "The Aretha Franklin Amphitheatre | Detroit, MI",
+    "pollstar_id": null
+  },
+  {
+    "name": "The Argo",
+    "city": "Whitefish Bay",
+    "state": "WI",
+    "raw_line": "The Argo | Whitefish Bay, WI",
+    "pollstar_id": null
+  },
+  {
+    "name": "The Athenaeum Theatre",
+    "city": "Columbus",
+    "state": "OH",
+    "raw_line": "The Athenaeum Theatre | Columbus, OH",
+    "pollstar_id": null
+  },
+  {
+    "name": "The Auricle Venue & Bar",
+    "city": "Canton",
+    "state": "OH",
+    "raw_line": "The Auricle Venue & Bar | Canton, OH",
+    "pollstar_id": null
+  },
+  {
+    "name": "The Back Room @ Colectivo",
+    "city": "Milwaukee",
+    "state": "WI",
+    "raw_line": "The Back Room @ Colectivo | Milwaukee, WI",
+    "pollstar_id": null
+  },
+  {
+    "name": "The Big Top",
+    "city": "St. Louis",
+    "state": "MO",
+    "raw_line": "The Big Top | St. Louis, MO",
+    "pollstar_id": null
+  },
+  {
+    "name": "The Bluebird",
+    "city": "Bloomington",
+    "state": "IN",
+    "raw_line": "The Bluebird | Bloomington, IN",
+    "pollstar_id": null
+  },
+  {
+    "name": "The Brightside",
+    "city": "Dayton",
+    "state": "OH",
+    "raw_line": "The Brightside | Dayton, OH",
+    "pollstar_id": null
+  },
+  {
+    "name": "The Bur Oak",
+    "city": "Madison",
+    "state": "WI",
+    "raw_line": "The Bur Oak | Madison, WI",
+    "pollstar_id": null
+  },
+  {
+    "name": "The Cabaret",
+    "city": "Indianapolis",
+    "state": "IN",
+    "raw_line": "The Cabaret | Indianapolis, IN",
+    "pollstar_id": null
+  },
+  {
+    "name": "The Comedy Attic",
+    "city": "Bloomington",
+    "state": "IN",
+    "raw_line": "The Comedy Attic | Bloomington, IN",
+    "pollstar_id": null
+  },
+  {
+    "name": "The Comedy Clubhouse",
+    "city": "Chicago",
+    "state": "IL",
+    "raw_line": "The Comedy Clubhouse | Chicago, IL",
+    "pollstar_id": null
+  },
+  {
+    "name": "The Cooperage Milwaukee",
+    "city": "Milwaukee",
+    "state": "WI",
+    "raw_line": "The Cooperage Milwaukee | Milwaukee, WI",
+    "pollstar_id": null
+  },
+  {
+    "name": "The Cotillion Ballroom",
+    "city": "Wichita",
+    "state": "KS",
+    "raw_line": "The Cotillion Ballroom | Wichita, KS",
+    "pollstar_id": null
+  },
+  {
+    "name": "The Crofoot Ballroom",
+    "city": "Pontiac",
+    "state": "MI",
+    "raw_line": "The Crofoot Ballroom | Pontiac, MI",
+    "pollstar_id": null
+  },
+  {
+    "name": "The Crucible Madison",
+    "city": "Madison",
+    "state": "WI",
+    "raw_line": "The Crucible Madison | Madison, WI",
+    "pollstar_id": null
+  },
+  {
+    "name": "The DAAC",
+    "city": "Grand Rapids",
+    "state": "MI",
+    "raw_line": "The DAAC | Grand Rapids, MI",
+    "pollstar_id": null
+  },
+  {
+    "name": "The Dark Room at The Grandel",
+    "city": "St. Louis",
+    "state": "MO",
+    "raw_line": "The Dark Room at The Grandel | St. Louis, MO",
+    "pollstar_id": null
+  },
+  {
+    "name": "The Fitzgerald Theater",
+    "city": "St Paul",
+    "state": "MN",
+    "raw_line": "The Fitzgerald Theater | St Paul, MN",
+    "pollstar_id": null
+  },
+  {
+    "name": "The George",
+    "city": "Cincinnati",
+    "state": "OH",
+    "raw_line": "The George | Cincinnati, OH",
+    "pollstar_id": null
+  },
+  {
+    "name": "The Golden Record",
+    "city": "St. Louis",
+    "state": "MO",
+    "raw_line": "The Golden Record | St. Louis, MO",
+    "pollstar_id": null
+  },
+  {
+    "name": "The Grand Oshkosh",
+    "city": "Oshkosh",
+    "state": "WI",
+    "raw_line": "The Grand Oshkosh | Oshkosh, WI",
+    "pollstar_id": null
+  },
+  {
+    "name": "The Grandel",
+    "city": "St. Louis",
+    "state": "MO",
+    "raw_line": "The Grandel | St. Louis, MO",
+    "pollstar_id": null
+  },
+  {
+    "name": "The Intersection",
+    "city": "Grand Rapids",
+    "state": "MI",
+    "raw_line": "The Intersection | Grand Rapids, MI",
+    "pollstar_id": null
+  },
+  {
+    "name": "The Kranzberg Arts Center",
+    "city": "St. Louis",
+    "state": "MO",
+    "raw_line": "The Kranzberg Arts Center | St. Louis, MO",
+    "pollstar_id": null
+  },
+  {
+    "name": "The Loft Theatre",
+    "city": "Dayton",
+    "state": "OH",
+    "raw_line": "The Loft Theatre | Dayton, OH",
+    "pollstar_id": null
+  },
+  {
+    "name": "The Machine Shop",
+    "city": "Flint",
+    "state": "MI",
+    "raw_line": "The Machine Shop | Flint, MI",
+    "pollstar_id": null
+  },
+  {
+    "name": "The Majestic Theatre",
+    "city": "Detroit",
+    "state": "MI",
+    "raw_line": "The Majestic Theatre | Detroit, MI",
+    "pollstar_id": null
+  },
+  {
+    "name": "The Marcelle",
+    "city": "St. Louis",
+    "state": "MO",
+    "raw_line": "The Marcelle | St. Louis, MO",
+    "pollstar_id": null
+  },
+  {
+    "name": "The Metro",
+    "city": "Eau Claire",
+    "state": "WI",
+    "raw_line": "The Metro | Eau Claire, WI",
+    "pollstar_id": null
+  },
+  {
+    "name": "The Music Factory",
+    "city": "Battle Creek",
+    "state": "MI",
+    "raw_line": "The Music Factory | Battle Creek, MI",
+    "pollstar_id": null
+  },
+  {
+    "name": "The Myron R. Szold Music & Dance Hall",
+    "city": "Chicago",
+    "state": "IL",
+    "raw_line": "The Myron R. Szold Music & Dance Hall | Chicago, IL",
+    "pollstar_id": null
+  },
+  {
+    "name": "The Paramount Theatre Centre &",
+    "city": "Anderson",
+    "state": "IN",
+    "raw_line": "The Paramount Theatre Centre & | Anderson, IN",
+    "pollstar_id": null
+  },
+  {
+    "name": "The Parkway Theater",
+    "city": "Minneapolis",
+    "state": "MN",
+    "raw_line": "The Parkway Theater | Minneapolis, MN",
+    "pollstar_id": null
+  },
+  {
+    "name": "The pavilion at pan am",
+    "city": "Indianapolis",
+    "state": "IN",
+    "raw_line": "The pavilion at pan am | Indianapolis, IN",
+    "pollstar_id": null
+  },
+  {
+    "name": "The Plus",
+    "city": "Eau Claire",
+    "state": "WI",
+    "raw_line": "The Plus | Eau Claire, WI",
+    "pollstar_id": null
+  },
+  {
+    "name": "The Promontory",
+    "city": "Chicago",
+    "state": "IL",
+    "raw_line": "The Promontory | Chicago, IL",
+    "pollstar_id": null
+  },
+  {
+    "name": "The Revival",
+    "city": "Chicago",
+    "state": "IL",
+    "raw_line": "The Revival | Chicago, IL",
+    "pollstar_id": null
+  },
+  {
+    "name": "The Rigby",
+    "city": "Madison",
+    "state": "WI",
+    "raw_line": "The Rigby | Madison, WI",
+    "pollstar_id": null
+  },
+  {
+    "name": "The Royal Grove",
+    "city": "Lincoln",
+    "state": "NE",
+    "raw_line": "The Royal Grove | Lincoln, NE",
+    "pollstar_id": null
+  },
+  {
+    "name": "The Sixty6 Music Lounge and Studio",
+    "city": "Cleveland",
+    "state": "OH",
+    "raw_line": "The Sixty6 Music Lounge and Studio | Cleveland, OH",
+    "pollstar_id": null
+  },
+  {
+    "name": "The Speakeasy",
+    "city": "Rock Island",
+    "state": "IL",
+    "raw_line": "The Speakeasy | Rock Island, IL",
+    "pollstar_id": null
+  },
+  {
+    "name": "The Suburban Bourbon",
+    "city": "Muskego",
+    "state": "WI",
+    "raw_line": "The Suburban Bourbon | Muskego, WI",
+    "pollstar_id": null
+  },
+  {
+    "name": "The Token Lounge",
+    "city": "Westland",
+    "state": "MI",
+    "raw_line": "The Token Lounge | Westland, MI",
+    "pollstar_id": null
+  },
+  {
+    "name": "The Treelawn",
+    "city": "Cleveland",
+    "state": "OH",
+    "raw_line": "The Treelawn | Cleveland, OH",
+    "pollstar_id": null
+  },
+  {
+    "name": "The Venue",
+    "city": "Canton",
+    "state": "IL",
+    "raw_line": "The Venue | Canton, IL",
+    "pollstar_id": null
+  },
+  {
+    "name": "The Vic Theatre",
+    "city": "Chicago",
+    "state": "IL",
+    "raw_line": "The Vic Theatre | Chicago, IL",
+    "pollstar_id": null
+  },
+  {
+    "name": "The West Theatre",
+    "city": "Duluth",
+    "state": "MN",
+    "raw_line": "The West Theatre | Duluth, MN",
+    "pollstar_id": null
+  },
+  {
+    "name": "The White Lilac",
+    "city": "Kenosha",
+    "state": "WI",
+    "raw_line": "The White Lilac | Kenosha, WI",
+    "pollstar_id": null
+  },
+  {
+    "name": "The Wild Hare & Singing Armadillo",
+    "city": "Chicago",
+    "state": "IL",
+    "raw_line": "The Wild Hare & Singing Armadillo | Chicago, IL",
+    "pollstar_id": null
+  },
+  {
+    "name": "The Winchester",
+    "city": "Lakewood",
+    "state": "OH",
+    "raw_line": "The Winchester | Lakewood, OH",
+    "pollstar_id": null
+  },
+  {
+    "name": "The Woman's Club Of Minneapolis",
+    "city": "Minneapolis",
+    "state": "MN",
+    "raw_line": "The Woman's Club Of Minneapolis | Minneapolis, MN",
+    "pollstar_id": null
+  },
+  {
+    "name": "Thrasher Opera House",
+    "city": "Green Lake",
+    "state": "WI",
+    "raw_line": "Thrasher Opera House | Green Lake, WI",
+    "pollstar_id": null
+  },
+  {
+    "name": "Tip Top Deluxe Bar & Grill",
+    "city": "Grand Rapids",
+    "state": "MI",
+    "raw_line": "Tip Top Deluxe Bar & Grill | Grand Rapids, MI",
+    "pollstar_id": null
+  },
+  {
+    "name": "Turf Club",
+    "city": "St Paul",
+    "state": "MN",
+    "raw_line": "Turf Club | St Paul, MN",
+    "pollstar_id": null
+  },
+  {
+    "name": "Underground Music Cafe",
+    "city": "Minneapolis",
+    "state": "MN",
+    "raw_line": "Underground Music Cafe | Minneapolis, MN",
+    "pollstar_id": null
+  },
+  {
+    "name": "Vegetable Buddies",
+    "city": "South Bend",
+    "state": "IN",
+    "raw_line": "Vegetable Buddies | South Bend, IN",
+    "pollstar_id": null
+  },
+  {
+    "name": "Victoria Theatre",
+    "city": "Dayton",
+    "state": "OH",
+    "raw_line": "Victoria Theatre | Dayton, OH",
+    "pollstar_id": null
+  },
+  {
+    "name": "Wareham Opera House",
+    "city": "Manhattan",
+    "state": "KS",
+    "raw_line": "Wareham Opera House | Manhattan, KS",
+    "pollstar_id": null
+  },
+  {
+    "name": "Washington Park",
+    "city": "Cincinnati",
+    "state": "OH",
+    "raw_line": "Washington Park | Cincinnati, OH",
+    "pollstar_id": null
+  },
+  {
+    "name": "WAVE",
+    "city": "Wichita",
+    "state": "KS",
+    "raw_line": "WAVE | Wichita, KS",
+    "pollstar_id": null
+  },
+  {
+    "name": "Westside Bowl",
+    "city": "Youngstown",
+    "state": "OH",
+    "raw_line": "Westside Bowl | Youngstown, OH",
+    "pollstar_id": null
+  },
+  {
+    "name": "Wild West Arena",
+    "city": "North Platte",
+    "state": "NE",
+    "raw_line": "Wild West Arena | North Platte, NE",
+    "pollstar_id": null
+  },
+  {
+    "name": "Wildwood Amphitheater",
+    "city": "Lake Orion",
+    "state": "MI",
+    "raw_line": "Wildwood Amphitheater | Lake Orion, MI",
+    "pollstar_id": null
+  },
+  {
+    "name": "Winter's Jazz Club",
+    "city": "Chicago",
+    "state": "IL",
+    "raw_line": "Winter's Jazz Club | Chicago, IL",
+    "pollstar_id": null
+  },
+  {
+    "name": "Wisconsin Union Theater",
+    "city": "Madison",
+    "state": "WI",
+    "raw_line": "Wisconsin Union Theater | Madison, WI",
+    "pollstar_id": null
+  },
+  {
+    "name": "X-Ray Arcade",
+    "city": "Cudahy",
+    "state": "WI",
+    "raw_line": "X-Ray Arcade | Cudahy, WI",
+    "pollstar_id": null
+  },
+  {
+    "name": "xBk Live",
+    "city": "Des Moines",
+    "state": "IA",
+    "raw_line": "xBk Live | Des Moines, IA",
+    "pollstar_id": null
+  },
+  {
+    "name": "Younger's Irish Tavern",
+    "city": "Romeo",
+    "state": "MI",
+    "raw_line": "Younger's Irish Tavern | Romeo, MI",
+    "pollstar_id": null
+  },
+  {
+    "name": "3rd and Lindsley",
+    "city": "Nashville",
+    "state": "TN",
+    "raw_line": "3rd and Lindsley | Nashville, TN",
+    "pollstar_id": null
+  },
+  {
+    "name": "9:30 Club",
+    "city": "Washington",
+    "state": "DC",
+    "raw_line": "9:30 Club | Washington, DC",
+    "pollstar_id": null
+  },
+  {
+    "name": "Arden Gild Hall",
+    "city": "Wilmington",
+    "state": "DE",
+    "raw_line": "Arden Gild Hall | Wilmington, DE",
+    "pollstar_id": null
+  },
+  {
+    "name": "Brewster Street Icehouse",
+    "city": "Corpus Christi",
+    "state": "TX",
+    "raw_line": "Brewster Street Icehouse | Corpus Christi, TX",
+    "pollstar_id": null
+  },
+  {
+    "name": "City Winery Atlanta",
+    "city": "Atlanta",
+    "state": "GA",
+    "raw_line": "City Winery Atlanta | Atlanta, GA",
+    "pollstar_id": null
+  },
+  {
+    "name": "City Winery Nashville",
+    "city": "Nashville",
+    "state": "TN",
+    "raw_line": "City Winery Nashville | Nashville, TN",
+    "pollstar_id": null
+  },
+  {
+    "name": "Deep Ellum Art Company",
+    "city": "Dallas",
+    "state": "TX",
+    "raw_line": "Deep Ellum Art Company | Dallas, TX",
+    "pollstar_id": null
+  },
+  {
+    "name": "Elkton Music Hall",
+    "city": "Elkton",
+    "state": "MD",
+    "raw_line": "Elkton Music Hall | Elkton, MD",
+    "pollstar_id": null
+  },
+  {
+    "name": "Ember Music Hall",
+    "city": "Richmond",
+    "state": "VA",
+    "raw_line": "Ember Music Hall | Richmond, VA",
+    "pollstar_id": null
+  },
+  {
+    "name": "Empire Control Room & Garage",
+    "city": "Austin",
+    "state": "TX",
+    "raw_line": "Empire Control Room & Garage | Austin, TX",
+    "pollstar_id": null
+  },
+  {
+    "name": "Florida Theatre",
+    "city": "Jacksonville",
+    "state": "FL",
+    "raw_line": "Florida Theatre | Jacksonville, FL",
+    "pollstar_id": null
+  },
+  {
+    "name": "John T. Floore Country Store",
+    "city": "Helotes",
+    "state": "TX",
+    "raw_line": "John T. Floore Country Store | Helotes, TX",
+    "pollstar_id": null
+  },
+  {
+    "name": "Longhorn Ballroom",
+    "city": "Dallas",
+    "state": "TX",
+    "raw_line": "Longhorn Ballroom | Dallas, TX",
+    "pollstar_id": null
+  },
+  {
+    "name": "Motorco Music Hall",
+    "city": "Durham",
+    "state": "NC",
+    "raw_line": "Motorco Music Hall | Durham, NC",
+    "pollstar_id": null
+  },
+  {
+    "name": "Rams Head On Stage",
+    "city": "Annapolis",
+    "state": "MD",
+    "raw_line": "Rams Head On Stage | Annapolis, MD",
+    "pollstar_id": null
+  },
+  {
+    "name": "Red Clay Music Foundry",
+    "city": "Duluth",
+    "state": "GA",
+    "raw_line": "Red Clay Music Foundry | Duluth, GA",
+    "pollstar_id": null
+  },
+  {
+    "name": "Songbyrd Music House",
+    "city": "Washington",
+    "state": "DC",
+    "raw_line": "Songbyrd Music House | Washington, DC",
+    "pollstar_id": null
+  },
+  {
+    "name": "The Anthem",
+    "city": "Washington",
+    "state": "DC",
+    "raw_line": "The Anthem | Washington, DC",
+    "pollstar_id": null
+  },
+  {
+    "name": "The Atlantis",
+    "city": "Washington",
+    "state": "DC",
+    "raw_line": "The Atlantis | Washington, DC",
+    "pollstar_id": null
+  },
+  {
+    "name": "The Grey Eagle",
+    "city": "Asheville",
+    "state": "NC",
+    "raw_line": "The Grey Eagle | Asheville, NC",
+    "pollstar_id": null
+  },
+  {
+    "name": "The Hamilton Live",
+    "city": "Washington",
+    "state": "DC",
+    "raw_line": "The Hamilton Live | Washington, DC",
+    "pollstar_id": null
+  },
+  {
+    "name": "The Music Center at Strathmore",
+    "city": "North Bethesda",
+    "state": "MD",
+    "raw_line": "The Music Center at Strathmore | North Bethesda, MD",
+    "pollstar_id": null
+  },
+  {
+    "name": "The Orange Peel",
+    "city": "Asheville",
+    "state": "NC",
+    "raw_line": "The Orange Peel | Asheville, NC",
+    "pollstar_id": null
+  },
+  {
+    "name": "The Princess Theatre",
+    "city": "Decatur",
+    "state": "AL",
+    "raw_line": "The Princess Theatre | Decatur, AL",
+    "pollstar_id": null
+  },
+  {
+    "name": "The Ramkat & Gas Hill Drinking Room",
+    "city": "Winston-Salem",
+    "state": "NC",
+    "raw_line": "The Ramkat & Gas Hill Drinking Room | Winston-Salem, NC",
+    "pollstar_id": null
+  },
+  {
+    "name": "The Shed Smokehouse &",
+    "city": "Maryville",
+    "state": "TN",
+    "raw_line": "The Shed Smokehouse & | Maryville, TN",
+    "pollstar_id": null
+  },
+  {
+    "name": "The Southgate House Revival",
+    "city": "Newport",
+    "state": "KY",
+    "raw_line": "The Southgate House Revival | Newport, KY",
+    "pollstar_id": null
+  },
+  {
+    "name": "Vanguard",
+    "city": "Tulsa",
+    "state": "OK",
+    "raw_line": "Vanguard | Tulsa, OK",
+    "pollstar_id": null
+  },
+  {
+    "name": "WORKPLAY",
+    "city": "Birmingham",
+    "state": "AL",
+    "raw_line": "WORKPLAY | Birmingham, AL",
+    "pollstar_id": null
+  },
+  {
+    "name": "100 Men Hall",
+    "city": "Bay St. Louis",
+    "state": "MS",
+    "raw_line": "100 Men Hall | Bay St. Louis, MS",
+    "pollstar_id": null
+  },
+  {
+    "name": "40 Watt Club",
+    "city": "Athens",
+    "state": "GA",
+    "raw_line": "40 Watt Club | Athens, GA",
+    "pollstar_id": null
+  },
+  {
+    "name": "5 Points Music Sanctuary",
+    "city": "Roanoke",
+    "state": "VA",
+    "raw_line": "5 Points Music Sanctuary | Roanoke, VA",
+    "pollstar_id": null
+  },
+  {
+    "name": "502 Bar",
+    "city": "San Antonio",
+    "state": "TX",
+    "raw_line": "502 Bar | San Antonio, TX",
+    "pollstar_id": null
+  },
+  {
+    "name": "618 DC",
+    "city": "Washington",
+    "state": "DC",
+    "raw_line": "618 DC | Washington, DC",
+    "pollstar_id": null
+  },
+  {
+    "name": "926 Bar & Grill",
+    "city": "Tallahassee",
+    "state": "FL",
+    "raw_line": "926 Bar & Grill | Tallahassee, FL",
+    "pollstar_id": null
+  },
+  {
+    "name": "Academy Theatre",
+    "city": "Hapeville",
+    "state": "GA",
+    "raw_line": "Academy Theatre | Hapeville, GA",
+    "pollstar_id": null
+  },
+  {
+    "name": "Acme Feed & Seed",
+    "city": "Nashville",
+    "state": "TN",
+    "raw_line": "Acme Feed & Seed | Nashville, TN",
+    "pollstar_id": null
+  },
+  {
+    "name": "African Heritage Cultural Arts Center",
+    "city": "Miami",
+    "state": "FL",
+    "raw_line": "African Heritage Cultural Arts Center | Miami, FL",
+    "pollstar_id": null
+  },
+  {
+    "name": "Alhambra Theatre",
+    "city": "Hopkinsville",
+    "state": "KY",
+    "raw_line": "Alhambra Theatre | Hopkinsville, KY",
+    "pollstar_id": null
+  },
+  {
+    "name": "Alley Theatre",
+    "city": "Houston",
+    "state": "TX",
+    "raw_line": "Alley Theatre | Houston, TX",
+    "pollstar_id": null
+  },
+  {
+    "name": "AMP",
+    "city": "North Bethesda",
+    "state": "MD",
+    "raw_line": "AMP | North Bethesda, MD",
+    "pollstar_id": null
+  },
+  {
+    "name": "Amplified Live",
+    "city": "Dallas",
+    "state": "TX",
+    "raw_line": "Amplified Live | Dallas, TX",
+    "pollstar_id": null
+  },
+  {
+    "name": "Anzie Blue",
+    "city": "Nashville",
+    "state": "TN",
+    "raw_line": "Anzie Blue | Nashville, TN",
+    "pollstar_id": null
+  },
+  {
+    "name": "Appalachian Theatre of the Hig",
+    "city": "Boone",
+    "state": "NC",
+    "raw_line": "Appalachian Theatre of the Hig | Boone, NC",
+    "pollstar_id": null
+  },
+  {
+    "name": "Archetype",
+    "city": "Jacksonville",
+    "state": "FL",
+    "raw_line": "Archetype | Jacksonville, FL",
+    "pollstar_id": null
+  },
+  {
+    "name": "Art Sanctuary",
+    "city": "Louisville",
+    "state": "KY",
+    "raw_line": "Art Sanctuary | Louisville, KY",
+    "pollstar_id": null
+  },
+  {
+    "name": "Arts Garage",
+    "city": "Delray Beach",
+    "state": "FL",
+    "raw_line": "Arts Garage | Delray Beach, FL",
+    "pollstar_id": null
+  },
+  {
+    "name": "Avon Theater",
+    "city": "Avondale Estates",
+    "state": "GA",
+    "raw_line": "Avon Theater | Avondale Estates, GA",
+    "pollstar_id": null
+  },
+  {
+    "name": "Baltimore Soundstage",
+    "city": "Baltimore",
+    "state": "MD",
+    "raw_line": "Baltimore Soundstage | Baltimore, MD",
+    "pollstar_id": null
+  },
+  {
+    "name": "Black Cat",
+    "city": "Washington",
+    "state": "DC",
+    "raw_line": "Black Cat | Washington, DC",
+    "pollstar_id": null
+  },
+  {
+    "name": "BloomBars",
+    "city": "Washington",
+    "state": "DC",
+    "raw_line": "BloomBars | Washington, DC",
+    "pollstar_id": null
+  },
+  {
+    "name": "Blue Moon Saloon",
+    "city": "Lafayette",
+    "state": "LA",
+    "raw_line": "Blue Moon Saloon | Lafayette, LA",
+    "pollstar_id": null
+  },
+  {
+    "name": "Blumenthal Performing Arts",
+    "city": "Charlotte",
+    "state": "NC",
+    "raw_line": "Blumenthal Performing Arts | Charlotte, NC",
+    "pollstar_id": null
+  },
+  {
+    "name": "Bo's Barn Dancehall",
+    "city": "Temple",
+    "state": "TX",
+    "raw_line": "Bo's Barn Dancehall | Temple, TX",
+    "pollstar_id": null
+  },
+  {
+    "name": "Bottle & Cork",
+    "city": "Dewey Beach",
+    "state": "DE",
+    "raw_line": "Bottle & Cork | Dewey Beach, DE",
+    "pollstar_id": null
+  },
+  {
+    "name": "Bourbon Hall",
+    "city": "Louisville",
+    "state": "KY",
+    "raw_line": "Bourbon Hall | Louisville, KY",
+    "pollstar_id": null
+  },
+  {
+    "name": "Bradfordville Blues Club",
+    "city": "Tallahassee",
+    "state": "FL",
+    "raw_line": "Bradfordville Blues Club | Tallahassee, FL",
+    "pollstar_id": null
+  },
+  {
+    "name": "Bricktown Comedy Club",
+    "city": "Oklahoma City",
+    "state": "OK",
+    "raw_line": "Bricktown Comedy Club | Oklahoma City, OK",
+    "pollstar_id": null
+  },
+  {
+    "name": "Brown Theatre",
+    "city": "Louisville",
+    "state": "KY",
+    "raw_line": "Brown Theatre | Louisville, KY",
+    "pollstar_id": null
+  },
+  {
+    "name": "Buck's Backyard",
+    "city": "Buda",
+    "state": "TX",
+    "raw_line": "Buck's Backyard | Buda, TX",
+    "pollstar_id": null
+  },
+  {
+    "name": "Cain's Ballroom",
+    "city": "Tulsa",
+    "state": "OK",
+    "raw_line": "Cain's Ballroom | Tulsa, OK",
+    "pollstar_id": null
+  },
+  {
+    "name": "Carolina Theatre",
+    "city": "Charlotte",
+    "state": "NC",
+    "raw_line": "Carolina Theatre | Charlotte, NC",
+    "pollstar_id": null
+  },
+  {
+    "name": "Carson Creek Ranch",
+    "city": "Austin",
+    "state": "TX",
+    "raw_line": "Carson Creek Ranch | Austin, TX",
+    "pollstar_id": null
+  },
+  {
+    "name": "Cat's Cradle",
+    "city": "Carrboro",
+    "state": "NC",
+    "raw_line": "Cat's Cradle | Carrboro, NC",
+    "pollstar_id": null
+  },
+  {
+    "name": "Cathead Distillery",
+    "city": "Jackson",
+    "state": "MS",
+    "raw_line": "Cathead Distillery | Jackson, MS",
+    "pollstar_id": null
+  },
+  {
+    "name": "Center Stage",
+    "city": "Atlanta",
+    "state": "GA",
+    "raw_line": "Center Stage | Atlanta, GA",
+    "pollstar_id": null
+  },
+  {
+    "name": "Cheer Up Charlies",
+    "city": "Austin",
+    "state": "TX",
+    "raw_line": "Cheer Up Charlies | Austin, TX",
+    "pollstar_id": null
+  },
+  {
+    "name": "Chief's on Broadway",
+    "city": "Nashville",
+    "state": "TN",
+    "raw_line": "Chief's on Broadway | Nashville, TN",
+    "pollstar_id": null
+  },
+  {
+    "name": "Cine El Rey",
+    "city": "McAllen",
+    "state": "TX",
+    "raw_line": "Cine El Rey | McAllen, TX",
+    "pollstar_id": null
+  },
+  {
+    "name": "Civic Theatre",
+    "city": "New Orleans",
+    "state": "LA",
+    "raw_line": "Civic Theatre | New Orleans, LA",
+    "pollstar_id": null
+  },
+  {
+    "name": "Concrete Street Amphitheater",
+    "city": "Corpus Christi",
+    "state": "TX",
+    "raw_line": "Concrete Street Amphitheater | Corpus Christi, TX",
+    "pollstar_id": null
+  },
+  {
+    "name": "Crowbar",
+    "city": "Tampa",
+    "state": "FL",
+    "raw_line": "Crowbar | Tampa, FL",
+    "pollstar_id": null
+  },
+  {
+    "name": "Culture Room",
+    "city": "Fort Lauderdale",
+    "state": "FL",
+    "raw_line": "Culture Room | Fort Lauderdale, FL",
+    "pollstar_id": null
+  },
+  {
+    "name": "dba New Orleans",
+    "city": "New Orleans",
+    "state": "LA",
+    "raw_line": "dba New Orleans | New Orleans, LA",
+    "pollstar_id": null
+  },
+  {
+    "name": "DC Improv Comedy Club",
+    "city": "Washington",
+    "state": "DC",
+    "raw_line": "DC Improv Comedy Club | Washington, DC",
+    "pollstar_id": null
+  },
+  {
+    "name": "DC9",
+    "city": "Washington",
+    "state": "DC",
+    "raw_line": "DC9 | Washington, DC",
+    "pollstar_id": null
+  },
+  {
+    "name": "Deep South The Bar",
+    "city": "Raleigh",
+    "state": "NC",
+    "raw_line": "Deep South The Bar | Raleigh, NC",
+    "pollstar_id": null
+  },
+  {
+    "name": "Down Home",
+    "city": "Johnson City",
+    "state": "TN",
+    "raw_line": "Down Home | Johnson City, TN",
+    "pollstar_id": null
+  },
+  {
+    "name": "DRKMTTR",
+    "city": "Nashville",
+    "state": "TN",
+    "raw_line": "DRKMTTR | Nashville, TN",
+    "pollstar_id": null
+  },
+  {
+    "name": "Druid City Music Hall",
+    "city": "Tuscaloosa",
+    "state": "AL",
+    "raw_line": "Druid City Music Hall | Tuscaloosa, AL",
+    "pollstar_id": null
+  },
+  {
+    "name": "Drum Orpheum Rehearsal Hall",
+    "city": "Winchester",
+    "state": "VA",
+    "raw_line": "Drum Orpheum Rehearsal Hall | Winchester, VA",
+    "pollstar_id": null
+  },
+  {
+    "name": "Duling Hall",
+    "city": "Jackson",
+    "state": "MS",
+    "raw_line": "Duling Hall | Jackson, MS",
+    "pollstar_id": null
+  },
+  {
+    "name": "Eastside Bowl",
+    "city": "Nashville",
+    "state": "TN",
+    "raw_line": "Eastside Bowl | Nashville, TN",
+    "pollstar_id": null
+  },
+  {
+    "name": "Eddie's Attic",
+    "city": "Decatur",
+    "state": "GA",
+    "raw_line": "Eddie's Attic | Decatur, GA",
+    "pollstar_id": null
+  },
+  {
+    "name": "Elm Street Cultural Arts Village Event",
+    "city": "Woodstock",
+    "state": "GA",
+    "raw_line": "Elm Street Cultural Arts Village Event | Woodstock, GA",
+    "pollstar_id": null
+  },
+  {
+    "name": "Fat Cat",
+    "city": "Hattiesburg",
+    "state": "MS",
+    "raw_line": "Fat Cat | Hattiesburg, MS",
+    "pollstar_id": null
+  },
+  {
+    "name": "Flash",
+    "city": "Washington",
+    "state": "DC",
+    "raw_line": "Flash | Washington, DC",
+    "pollstar_id": null
+  },
+  {
+    "name": "Fleetwood's",
+    "city": "Asheville",
+    "state": "NC",
+    "raw_line": "Fleetwood's | Asheville, NC",
+    "pollstar_id": null
+  },
+  {
+    "name": "Flicker",
+    "city": "Athens",
+    "state": "GA",
+    "raw_line": "Flicker | Athens, GA",
+    "pollstar_id": null
+  },
+  {
+    "name": "Freeman Arts Pavilion",
+    "city": "Selbyville",
+    "state": "DE",
+    "raw_line": "Freeman Arts Pavilion | Selbyville, DE",
+    "pollstar_id": null
+  },
+  {
+    "name": "Galactic Panther Art Gallery",
+    "city": "Alexandria",
+    "state": "VA",
+    "raw_line": "Galactic Panther Art Gallery | Alexandria, VA",
+    "pollstar_id": null
+  },
+  {
+    "name": "Galaxie Louisville",
+    "city": "Louisville",
+    "state": "KY",
+    "raw_line": "Galaxie Louisville | Louisville, KY",
+    "pollstar_id": null
+  },
+  {
+    "name": "Goodnights Comedy Club",
+    "city": "Raleigh",
+    "state": "NC",
+    "raw_line": "Goodnights Comedy Club | Raleigh, NC",
+    "pollstar_id": null
+  },
+  {
+    "name": "Gordon Center For Performing Arts",
+    "city": "Owings Mills",
+    "state": "MD",
+    "raw_line": "Gordon Center For Performing Arts | Owings Mills, MD",
+    "pollstar_id": null
+  },
+  {
+    "name": "Gramps",
+    "city": "Miami",
+    "state": "FL",
+    "raw_line": "Gramps | Miami, FL",
+    "pollstar_id": null
+  },
+  {
+    "name": "Granada Theater",
+    "city": "Dallas",
+    "state": "TX",
+    "raw_line": "Granada Theater | Dallas, TX",
+    "pollstar_id": null
+  },
+  {
+    "name": "Grand Opera House",
+    "city": "Wilmington",
+    "state": "DE",
+    "raw_line": "Grand Opera House | Wilmington, DE",
+    "pollstar_id": null
+  },
+  {
+    "name": "Grant's Lounge",
+    "city": "Macon",
+    "state": "GA",
+    "raw_line": "Grant's Lounge | Macon, GA",
+    "pollstar_id": null
+  },
+  {
+    "name": "Gray Box Theater",
+    "city": "Wilton Manors",
+    "state": "FL",
+    "raw_line": "Gray Box Theater | Wilton Manors, FL",
+    "pollstar_id": null
+  },
+  {
+    "name": "Greenville Municipal",
+    "city": "Greenville",
+    "state": "TX",
+    "raw_line": "Greenville Municipal | Greenville, TX",
+    "pollstar_id": null
+  },
+  {
+    "name": "Hal & Mal's",
+    "city": "Jackson",
+    "state": "MS",
+    "raw_line": "Hal & Mal's | Jackson, MS",
+    "pollstar_id": null
+  },
+  {
+    "name": "Hank Dietle's Tavern",
+    "city": "Rockville",
+    "state": "MD",
+    "raw_line": "Hank Dietle's Tavern | Rockville, MD",
+    "pollstar_id": null
+  },
+  {
+    "name": "Haw River Ballroom",
+    "city": "Graham",
+    "state": "NC",
+    "raw_line": "Haw River Ballroom | Graham, NC",
+    "pollstar_id": null
+  },
+  {
+    "name": "Hazel Robinson Amphitheatre",
+    "city": "Asheville",
+    "state": "NC",
+    "raw_line": "Hazel Robinson Amphitheatre | Asheville, NC",
+    "pollstar_id": null
+  },
+  {
+    "name": "Headliners Music Hall",
+    "city": "Louisville",
+    "state": "KY",
+    "raw_line": "Headliners Music Hall | Louisville, KY",
+    "pollstar_id": null
+  },
+  {
+    "name": "Heartwood Soundstage",
+    "city": "Gainesville",
+    "state": "FL",
+    "raw_line": "Heartwood Soundstage | Gainesville, FL",
+    "pollstar_id": null
+  },
+  {
+    "name": "Hidden Ridge Camping",
+    "city": "Monticello",
+    "state": "KY",
+    "raw_line": "Hidden Ridge Camping | Monticello, KY",
+    "pollstar_id": null
+  },
+  {
+    "name": "High Dive",
+    "city": "Gainesville",
+    "state": "FL",
+    "raw_line": "High Dive | Gainesville, FL",
+    "pollstar_id": null
+  },
+  {
+    "name": "High Point Theatre",
+    "city": "High Point",
+    "state": "NC",
+    "raw_line": "High Point Theatre | High Point, NC",
+    "pollstar_id": null
+  },
+  {
+    "name": "House Of Rock",
+    "city": "Corpus Christi",
+    "state": "TX",
+    "raw_line": "House Of Rock | Corpus Christi, TX",
+    "pollstar_id": null
+  },
+  {
+    "name": "Immersive Media Performing Arts",
+    "city": "Gulfport",
+    "state": "MS",
+    "raw_line": "Immersive Media Performing Arts | Gulfport, MS",
+    "pollstar_id": null
+  },
+  {
+    "name": "Intuition Ale Works",
+    "city": "Jacksonville",
+    "state": "FL",
+    "raw_line": "Intuition Ale Works | Jacksonville, FL",
+    "pollstar_id": null
+  },
+  {
+    "name": "Isis Music Hall",
+    "city": "Asheville",
+    "state": "NC",
+    "raw_line": "Isis Music Hall | Asheville, NC",
+    "pollstar_id": null
+  },
+  {
+    "name": "James K. Polk Theater",
+    "city": "Nashville",
+    "state": "TN",
+    "raw_line": "James K. Polk Theater | Nashville, TN",
+    "pollstar_id": null
+  },
+  {
+    "name": "Jammin Java",
+    "city": "Vienna",
+    "state": "VA",
+    "raw_line": "Jammin Java | Vienna, VA",
+    "pollstar_id": null
+  },
+  {
+    "name": "Jay and Susie Gogue Performing",
+    "city": "Auburn",
+    "state": "AL",
+    "raw_line": "Jay and Susie Gogue Performing | Auburn, AL",
+    "pollstar_id": null
+  },
+  {
+    "name": "Jenny Wiley Theatre",
+    "city": "Prestonsburg",
+    "state": "KY",
+    "raw_line": "Jenny Wiley Theatre | Prestonsburg, KY",
+    "pollstar_id": null
+  },
+  {
+    "name": "Juana\u2019s Pagodas & Sailors\u2019 Grill",
+    "city": "Navarre",
+    "state": "FL",
+    "raw_line": "Juana\u2019s Pagodas & Sailors\u2019 Grill | Navarre, FL",
+    "pollstar_id": null
+  },
+  {
+    "name": "Kai Kai Farm",
+    "city": "Indiantown",
+    "state": "FL",
+    "raw_line": "Kai Kai Farm | Indiantown, FL",
+    "pollstar_id": null
+  },
+  {
+    "name": "Keith Albee Performing Arts",
+    "city": "Huntington",
+    "state": "WV",
+    "raw_line": "Keith Albee Performing Arts | Huntington, WV",
+    "pollstar_id": null
+  },
+  {
+    "name": "Kentucky Music Hall of Fame &",
+    "city": "Mount Vernon",
+    "state": "KY",
+    "raw_line": "Kentucky Music Hall of Fame & | Mount Vernon, KY",
+    "pollstar_id": null
+  },
+  {
+    "name": "Kentucky Opry",
+    "city": "Benton",
+    "state": "KY",
+    "raw_line": "Kentucky Opry | Benton, KY",
+    "pollstar_id": null
+  },
+  {
+    "name": "Kick Butt Coffee",
+    "city": "Austin",
+    "state": "TX",
+    "raw_line": "Kick Butt Coffee | Austin, TX",
+    "pollstar_id": null
+  },
+  {
+    "name": "Kingdom Nightclub",
+    "city": "Austin",
+    "state": "TX",
+    "raw_line": "Kingdom Nightclub | Austin, TX",
+    "pollstar_id": null
+  },
+  {
+    "name": "Laughing Skull Lounge",
+    "city": "Atlanta",
+    "state": "GA",
+    "raw_line": "Laughing Skull Lounge | Atlanta, GA",
+    "pollstar_id": null
+  },
+  {
+    "name": "Legacy Hall",
+    "city": "Plano",
+    "state": "TX",
+    "raw_line": "Legacy Hall | Plano, TX",
+    "pollstar_id": null
+  },
+  {
+    "name": "Lincoln Theatre",
+    "city": "Raleigh",
+    "state": "NC",
+    "raw_line": "Lincoln Theatre | Raleigh, NC",
+    "pollstar_id": null
+  },
+  {
+    "name": "Link Centre",
+    "city": "Tupelo",
+    "state": "MS",
+    "raw_line": "Link Centre | Tupelo, MS",
+    "pollstar_id": null
+  },
+  {
+    "name": "Listening Room Cafe - Pigeon Forge",
+    "city": "Pigeon Forge",
+    "state": "TN",
+    "raw_line": "Listening Room Cafe - Pigeon Forge | Pigeon Forge, TN",
+    "pollstar_id": null
+  },
+  {
+    "name": "Lowbrow Palace",
+    "city": "El Paso",
+    "state": "TX",
+    "raw_line": "Lowbrow Palace | El Paso, TX",
+    "pollstar_id": null
+  },
+  {
+    "name": "Lyric Baltimore",
+    "city": "Baltimore",
+    "state": "MD",
+    "raw_line": "Lyric Baltimore | Baltimore, MD",
+    "pollstar_id": null
+  },
+  {
+    "name": "MadLife Stage & Studios",
+    "city": "Woodstock",
+    "state": "GA",
+    "raw_line": "MadLife Stage & Studios | Woodstock, GA",
+    "pollstar_id": null
+  },
+  {
+    "name": "Magik Theatre",
+    "city": "San Antonio",
+    "state": "TX",
+    "raw_line": "Magik Theatre | San Antonio, TX",
+    "pollstar_id": null
+  },
+  {
+    "name": "Main At South Side",
+    "city": "Fort Worth",
+    "state": "TX",
+    "raw_line": "Main At South Side | Fort Worth, TX",
+    "pollstar_id": null
+  },
+  {
+    "name": "Main Street Crossing",
+    "city": "Tomball",
+    "state": "TX",
+    "raw_line": "Main Street Crossing | Tomball, TX",
+    "pollstar_id": null
+  },
+  {
+    "name": "Maison",
+    "city": "New Orleans",
+    "state": "LA",
+    "raw_line": "Maison | New Orleans, LA",
+    "pollstar_id": null
+  },
+  {
+    "name": "Manchester Music Hall",
+    "city": "Lexington",
+    "state": "KY",
+    "raw_line": "Manchester Music Hall | Lexington, KY",
+    "pollstar_id": null
+  },
+  {
+    "name": "Maple Leaf",
+    "city": "New Orleans",
+    "state": "LA",
+    "raw_line": "Maple Leaf | New Orleans, LA",
+    "pollstar_id": null
+  },
+  {
+    "name": "Mark C. Smith Concert Hall",
+    "city": "Huntsville",
+    "state": "AL",
+    "raw_line": "Mark C. Smith Concert Hall | Huntsville, AL",
+    "pollstar_id": null
+  },
+  {
+    "name": "Mars Music Hall",
+    "city": "Huntsville",
+    "state": "AL",
+    "raw_line": "Mars Music Hall | Huntsville, AL",
+    "pollstar_id": null
+  },
+  {
+    "name": "Merriweather Post Pavilion",
+    "city": "Columbia",
+    "state": "MD",
+    "raw_line": "Merriweather Post Pavilion | Columbia, MD",
+    "pollstar_id": null
+  },
+  {
+    "name": "Miami Beach Bandshell",
+    "city": "Miami Beach",
+    "state": "FL",
+    "raw_line": "Miami Beach Bandshell | Miami Beach, FL",
+    "pollstar_id": null
+  },
+  {
+    "name": "Miami Dade County Auditorium",
+    "city": "Miami",
+    "state": "FL",
+    "raw_line": "Miami Dade County Auditorium | Miami, FL",
+    "pollstar_id": null
+  },
+  {
+    "name": "MIDFLORIDA Event Center",
+    "city": "Port St. Lucie",
+    "state": "FL",
+    "raw_line": "MIDFLORIDA Event Center | Port St. Lucie, FL",
+    "pollstar_id": null
+  },
+  {
+    "name": "Miller Theater",
+    "city": "Augusta",
+    "state": "GA",
+    "raw_line": "Miller Theater | Augusta, GA",
+    "pollstar_id": null
+  },
+  {
+    "name": "Mountain Arts Center",
+    "city": "Prestonsburg",
+    "state": "KY",
+    "raw_line": "Mountain Arts Center | Prestonsburg, KY",
+    "pollstar_id": null
+  },
+  {
+    "name": "Murphey Performance Hall",
+    "city": "San Angelo",
+    "state": "TX",
+    "raw_line": "Murphey Performance Hall | San Angelo, TX",
+    "pollstar_id": null
+  },
+  {
+    "name": "Murray Hill Theatre",
+    "city": "Jacksonville",
+    "state": "FL",
+    "raw_line": "Murray Hill Theatre | Jacksonville, FL",
+    "pollstar_id": null
+  },
+  {
+    "name": "NC State Fair",
+    "city": "Raleigh",
+    "state": "NC",
+    "raw_line": "NC State Fair | Raleigh, NC",
+    "pollstar_id": null
+  },
+  {
+    "name": "New Brookland Tavern",
+    "city": "Columbia",
+    "state": "SC",
+    "raw_line": "New Brookland Tavern | Columbia, SC",
+    "pollstar_id": null
+  },
+  {
+    "name": "Newberry Opera House",
+    "city": "Newberry",
+    "state": "SC",
+    "raw_line": "Newberry Opera House | Newberry, SC",
+    "pollstar_id": null
+  },
+  {
+    "name": "Night We Met",
+    "city": "Nashville",
+    "state": "TN",
+    "raw_line": "Night We Met | Nashville, TN",
+    "pollstar_id": null
+  },
+  {
+    "name": "Niswonger Performing Arts",
+    "city": "Greeneville",
+    "state": "TN",
+    "raw_line": "Niswonger Performing Arts | Greeneville, TN",
+    "pollstar_id": null
+  },
+  {
+    "name": "Old Forester's Paristown Hall",
+    "city": "Louisville",
+    "state": "KY",
+    "raw_line": "Old Forester's Paristown Hall | Louisville, KY",
+    "pollstar_id": null
+  },
+  {
+    "name": "Old Quarter Acoustic Cafe",
+    "city": "Galveston",
+    "state": "TX",
+    "raw_line": "Old Quarter Acoustic Cafe | Galveston, TX",
+    "pollstar_id": null
+  },
+  {
+    "name": "One World Country Girl Global",
+    "city": "Franklin",
+    "state": "TN",
+    "raw_line": "One World Country Girl Global | Franklin, TN",
+    "pollstar_id": null
+  },
+  {
+    "name": "OPOLIS",
+    "city": "Norman",
+    "state": "OK",
+    "raw_line": "OPOLIS | Norman, OK",
+    "pollstar_id": null
+  },
+  {
+    "name": "Orbital Music Park - Rehearsal spaces",
+    "city": "Richmond",
+    "state": "VA",
+    "raw_line": "Orbital Music Park - Rehearsal spaces | Richmond, VA",
+    "pollstar_id": null
+  },
+  {
+    "name": "Overton Park Shell",
+    "city": "Memphis",
+    "state": "TN",
+    "raw_line": "Overton Park Shell | Memphis, TN",
+    "pollstar_id": null
+  },
+  {
+    "name": "OWA Theater",
+    "city": "Foley",
+    "state": "AL",
+    "raw_line": "OWA Theater | Foley, AL",
+    "pollstar_id": null
+  },
+  {
+    "name": "Paper Tiger",
+    "city": "San Antonio",
+    "state": "TX",
+    "raw_line": "Paper Tiger | San Antonio, TX",
+    "pollstar_id": null
+  },
+  {
+    "name": "Parish",
+    "city": "Austin",
+    "state": "TX",
+    "raw_line": "Parish | Austin, TX",
+    "pollstar_id": null
+  },
+  {
+    "name": "Patterson Park",
+    "city": "Baltimore",
+    "state": "MD",
+    "raw_line": "Patterson Park | Baltimore, MD",
+    "pollstar_id": null
+  },
+  {
+    "name": "Petra's",
+    "city": "Charlotte",
+    "state": "NC",
+    "raw_line": "Petra's | Charlotte, NC",
+    "pollstar_id": null
+  },
+  {
+    "name": "Pilot Light",
+    "city": "Knoxville",
+    "state": "TN",
+    "raw_line": "Pilot Light | Knoxville, TN",
+    "pollstar_id": null
+  },
+  {
+    "name": "Play Dance Bar",
+    "city": "Nashville",
+    "state": "TN",
+    "raw_line": "Play Dance Bar | Nashville, TN",
+    "pollstar_id": null
+  },
+  {
+    "name": "Play Louisville",
+    "city": "Louisville",
+    "state": "KY",
+    "raw_line": "Play Louisville | Louisville, KY",
+    "pollstar_id": null
+  },
+  {
+    "name": "Ponte Vedra Concert Hall",
+    "city": "Ponte Vedra Beach",
+    "state": "FL",
+    "raw_line": "Ponte Vedra Concert Hall | Ponte Vedra Beach, FL",
+    "pollstar_id": null
+  },
+  {
+    "name": "Poodie's Hilltop Roadhouse",
+    "city": "Spicewood",
+    "state": "TX",
+    "raw_line": "Poodie's Hilltop Roadhouse | Spicewood, TX",
+    "pollstar_id": null
+  },
+  {
+    "name": "Preservation Hall",
+    "city": "New Orleans",
+    "state": "LA",
+    "raw_line": "Preservation Hall | New Orleans, LA",
+    "pollstar_id": null
+  },
+  {
+    "name": "Propst Arena at the Von Braun Center",
+    "city": "Huntsville",
+    "state": "AL",
+    "raw_line": "Propst Arena at the Von Braun Center | Huntsville, AL",
+    "pollstar_id": null
+  },
+  {
+    "name": "Proud Larry's",
+    "city": "Oxford",
+    "state": "MS",
+    "raw_line": "Proud Larry's | Oxford, MS",
+    "pollstar_id": null
+  },
+  {
+    "name": "Rabbit Rabbit",
+    "city": "Asheville",
+    "state": "NC",
+    "raw_line": "Rabbit Rabbit | Asheville, NC",
+    "pollstar_id": null
+  },
+  {
+    "name": "Radio Room",
+    "city": "Greenville",
+    "state": "SC",
+    "raw_line": "Radio Room | Greenville, SC",
+    "pollstar_id": null
+  },
+  {
+    "name": "Radio/East",
+    "city": "Austin",
+    "state": "TX",
+    "raw_line": "Radio/East | Austin, TX",
+    "pollstar_id": null
+  },
+  {
+    "name": "Rebel Rebel Studio & Lounge",
+    "city": "Berea",
+    "state": "KY",
+    "raw_line": "Rebel Rebel Studio & Lounge | Berea, KY",
+    "pollstar_id": null
+  },
+  {
+    "name": "Rick's Cafe",
+    "city": "Starkville",
+    "state": "MS",
+    "raw_line": "Rick's Cafe | Starkville, MS",
+    "pollstar_id": null
+  },
+  {
+    "name": "River Breeze Event Center",
+    "city": "Knoxville",
+    "state": "TN",
+    "raw_line": "River Breeze Event Center | Knoxville, TN",
+    "pollstar_id": null
+  },
+  {
+    "name": "RiverPark Center",
+    "city": "Owensboro",
+    "state": "KY",
+    "raw_line": "RiverPark Center | Owensboro, KY",
+    "pollstar_id": null
+  },
+  {
+    "name": "Riverside Revival Nashville",
+    "city": "Nashville",
+    "state": "TN",
+    "raw_line": "Riverside Revival Nashville | Nashville, TN",
+    "pollstar_id": null
+  },
+  {
+    "name": "Rudy's Jazz Room",
+    "city": "Nashville",
+    "state": "TN",
+    "raw_line": "Rudy's Jazz Room | Nashville, TN",
+    "pollstar_id": null
+  },
+  {
+    "name": "Rumble",
+    "city": "San Antonio",
+    "state": "TX",
+    "raw_line": "Rumble | San Antonio, TX",
+    "pollstar_id": null
+  },
+  {
+    "name": "Sahara Lounge",
+    "city": "Austin",
+    "state": "TX",
+    "raw_line": "Sahara Lounge | Austin, TX",
+    "pollstar_id": null
+  },
+  {
+    "name": "Saturn",
+    "city": "Birmingham",
+    "state": "AL",
+    "raw_line": "Saturn | Birmingham, AL",
+    "pollstar_id": null
+  },
+  {
+    "name": "Seratonic Venue & Lounge",
+    "city": "Greenville",
+    "state": "SC",
+    "raw_line": "Seratonic Venue & Lounge | Greenville, SC",
+    "pollstar_id": null
+  },
+  {
+    "name": "Shuffle",
+    "city": "Tampa",
+    "state": "FL",
+    "raw_line": "Shuffle | Tampa, FL",
+    "pollstar_id": null
+  },
+  {
+    "name": "Skipper's Smokehouse",
+    "city": "Tampa",
+    "state": "FL",
+    "raw_line": "Skipper's Smokehouse | Tampa, FL",
+    "pollstar_id": null
+  },
+  {
+    "name": "Slim's Raleigh",
+    "city": "Raleigh",
+    "state": "NC",
+    "raw_line": "Slim's Raleigh | Raleigh, NC",
+    "pollstar_id": null
+  },
+  {
+    "name": "Snug Harbor",
+    "city": "Charlotte",
+    "state": "NC",
+    "raw_line": "Snug Harbor | Charlotte, NC",
+    "pollstar_id": null
+  },
+  {
+    "name": "Snug Harbor Jazz Bistro",
+    "city": "New Orleans",
+    "state": "LA",
+    "raw_line": "Snug Harbor Jazz Bistro | New Orleans, LA",
+    "pollstar_id": null
+  },
+  {
+    "name": "Soul Kitchen Music Hall",
+    "city": "Mobile",
+    "state": "AL",
+    "raw_line": "Soul Kitchen Music Hall | Mobile, AL",
+    "pollstar_id": null
+  },
+  {
+    "name": "Southport Hall",
+    "city": "Jefferson",
+    "state": "LA",
+    "raw_line": "Southport Hall | Jefferson, LA",
+    "pollstar_id": null
+  },
+  {
+    "name": "Speakeasy",
+    "city": "Austin",
+    "state": "TX",
+    "raw_line": "Speakeasy | Austin, TX",
+    "pollstar_id": null
+  },
+  {
+    "name": "Speakeasy Lounge",
+    "city": "Atlanta",
+    "state": "GA",
+    "raw_line": "Speakeasy Lounge | Atlanta, GA",
+    "pollstar_id": null
+  },
+  {
+    "name": "Spirit of the Suwannee Music",
+    "city": "Live Oak",
+    "state": "FL",
+    "raw_line": "Spirit of the Suwannee Music | Live Oak, FL",
+    "pollstar_id": null
+  },
+  {
+    "name": "Springdale Civic Center",
+    "city": "Springdale",
+    "state": "AR",
+    "raw_line": "Springdale Civic Center | Springdale, AR",
+    "pollstar_id": null
+  },
+  {
+    "name": "St. Augustine Amphitheatre",
+    "city": "St. Augustine",
+    "state": "FL",
+    "raw_line": "St. Augustine Amphitheatre | St. Augustine, FL",
+    "pollstar_id": null
+  },
+  {
+    "name": "Stampede Houston",
+    "city": "Houston",
+    "state": "TX",
+    "raw_line": "Stampede Houston | Houston, TX",
+    "pollstar_id": null
+  },
+  {
+    "name": "Stanley's Famous Pit Barbecue",
+    "city": "Tyler",
+    "state": "TX",
+    "raw_line": "Stanley's Famous Pit Barbecue | Tyler, TX",
+    "pollstar_id": null
+  },
+  {
+    "name": "StarDome Comedy Club",
+    "city": "Birmingham",
+    "state": "AL",
+    "raw_line": "StarDome Comedy Club | Birmingham, AL",
+    "pollstar_id": null
+  },
+  {
+    "name": "Stereo Live Dallas",
+    "city": "Dallas",
+    "state": "TX",
+    "raw_line": "Stereo Live Dallas | Dallas, TX",
+    "pollstar_id": null
+  },
+  {
+    "name": "Suncoast Broadway Dinner",
+    "city": "Hudson",
+    "state": "FL",
+    "raw_line": "Suncoast Broadway Dinner | Hudson, FL",
+    "pollstar_id": null
+  },
+  {
+    "name": "Sundown at Granada",
+    "city": "Dallas",
+    "state": "TX",
+    "raw_line": "Sundown at Granada | Dallas, TX",
+    "pollstar_id": null
+  },
+  {
+    "name": "Tally Ho Theater",
+    "city": "Leesburg",
+    "state": "VA",
+    "raw_line": "Tally Ho Theater | Leesburg, VA",
+    "pollstar_id": null
+  },
+  {
+    "name": "Tennessee Performing Arts",
+    "city": "Nashville",
+    "state": "TN",
+    "raw_line": "Tennessee Performing Arts | Nashville, TN",
+    "pollstar_id": null
+  },
+  {
+    "name": "The 5 Spot",
+    "city": "Nashville",
+    "state": "TN",
+    "raw_line": "The 5 Spot | Nashville, TN",
+    "pollstar_id": null
+  },
+  {
+    "name": "The Abbey",
+    "city": "Orlando",
+    "state": "FL",
+    "raw_line": "The Abbey | Orlando, FL",
+    "pollstar_id": null
+  },
+  {
+    "name": "The Auditorium at The Douglass",
+    "city": "Oklahoma City",
+    "state": "OK",
+    "raw_line": "The Auditorium at The Douglass | Oklahoma City, OK",
+    "pollstar_id": null
+  },
+  {
+    "name": "The Backyard",
+    "city": "Mansfield",
+    "state": "TX",
+    "raw_line": "The Backyard | Mansfield, TX",
+    "pollstar_id": null
+  },
+  {
+    "name": "The Basement",
+    "city": "Nashville",
+    "state": "TN",
+    "raw_line": "The Basement | Nashville, TN",
+    "pollstar_id": null
+  },
+  {
+    "name": "The Blue Room",
+    "city": "Nashville",
+    "state": "TN",
+    "raw_line": "The Blue Room | Nashville, TN",
+    "pollstar_id": null
+  },
+  {
+    "name": "The Brooks & Bates Theatre",
+    "city": "San Angelo",
+    "state": "TX",
+    "raw_line": "The Brooks & Bates Theatre | San Angelo, TX",
+    "pollstar_id": null
+  },
+  {
+    "name": "The Bugle Boy",
+    "city": "La Grange",
+    "state": "TX",
+    "raw_line": "The Bugle Boy | La Grange, TX",
+    "pollstar_id": null
+  },
+  {
+    "name": "The Burl",
+    "city": "Lexington",
+    "state": "KY",
+    "raw_line": "The Burl | Lexington, KY",
+    "pollstar_id": null
+  },
+  {
+    "name": "The Camel",
+    "city": "Richmond",
+    "state": "VA",
+    "raw_line": "The Camel | Richmond, VA",
+    "pollstar_id": null
+  },
+  {
+    "name": "The Carolina Opry",
+    "city": "Myrtle Beach",
+    "state": "SC",
+    "raw_line": "The Carolina Opry | Myrtle Beach, SC",
+    "pollstar_id": null
+  },
+  {
+    "name": "The Caverns",
+    "city": "Pelham",
+    "state": "TN",
+    "raw_line": "The Caverns | Pelham, TN",
+    "pollstar_id": null
+  },
+  {
+    "name": "The Concourse",
+    "city": "Knoxville",
+    "state": "TN",
+    "raw_line": "The Concourse | Knoxville, TN",
+    "pollstar_id": null
+  },
+  {
+    "name": "The Continental Club",
+    "city": "Houston",
+    "state": "TX",
+    "raw_line": "The Continental Club | Houston, TX",
+    "pollstar_id": null
+  },
+  {
+    "name": "The Corbin Arena",
+    "city": "Corbin",
+    "state": "KY",
+    "raw_line": "The Corbin Arena | Corbin, KY",
+    "pollstar_id": null
+  },
+  {
+    "name": "The East Room",
+    "city": "Nashville",
+    "state": "TN",
+    "raw_line": "The East Room | Nashville, TN",
+    "pollstar_id": null
+  },
+  {
+    "name": "The End",
+    "city": "Nashville",
+    "state": "TN",
+    "raw_line": "The End | Nashville, TN",
+    "pollstar_id": null
+  },
+  {
+    "name": "The Evening Muse",
+    "city": "Charlotte",
+    "state": "NC",
+    "raw_line": "The Evening Muse | Charlotte, NC",
+    "pollstar_id": null
+  },
+  {
+    "name": "The Franklin Theatre",
+    "city": "Franklin",
+    "state": "TN",
+    "raw_line": "The Franklin Theatre | Franklin, TN",
+    "pollstar_id": null
+  },
+  {
+    "name": "The Grouse Room",
+    "city": "Lafayette",
+    "state": "LA",
+    "raw_line": "The Grouse Room | Lafayette, LA",
+    "pollstar_id": null
+  },
+  {
+    "name": "The Grove",
+    "city": "Glasgow",
+    "state": "KY",
+    "raw_line": "The Grove | Glasgow, KY",
+    "pollstar_id": null
+  },
+  {
+    "name": "The Heights Theater",
+    "city": "Houston",
+    "state": "TX",
+    "raw_line": "The Heights Theater | Houston, TX",
+    "pollstar_id": null
+  },
+  {
+    "name": "The Hi-Tone Cafe",
+    "city": "Memphis",
+    "state": "TN",
+    "raw_line": "The Hi-Tone Cafe | Memphis, TN",
+    "pollstar_id": null
+  },
+  {
+    "name": "The Hobby Center for the Performing",
+    "city": "Houston",
+    "state": "TX",
+    "raw_line": "The Hobby Center for the Performing | Houston, TX",
+    "pollstar_id": null
+  },
+  {
+    "name": "the howlin wolf",
+    "city": "New Orleans",
+    "state": "LA",
+    "raw_line": "the howlin wolf | New Orleans, LA",
+    "pollstar_id": null
+  },
+  {
+    "name": "The Indie On Main",
+    "city": "Keyser",
+    "state": "WV",
+    "raw_line": "The Indie On Main | Keyser, WV",
+    "pollstar_id": null
+  },
+  {
+    "name": "The Kessler Theater",
+    "city": "Dallas",
+    "state": "TX",
+    "raw_line": "The Kessler Theater | Dallas, TX",
+    "pollstar_id": null
+  },
+  {
+    "name": "The Long Center For the Performin",
+    "city": "Austin",
+    "state": "TX",
+    "raw_line": "The Long Center For the Performin | Austin, TX",
+    "pollstar_id": null
+  },
+  {
+    "name": "The Lyric Oxford",
+    "city": "Oxford",
+    "state": "MS",
+    "raw_line": "The Lyric Oxford | Oxford, MS",
+    "pollstar_id": null
+  },
+  {
+    "name": "The Mansion At Strathmore",
+    "city": "North Bethesda",
+    "state": "MD",
+    "raw_line": "The Mansion At Strathmore | North Bethesda, MD",
+    "pollstar_id": null
+  },
+  {
+    "name": "The Masquerade",
+    "city": "Atlanta",
+    "state": "GA",
+    "raw_line": "The Masquerade | Atlanta, GA",
+    "pollstar_id": null
+  },
+  {
+    "name": "The Mix",
+    "city": "San Antonio",
+    "state": "TX",
+    "raw_line": "The Mix | San Antonio, TX",
+    "pollstar_id": null
+  },
+  {
+    "name": "The Moon",
+    "city": "Tallahassee",
+    "state": "FL",
+    "raw_line": "The Moon | Tallahassee, FL",
+    "pollstar_id": null
+  },
+  {
+    "name": "The Mulehouse",
+    "city": "Columbia",
+    "state": "TN",
+    "raw_line": "The Mulehouse | Columbia, TN",
+    "pollstar_id": null
+  },
+  {
+    "name": "The Music Box Theater",
+    "city": "Houston",
+    "state": "TX",
+    "raw_line": "The Music Box Theater | Houston, TX",
+    "pollstar_id": null
+  },
+  {
+    "name": "The Nick",
+    "city": "Birmingham",
+    "state": "AL",
+    "raw_line": "The Nick | Birmingham, AL",
+    "pollstar_id": null
+  },
+  {
+    "name": "The Orlando Amphitheater at",
+    "city": "Orlando",
+    "state": "FL",
+    "raw_line": "The Orlando Amphitheater at | Orlando, FL",
+    "pollstar_id": null
+  },
+  {
+    "name": "The Orpheum",
+    "city": "Tampa",
+    "state": "FL",
+    "raw_line": "The Orpheum | Tampa, FL",
+    "pollstar_id": null
+  },
+  {
+    "name": "The Plaza Live",
+    "city": "Orlando",
+    "state": "FL",
+    "raw_line": "The Plaza Live | Orlando, FL",
+    "pollstar_id": null
+  },
+  {
+    "name": "The Pocket",
+    "city": "Washington",
+    "state": "DC",
+    "raw_line": "The Pocket | Washington, DC",
+    "pollstar_id": null
+  },
+  {
+    "name": "The Pour House Music Hall",
+    "city": "Raleigh",
+    "state": "NC",
+    "raw_line": "The Pour House Music Hall | Raleigh, NC",
+    "pollstar_id": null
+  },
+  {
+    "name": "The Premier",
+    "city": "Hickory",
+    "state": "NC",
+    "raw_line": "The Premier | Hickory, NC",
+    "pollstar_id": null
+  },
+  {
+    "name": "The Secret Group",
+    "city": "Houston",
+    "state": "TX",
+    "raw_line": "The Secret Group | Houston, TX",
+    "pollstar_id": null
+  },
+  {
+    "name": "The Social",
+    "city": "Orlando",
+    "state": "FL",
+    "raw_line": "The Social | Orlando, FL",
+    "pollstar_id": null
+  },
+  {
+    "name": "The Spot on Kirk",
+    "city": "Roanoke",
+    "state": "VA",
+    "raw_line": "The Spot on Kirk | Roanoke, VA",
+    "pollstar_id": null
+  },
+  {
+    "name": "The Train Station",
+    "city": "Corbin",
+    "state": "KY",
+    "raw_line": "The Train Station | Corbin, KY",
+    "pollstar_id": null
+  },
+  {
+    "name": "The Village Theatre",
+    "city": "Atlanta",
+    "state": "GA",
+    "raw_line": "The Village Theatre | Atlanta, GA",
+    "pollstar_id": null
+  },
+  {
+    "name": "The Warehouse at Mt. Victor",
+    "city": "Bowling Green",
+    "state": "KY",
+    "raw_line": "The Warehouse at Mt. Victor | Bowling Green, KY",
+    "pollstar_id": null
+  },
+  {
+    "name": "Third Coast Comedy Club",
+    "city": "Nashville",
+    "state": "TN",
+    "raw_line": "Third Coast Comedy Club | Nashville, TN",
+    "pollstar_id": null
+  },
+  {
+    "name": "Thirsty Hippo",
+    "city": "Hattiesburg",
+    "state": "MS",
+    "raw_line": "Thirsty Hippo | Hattiesburg, MS",
+    "pollstar_id": null
+  },
+  {
+    "name": "Thursday Night Live",
+    "city": "Lexington",
+    "state": "KY",
+    "raw_line": "Thursday Night Live | Lexington, KY",
+    "pollstar_id": null
+  },
+  {
+    "name": "Tipitina's Uptown",
+    "city": "New Orleans",
+    "state": "LA",
+    "raw_line": "Tipitina's Uptown | New Orleans, LA",
+    "pollstar_id": null
+  },
+  {
+    "name": "Trees",
+    "city": "Dallas",
+    "state": "TX",
+    "raw_line": "Trees | Dallas, TX",
+    "pollstar_id": null
+  },
+  {
+    "name": "Tropicalia",
+    "city": "Washington",
+    "state": "DC",
+    "raw_line": "Tropicalia | Washington, DC",
+    "pollstar_id": null
+  },
+  {
+    "name": "U Street Music Hall",
+    "city": "Washington",
+    "state": "DC",
+    "raw_line": "U Street Music Hall | Washington, DC",
+    "pollstar_id": null
+  },
+  {
+    "name": "Union Stage",
+    "city": "Washington",
+    "state": "DC",
+    "raw_line": "Union Stage | Washington, DC",
+    "pollstar_id": null
+  },
+  {
+    "name": "Valhalla",
+    "city": "Austin",
+    "state": "TX",
+    "raw_line": "Valhalla | Austin, TX",
+    "pollstar_id": null
+  },
+  {
+    "name": "Van Wezel Performing Arts",
+    "city": "Sarasota",
+    "state": "FL",
+    "raw_line": "Van Wezel Performing Arts | Sarasota, FL",
+    "pollstar_id": null
+  },
+  {
+    "name": "Venkman's",
+    "city": "Atlanta",
+    "state": "GA",
+    "raw_line": "Venkman's | Atlanta, GA",
+    "pollstar_id": null
+  },
+  {
+    "name": "Vinyl",
+    "city": "Atlanta",
+    "state": "GA",
+    "raw_line": "Vinyl | Atlanta, GA",
+    "pollstar_id": null
+  },
+  {
+    "name": "Vinyl Music Hall",
+    "city": "Pensacola",
+    "state": "FL",
+    "raw_line": "Vinyl Music Hall | Pensacola, FL",
+    "pollstar_id": null
+  },
+  {
+    "name": "Visulite Theatre",
+    "city": "Charlotte",
+    "state": "NC",
+    "raw_line": "Visulite Theatre | Charlotte, NC",
+    "pollstar_id": null
+  },
+  {
+    "name": "War Memorial Auditorium",
+    "city": "Nashville",
+    "state": "TN",
+    "raw_line": "War Memorial Auditorium | Nashville, TN",
+    "pollstar_id": null
+  },
+  {
+    "name": "Waterfront Hall",
+    "city": "Wheeling",
+    "state": "WV",
+    "raw_line": "Waterfront Hall | Wheeling, WV",
+    "pollstar_id": null
+  },
+  {
+    "name": "Whitewater Amphitheater",
+    "city": "New Braunfels",
+    "state": "TX",
+    "raw_line": "Whitewater Amphitheater | New Braunfels, TX",
+    "pollstar_id": null
+  },
+  {
+    "name": "Wilson Center at Cape Fear",
+    "city": "Wilmington",
+    "state": "NC",
+    "raw_line": "Wilson Center at Cape Fear | Wilmington, NC",
+    "pollstar_id": null
+  },
+  {
+    "name": "1015 Folsom",
+    "city": "San Francisco",
+    "state": "CA",
+    "raw_line": "1015 Folsom | San Francisco, CA",
+    "pollstar_id": null
+  },
+  {
+    "name": "Airport Tavern",
+    "city": "Tacoma",
+    "state": "WA",
+    "raw_line": "Airport Tavern | Tacoma, WA",
+    "pollstar_id": null
+  },
+  {
+    "name": "Belly Up",
+    "city": "Solana Beach",
+    "state": "CA",
+    "raw_line": "Belly Up | Solana Beach, CA",
+    "pollstar_id": null
+  },
+  {
+    "name": "Blue Note Napa",
+    "city": "Napa",
+    "state": "CA",
+    "raw_line": "Blue Note Napa | Napa, CA",
+    "pollstar_id": null
+  },
+  {
+    "name": "Brick By Brick",
+    "city": "San Diego",
+    "state": "CA",
+    "raw_line": "Brick By Brick | San Diego, CA",
+    "pollstar_id": null
+  },
+  {
+    "name": "Cervantes' Masterpiece",
+    "city": "Denver",
+    "state": "CO",
+    "raw_line": "Cervantes' Masterpiece | Denver, CO",
+    "pollstar_id": null
+  },
+  {
+    "name": "EOS Lounge",
+    "city": "Santa Barbara",
+    "state": "CA",
+    "raw_line": "EOS Lounge | Santa Barbara, CA",
+    "pollstar_id": null
+  },
+  {
+    "name": "Fox Tucson Theatre",
+    "city": "Tucson",
+    "state": "AZ",
+    "raw_line": "Fox Tucson Theatre | Tucson, AZ",
+    "pollstar_id": null
+  },
+  {
+    "name": "Fremont Theater",
+    "city": "San Luis Obispo",
+    "state": "CA",
+    "raw_line": "Fremont Theater | San Luis Obispo, CA",
+    "pollstar_id": null
+  },
+  {
+    "name": "Harlow's",
+    "city": "Sacramento",
+    "state": "CA",
+    "raw_line": "Harlow's | Sacramento, CA",
+    "pollstar_id": null
+  },
+  {
+    "name": "Kilby Court",
+    "city": "Salt Lake City",
+    "state": "UT",
+    "raw_line": "Kilby Court | Salt Lake City, UT",
+    "pollstar_id": null
+  },
+  {
+    "name": "La Rosa",
+    "city": "Tucson",
+    "state": "AZ",
+    "raw_line": "La Rosa | Tucson, AZ",
+    "pollstar_id": null
+  },
+  {
+    "name": "Lobero Theatre",
+    "city": "Santa Barbara",
+    "state": "CA",
+    "raw_line": "Lobero Theatre | Santa Barbara, CA",
+    "pollstar_id": null
+  },
+  {
+    "name": "Marquee Theatre",
+    "city": "Tempe",
+    "state": "AZ",
+    "raw_line": "Marquee Theatre | Tempe, AZ",
+    "pollstar_id": null
+  },
+  {
+    "name": "Metro Music Hall",
+    "city": "Salt Lake City",
+    "state": "UT",
+    "raw_line": "Metro Music Hall | Salt Lake City, UT",
+    "pollstar_id": null
+  },
+  {
+    "name": "Moroccan Lounge",
+    "city": "Los Angeles",
+    "state": "CA",
+    "raw_line": "Moroccan Lounge | Los Angeles, CA",
+    "pollstar_id": null
+  },
+  {
+    "name": "Music Box",
+    "city": "San Diego",
+    "state": "CA",
+    "raw_line": "Music Box | San Diego, CA",
+    "pollstar_id": null
+  },
+  {
+    "name": "Nectar Lounge",
+    "city": "Seattle",
+    "state": "WA",
+    "raw_line": "Nectar Lounge | Seattle, WA",
+    "pollstar_id": null
+  },
+  {
+    "name": "Rialto Theatre",
+    "city": "Tucson",
+    "state": "AZ",
+    "raw_line": "Rialto Theatre | Tucson, AZ",
+    "pollstar_id": null
+  },
+  {
+    "name": "Strings Music Pavilion",
+    "city": "Steamboat Springs",
+    "state": "CO",
+    "raw_line": "Strings Music Pavilion | Steamboat Springs, CO",
+    "pollstar_id": null
+  },
+  {
+    "name": "Sweetwater Music Hall",
+    "city": "Mill Valley",
+    "state": "CA",
+    "raw_line": "Sweetwater Music Hall | Mill Valley, CA",
+    "pollstar_id": null
+  },
+  {
+    "name": "Teragram Ballroom",
+    "city": "Los Angeles",
+    "state": "CA",
+    "raw_line": "Teragram Ballroom | Los Angeles, CA",
+    "pollstar_id": null
+  },
+  {
+    "name": "The Freight",
+    "city": "Berkeley",
+    "state": "CA",
+    "raw_line": "The Freight | Berkeley, CA",
+    "pollstar_id": null
+  },
+  {
+    "name": "The Independent",
+    "city": "San Francisco",
+    "state": "CA",
+    "raw_line": "The Independent | San Francisco, CA",
+    "pollstar_id": null
+  },
+  {
+    "name": "The Paramount",
+    "city": "Los Angeles",
+    "state": "CA",
+    "raw_line": "The Paramount | Los Angeles, CA",
+    "pollstar_id": null
+  },
+  {
+    "name": "The Pub Station",
+    "city": "Billings",
+    "state": "MT",
+    "raw_line": "The Pub Station | Billings, MT",
+    "pollstar_id": null
+  },
+  {
+    "name": "The Rebel Lounge",
+    "city": "Phoenix",
+    "state": "AZ",
+    "raw_line": "The Rebel Lounge | Phoenix, AZ",
+    "pollstar_id": null
+  },
+  {
+    "name": "The Regent Theater",
+    "city": "Los Angeles",
+    "state": "CA",
+    "raw_line": "The Regent Theater | Los Angeles, CA",
+    "pollstar_id": null
+  },
+  {
+    "name": "The Showdown",
+    "city": "Portland",
+    "state": "OR",
+    "raw_line": "The Showdown | Portland, OR",
+    "pollstar_id": null
+  },
+  {
+    "name": "The State Room",
+    "city": "Salt Lake City",
+    "state": "UT",
+    "raw_line": "The State Room | Salt Lake City, UT",
+    "pollstar_id": null
+  },
+  {
+    "name": "The UC Theatre",
+    "city": "Berkeley",
+    "state": "CA",
+    "raw_line": "The UC Theatre | Berkeley, CA",
+    "pollstar_id": null
+  },
+  {
+    "name": "The Urban Lounge",
+    "city": "Salt Lake City",
+    "state": "UT",
+    "raw_line": "The Urban Lounge | Salt Lake City, UT",
+    "pollstar_id": null
+  },
+  {
+    "name": "Tractor Tavern",
+    "city": "Seattle",
+    "state": "WA",
+    "raw_line": "Tractor Tavern | Seattle, WA",
+    "pollstar_id": null
+  },
+  {
+    "name": "Vilar Performing Arts Center",
+    "city": "Beaver Creek",
+    "state": "CO",
+    "raw_line": "Vilar Performing Arts Center | Beaver Creek, CO",
+    "pollstar_id": null
+  },
+  {
+    "name": "45 East",
+    "city": "Portland",
+    "state": "OR",
+    "raw_line": "45 East | Portland, OR",
+    "pollstar_id": null
+  },
+  {
+    "name": "Actors Comedy Studio",
+    "city": "Los Angeles",
+    "state": "CA",
+    "raw_line": "Actors Comedy Studio | Los Angeles, CA",
+    "pollstar_id": null
+  },
+  {
+    "name": "Aggie Theatre",
+    "city": "Fort Collins",
+    "state": "CO",
+    "raw_line": "Aggie Theatre | Fort Collins, CO",
+    "pollstar_id": null
+  },
+  {
+    "name": "Aladdin Theater",
+    "city": "Portland",
+    "state": "OR",
+    "raw_line": "Aladdin Theater | Portland, OR",
+    "pollstar_id": null
+  },
+  {
+    "name": "Alberta Abbey",
+    "city": "Portland",
+    "state": "OR",
+    "raw_line": "Alberta Abbey | Portland, OR",
+    "pollstar_id": null
+  },
+  {
+    "name": "APEX Art and Culture Center",
+    "city": "Everett",
+    "state": "WA",
+    "raw_line": "APEX Art and Culture Center | Everett, WA",
+    "pollstar_id": null
+  },
+  {
+    "name": "Armory Event Center",
+    "city": "Fort Collins",
+    "state": "CO",
+    "raw_line": "Armory Event Center | Fort Collins, CO",
+    "pollstar_id": null
+  },
+  {
+    "name": "Artichoke Music",
+    "city": "Portland",
+    "state": "OR",
+    "raw_line": "Artichoke Music | Portland, OR",
+    "pollstar_id": null
+  },
+  {
+    "name": "Ashkenaz Music & Dance Communit",
+    "city": "Berkeley",
+    "state": "CA",
+    "raw_line": "Ashkenaz Music & Dance Communit | Berkeley, CA",
+    "pollstar_id": null
+  },
+  {
+    "name": "August Hall",
+    "city": "San Francisco",
+    "state": "CA",
+    "raw_line": "August Hall | San Francisco, CA",
+    "pollstar_id": null
+  },
+  {
+    "name": "Bakersfield Music Hall of Fame",
+    "city": "Bakersfield",
+    "state": "CA",
+    "raw_line": "Bakersfield Music Hall of Fame | Bakersfield, CA",
+    "pollstar_id": null
+  },
+  {
+    "name": "Bal Theatre",
+    "city": "San Leandro",
+    "state": "CA",
+    "raw_line": "Bal Theatre | San Leandro, CA",
+    "pollstar_id": null
+  },
+  {
+    "name": "Bankhead Theater",
+    "city": "Livermore",
+    "state": "CA",
+    "raw_line": "Bankhead Theater | Livermore, CA",
+    "pollstar_id": null
+  },
+  {
+    "name": "Barboza",
+    "city": "Seattle",
+    "state": "WA",
+    "raw_line": "Barboza | Seattle, WA",
+    "pollstar_id": null
+  },
+  {
+    "name": "Bedrock LA",
+    "city": "Los Angeles",
+    "state": "CA",
+    "raw_line": "Bedrock LA | Los Angeles, CA",
+    "pollstar_id": null
+  },
+  {
+    "name": "Belltown Yacht Club",
+    "city": "Seattle",
+    "state": "WA",
+    "raw_line": "Belltown Yacht Club | Seattle, WA",
+    "pollstar_id": null
+  },
+  {
+    "name": "Belly Up Aspen",
+    "city": "Aspen",
+    "state": "CO",
+    "raw_line": "Belly Up Aspen | Aspen, CO",
+    "pollstar_id": null
+  },
+  {
+    "name": "Bimbo's 365 Club",
+    "city": "San Francisco",
+    "state": "CA",
+    "raw_line": "Bimbo's 365 Club | San Francisco, CA",
+    "pollstar_id": null
+  },
+  {
+    "name": "Black Oak Ranch",
+    "city": "Laytonville",
+    "state": "CA",
+    "raw_line": "Black Oak Ranch | Laytonville, CA",
+    "pollstar_id": null
+  },
+  {
+    "name": "Black Sheep",
+    "city": "Colorado Springs",
+    "state": "CO",
+    "raw_line": "Black Sheep | Colorado Springs, CO",
+    "pollstar_id": null
+  },
+  {
+    "name": "Boulder Theater",
+    "city": "Boulder",
+    "state": "CO",
+    "raw_line": "Boulder Theater | Boulder, CO",
+    "pollstar_id": null
+  },
+  {
+    "name": "Buffalo Rose",
+    "city": "Golden",
+    "state": "CO",
+    "raw_line": "Buffalo Rose | Golden, CO",
+    "pollstar_id": null
+  },
+  {
+    "name": "Cafe Colonial",
+    "city": "Sacramento",
+    "state": "CA",
+    "raw_line": "Cafe Colonial | Sacramento, CA",
+    "pollstar_id": null
+  },
+  {
+    "name": "Cafe Du Nord",
+    "city": "San Francisco",
+    "state": "CA",
+    "raw_line": "Cafe Du Nord | San Francisco, CA",
+    "pollstar_id": null
+  },
+  {
+    "name": "Casbah",
+    "city": "San Diego",
+    "state": "CA",
+    "raw_line": "Casbah | San Diego, CA",
+    "pollstar_id": null
+  },
+  {
+    "name": "Catch One",
+    "city": "Los Angeles",
+    "state": "CA",
+    "raw_line": "Catch One | Los Angeles, CA",
+    "pollstar_id": null
+  },
+  {
+    "name": "Celebrity Theatre",
+    "city": "Phoenix",
+    "state": "AZ",
+    "raw_line": "Celebrity Theatre | Phoenix, AZ",
+    "pollstar_id": null
+  },
+  {
+    "name": "Center Stage Theater",
+    "city": "Santa Barbara",
+    "state": "CA",
+    "raw_line": "Center Stage Theater | Santa Barbara, CA",
+    "pollstar_id": null
+  },
+  {
+    "name": "Central Saloon",
+    "city": "Seattle",
+    "state": "WA",
+    "raw_line": "Central Saloon | Seattle, WA",
+    "pollstar_id": null
+  },
+  {
+    "name": "Century Ballroom",
+    "city": "Seattle",
+    "state": "WA",
+    "raw_line": "Century Ballroom | Seattle, WA",
+    "pollstar_id": null
+  },
+  {
+    "name": "Churchill School",
+    "city": "Baker City",
+    "state": "OR",
+    "raw_line": "Churchill School | Baker City, OR",
+    "pollstar_id": null
+  },
+  {
+    "name": "Clock-Out Lounge",
+    "city": "Seattle",
+    "state": "WA",
+    "raw_line": "Clock-Out Lounge | Seattle, WA",
+    "pollstar_id": null
+  },
+  {
+    "name": "CLUB FOX",
+    "city": "Redwood City",
+    "state": "CA",
+    "raw_line": "CLUB FOX | Redwood City, CA",
+    "pollstar_id": null
+  },
+  {
+    "name": "Comedy Works Downtown",
+    "city": "Denver",
+    "state": "CO",
+    "raw_line": "Comedy Works Downtown | Denver, CO",
+    "pollstar_id": null
+  },
+  {
+    "name": "Community Concert Hall @ Fo",
+    "city": "Durango",
+    "state": "CO",
+    "raw_line": "Community Concert Hall @ Fo | Durango, CO",
+    "pollstar_id": null
+  },
+  {
+    "name": "Conor Byrne Pub",
+    "city": "Seattle",
+    "state": "WA",
+    "raw_line": "Conor Byrne Pub | Seattle, WA",
+    "pollstar_id": null
+  },
+  {
+    "name": "Crescent Ballroom",
+    "city": "Phoenix",
+    "state": "AZ",
+    "raw_line": "Crescent Ballroom | Phoenix, AZ",
+    "pollstar_id": null
+  },
+  {
+    "name": "Crest Theatre",
+    "city": "Sacramento",
+    "state": "CA",
+    "raw_line": "Crest Theatre | Sacramento, CA",
+    "pollstar_id": null
+  },
+  {
+    "name": "Crybaby",
+    "city": "Oakland",
+    "state": "CA",
+    "raw_line": "Crybaby | Oakland, CA",
+    "pollstar_id": null
+  },
+  {
+    "name": "Dante's",
+    "city": "Portland",
+    "state": "OR",
+    "raw_line": "Dante's | Portland, OR",
+    "pollstar_id": null
+  },
+  {
+    "name": "Del E. Webb Center for the Performing",
+    "city": "Wickenburg",
+    "state": "AZ",
+    "raw_line": "Del E. Webb Center for the Performing | Wickenburg, AZ",
+    "pollstar_id": null
+  },
+  {
+    "name": "Desert Daze",
+    "city": "Perris",
+    "state": "CA",
+    "raw_line": "Desert Daze | Perris, CA",
+    "pollstar_id": null
+  },
+  {
+    "name": "Don Quixote",
+    "city": "Los Angeles",
+    "state": "CA",
+    "raw_line": "Don Quixote | Los Angeles, CA",
+    "pollstar_id": null
+  },
+  {
+    "name": "El Cid",
+    "city": "Los Angeles",
+    "state": "CA",
+    "raw_line": "El Cid | Los Angeles, CA",
+    "pollstar_id": null
+  },
+  {
+    "name": "El Corazon",
+    "city": "Seattle",
+    "state": "WA",
+    "raw_line": "El Corazon | Seattle, WA",
+    "pollstar_id": null
+  },
+  {
+    "name": "El Rio",
+    "city": "San Francisco",
+    "state": "CA",
+    "raw_line": "El Rio | San Francisco, CA",
+    "pollstar_id": null
+  },
+  {
+    "name": "EQ San Diego",
+    "city": "San Diego",
+    "state": "CA",
+    "raw_line": "EQ San Diego | San Diego, CA",
+    "pollstar_id": null
+  },
+  {
+    "name": "eTown Hall",
+    "city": "Boulder",
+    "state": "CO",
+    "raw_line": "eTown Hall | Boulder, CO",
+    "pollstar_id": null
+  },
+  {
+    "name": "Felton Music Hall",
+    "city": "Felton",
+    "state": "CA",
+    "raw_line": "Felton Music Hall | Felton, CA",
+    "pollstar_id": null
+  },
+  {
+    "name": "Flappers Comedy Club And",
+    "city": "Burbank",
+    "state": "CA",
+    "raw_line": "Flappers Comedy Club And | Burbank, CA",
+    "pollstar_id": null
+  },
+  {
+    "name": "Floor 13 Rooftop Bar",
+    "city": "Phoenix",
+    "state": "AZ",
+    "raw_line": "Floor 13 Rooftop Bar | Phoenix, AZ",
+    "pollstar_id": null
+  },
+  {
+    "name": "Fox Theatre",
+    "city": "Boulder",
+    "state": "CO",
+    "raw_line": "Fox Theatre | Boulder, CO",
+    "pollstar_id": null
+  },
+  {
+    "name": "Funhouse",
+    "city": "Seattle",
+    "state": "WA",
+    "raw_line": "Funhouse | Seattle, WA",
+    "pollstar_id": null
+  },
+  {
+    "name": "Gesa Power House Theatre",
+    "city": "Walla Walla",
+    "state": "WA",
+    "raw_line": "Gesa Power House Theatre | Walla Walla, WA",
+    "pollstar_id": null
+  },
+  {
+    "name": "Glenwood Vaudeville Revue",
+    "city": "Glenwood Springs",
+    "state": "CO",
+    "raw_line": "Glenwood Vaudeville Revue | Glenwood Springs, CO",
+    "pollstar_id": null
+  },
+  {
+    "name": "Globe Hall",
+    "city": "Denver",
+    "state": "CO",
+    "raw_line": "Globe Hall | Denver, CO",
+    "pollstar_id": null
+  },
+  {
+    "name": "Goldfield Trading Post Sacramento",
+    "city": "Sacramento",
+    "state": "CA",
+    "raw_line": "Goldfield Trading Post Sacramento | Sacramento, CA",
+    "pollstar_id": null
+  },
+  {
+    "name": "Goodfoot Pub & Lounge",
+    "city": "Portland",
+    "state": "OR",
+    "raw_line": "Goodfoot Pub & Lounge | Portland, OR",
+    "pollstar_id": null
+  },
+  {
+    "name": "Hangtown VOR- DME HNW 115.5",
+    "city": "Placerville",
+    "state": "CA",
+    "raw_line": "Hangtown VOR- DME HNW 115.5 | Placerville, CA",
+    "pollstar_id": null
+  },
+  {
+    "name": "Holocene",
+    "city": "Portland",
+    "state": "OR",
+    "raw_line": "Holocene | Portland, OR",
+    "pollstar_id": null
+  },
+  {
+    "name": "Holy Diver",
+    "city": "Sacramento",
+    "state": "CA",
+    "raw_line": "Holy Diver | Sacramento, CA",
+    "pollstar_id": null
+  },
+  {
+    "name": "Hopmonk Tavern",
+    "city": "Novato",
+    "state": "CA",
+    "raw_line": "Hopmonk Tavern | Novato, CA",
+    "pollstar_id": null
+  },
+  {
+    "name": "Ivy Room",
+    "city": "Albany",
+    "state": "CA",
+    "raw_line": "Ivy Room | Albany, CA",
+    "pollstar_id": null
+  },
+  {
+    "name": "JaM Cellars Ballroom",
+    "city": "Napa",
+    "state": "CA",
+    "raw_line": "JaM Cellars Ballroom | Napa, CA",
+    "pollstar_id": null
+  },
+  {
+    "name": "Jamestown Mercantile",
+    "city": "Jamestown",
+    "state": "CO",
+    "raw_line": "Jamestown Mercantile | Jamestown, CO",
+    "pollstar_id": null
+  },
+  {
+    "name": "Junior High Los Angeles",
+    "city": "Glendale",
+    "state": "CA",
+    "raw_line": "Junior High Los Angeles | Glendale, CA",
+    "pollstar_id": null
+  },
+  {
+    "name": "Kelly's Olympian",
+    "city": "Portland",
+    "state": "OR",
+    "raw_line": "Kelly's Olympian | Portland, OR",
+    "pollstar_id": null
+  },
+  {
+    "name": "KettleHouse Amphitheater",
+    "city": "Bonner",
+    "state": "MT",
+    "raw_line": "KettleHouse Amphitheater | Bonner, MT",
+    "pollstar_id": null
+  },
+  {
+    "name": "Knitting Factory",
+    "city": "Boise",
+    "state": "ID",
+    "raw_line": "Knitting Factory | Boise, ID",
+    "pollstar_id": null
+  },
+  {
+    "name": "Koot's",
+    "city": "Anchorage",
+    "state": "AK",
+    "raw_line": "Koot's | Anchorage, AK",
+    "pollstar_id": null
+  },
+  {
+    "name": "Kuumbwa Jazz Center",
+    "city": "Santa Cruz",
+    "state": "CA",
+    "raw_line": "Kuumbwa Jazz Center | Santa Cruz, CA",
+    "pollstar_id": null
+  },
+  {
+    "name": "Lakewood Center for the Arts",
+    "city": "Lake Oswego",
+    "state": "OR",
+    "raw_line": "Lakewood Center for the Arts | Lake Oswego, OR",
+    "pollstar_id": null
+  },
+  {
+    "name": "Larimer Lounge",
+    "city": "Denver",
+    "state": "CO",
+    "raw_line": "Larimer Lounge | Denver, CO",
+    "pollstar_id": null
+  },
+  {
+    "name": "Last Exit Live",
+    "city": "Phoenix",
+    "state": "AZ",
+    "raw_line": "Last Exit Live | Phoenix, AZ",
+    "pollstar_id": null
+  },
+  {
+    "name": "Laughs Unlimited Comedy Club and",
+    "city": "Sacramento",
+    "state": "CA",
+    "raw_line": "Laughs Unlimited Comedy Club and | Sacramento, CA",
+    "pollstar_id": null
+  },
+  {
+    "name": "Launchpad",
+    "city": "Albuquerque",
+    "state": "NM",
+    "raw_line": "Launchpad | Albuquerque, NM",
+    "pollstar_id": null
+  },
+  {
+    "name": "Lensic Performing Arts Center",
+    "city": "Santa Fe",
+    "state": "NM",
+    "raw_line": "Lensic Performing Arts Center | Santa Fe, NM",
+    "pollstar_id": null
+  },
+  {
+    "name": "Levitt Pavilion Denver",
+    "city": "Denver",
+    "state": "CO",
+    "raw_line": "Levitt Pavilion Denver | Denver, CO",
+    "pollstar_id": null
+  },
+  {
+    "name": "Liberty Theater",
+    "city": "Astoria",
+    "state": "OR",
+    "raw_line": "Liberty Theater | Astoria, OR",
+    "pollstar_id": null
+  },
+  {
+    "name": "Little Bear Live",
+    "city": "Evergreen",
+    "state": "CO",
+    "raw_line": "Little Bear Live | Evergreen, CO",
+    "pollstar_id": null
+  },
+  {
+    "name": "Lost Lake Lounge",
+    "city": "Denver",
+    "state": "CO",
+    "raw_line": "Lost Lake Lounge | Denver, CO",
+    "pollstar_id": null
+  },
+  {
+    "name": "Lucky You Lounge",
+    "city": "Spokane",
+    "state": "WA",
+    "raw_line": "Lucky You Lounge | Spokane, WA",
+    "pollstar_id": null
+  },
+  {
+    "name": "Lulu's Downstairs",
+    "city": "Colorado Springs",
+    "state": "CO",
+    "raw_line": "Lulu's Downstairs | Colorado Springs, CO",
+    "pollstar_id": null
+  },
+  {
+    "name": "Luther Burbank Center for the Arts",
+    "city": "Santa Rosa",
+    "state": "CA",
+    "raw_line": "Luther Burbank Center for the Arts | Santa Rosa, CA",
+    "pollstar_id": null
+  },
+  {
+    "name": "Madrone Art Bar",
+    "city": "San Francisco",
+    "state": "CA",
+    "raw_line": "Madrone Art Bar | San Francisco, CA",
+    "pollstar_id": null
+  },
+  {
+    "name": "Maverick Saloon",
+    "city": "Santa Ynez",
+    "state": "CA",
+    "raw_line": "Maverick Saloon | Santa Ynez, CA",
+    "pollstar_id": null
+  },
+  {
+    "name": "McMenamins Crystal Ballroom",
+    "city": "Portland",
+    "state": "OR",
+    "raw_line": "McMenamins Crystal Ballroom | Portland, OR",
+    "pollstar_id": null
+  },
+  {
+    "name": "McMenamins Edgefield",
+    "city": "Troutdale",
+    "state": "OR",
+    "raw_line": "McMenamins Edgefield | Troutdale, OR",
+    "pollstar_id": null
+  },
+  {
+    "name": "McMenamins White Eagle Saloo",
+    "city": "Portland",
+    "state": "OR",
+    "raw_line": "McMenamins White Eagle Saloo | Portland, OR",
+    "pollstar_id": null
+  },
+  {
+    "name": "Mesa Amphitheatre",
+    "city": "Mesa",
+    "state": "AZ",
+    "raw_line": "Mesa Amphitheatre | Mesa, AZ",
+    "pollstar_id": null
+  },
+  {
+    "name": "Mississippi Studios",
+    "city": "Portland",
+    "state": "OR",
+    "raw_line": "Mississippi Studios | Portland, OR",
+    "pollstar_id": null
+  },
+  {
+    "name": "Mojave Gold",
+    "city": "Yucca Valley",
+    "state": "CA",
+    "raw_line": "Mojave Gold | Yucca Valley, CA",
+    "pollstar_id": null
+  },
+  {
+    "name": "Monkey Barrel",
+    "city": "Denver",
+    "state": "CO",
+    "raw_line": "Monkey Barrel | Denver, CO",
+    "pollstar_id": null
+  },
+  {
+    "name": "Moore Theatre",
+    "city": "Seattle",
+    "state": "WA",
+    "raw_line": "Moore Theatre | Seattle, WA",
+    "pollstar_id": null
+  },
+  {
+    "name": "Moxi Theater",
+    "city": "Greeley",
+    "state": "CO",
+    "raw_line": "Moxi Theater | Greeley, CO",
+    "pollstar_id": null
+  },
+  {
+    "name": "Mr. Tipple\u2019s Jazz Club",
+    "city": "San Francisco",
+    "state": "CA",
+    "raw_line": "Mr. Tipple\u2019s Jazz Club | San Francisco, CA",
+    "pollstar_id": null
+  },
+  {
+    "name": "Mystic Theatre",
+    "city": "Petaluma",
+    "state": "CA",
+    "raw_line": "Mystic Theatre | Petaluma, CA",
+    "pollstar_id": null
+  },
+  {
+    "name": "Neptune Theatre",
+    "city": "Seattle",
+    "state": "WA",
+    "raw_line": "Neptune Theatre | Seattle, WA",
+    "pollstar_id": null
+  },
+  {
+    "name": "Neumos",
+    "city": "Seattle",
+    "state": "WA",
+    "raw_line": "Neumos | Seattle, WA",
+    "pollstar_id": null
+  },
+  {
+    "name": "Newman Center for the Performing Arts",
+    "city": "Denver",
+    "state": "CO",
+    "raw_line": "Newman Center for the Performing Arts | Denver, CO",
+    "pollstar_id": null
+  },
+  {
+    "name": "Oakland Metro",
+    "city": "Oakland",
+    "state": "CA",
+    "raw_line": "Oakland Metro | Oakland, CA",
+    "pollstar_id": null
+  },
+  {
+    "name": "Oasis",
+    "city": "San Francisco",
+    "state": "CA",
+    "raw_line": "Oasis | San Francisco, CA",
+    "pollstar_id": null
+  },
+  {
+    "name": "Ogren Park at Allegiance Field",
+    "city": "Missoula",
+    "state": "MT",
+    "raw_line": "Ogren Park at Allegiance Field | Missoula, MT",
+    "pollstar_id": null
+  },
+  {
+    "name": "Orpheum Theater \u2013 Flagstaff",
+    "city": "Flagstaff",
+    "state": "AZ",
+    "raw_line": "Orpheum Theater \u2013 Flagstaff | Flagstaff, AZ",
+    "pollstar_id": null
+  },
+  {
+    "name": "Oxnard Levity Live",
+    "city": "Oxnard",
+    "state": "CA",
+    "raw_line": "Oxnard Levity Live | Oxnard, CA",
+    "pollstar_id": null
+  },
+  {
+    "name": "Paramount Theatre",
+    "city": "Seattle",
+    "state": "WA",
+    "raw_line": "Paramount Theatre | Seattle, WA",
+    "pollstar_id": null
+  },
+  {
+    "name": "Patricia Reser Center for the Arts",
+    "city": "Beaverton",
+    "state": "OR",
+    "raw_line": "Patricia Reser Center for the Arts | Beaverton, OR",
+    "pollstar_id": null
+  },
+  {
+    "name": "Phoenix Hotel",
+    "city": "San Francisco",
+    "state": "CA",
+    "raw_line": "Phoenix Hotel | San Francisco, CA",
+    "pollstar_id": null
+  },
+  {
+    "name": "PianoFight",
+    "city": "San Francisco",
+    "state": "CA",
+    "raw_line": "PianoFight | San Francisco, CA",
+    "pollstar_id": null
+  },
+  {
+    "name": "PianoFight Oakland",
+    "city": "Oakland",
+    "state": "CA",
+    "raw_line": "PianoFight Oakland | Oakland, CA",
+    "pollstar_id": null
+  },
+  {
+    "name": "Planet Bluegrass",
+    "city": "Lyons",
+    "state": "CO",
+    "raw_line": "Planet Bluegrass | Lyons, CO",
+    "pollstar_id": null
+  },
+  {
+    "name": "Polaris Hall",
+    "city": "Portland",
+    "state": "OR",
+    "raw_line": "Polaris Hall | Portland, OR",
+    "pollstar_id": null
+  },
+  {
+    "name": "Red Butte Garden",
+    "city": "Salt Lake City",
+    "state": "UT",
+    "raw_line": "Red Butte Garden | Salt Lake City, UT",
+    "pollstar_id": null
+  },
+  {
+    "name": "Red Rocks Amphitheatre",
+    "city": "Morrison",
+    "state": "CO",
+    "raw_line": "Red Rocks Amphitheatre | Morrison, CO",
+    "pollstar_id": null
+  },
+  {
+    "name": "Redding Civic Auditorium",
+    "city": "Redding",
+    "state": "CA",
+    "raw_line": "Redding Civic Auditorium | Redding, CA",
+    "pollstar_id": null
+  },
+  {
+    "name": "Resident",
+    "city": "Los Angeles",
+    "state": "CA",
+    "raw_line": "Resident | Los Angeles, CA",
+    "pollstar_id": null
+  },
+  {
+    "name": "Revolution Concert House",
+    "city": "Garden City",
+    "state": "ID",
+    "raw_line": "Revolution Concert House | Garden City, ID",
+    "pollstar_id": null
+  },
+  {
+    "name": "Revolution Hall",
+    "city": "Portland",
+    "state": "OR",
+    "raw_line": "Revolution Hall | Portland, OR",
+    "pollstar_id": null
+  },
+  {
+    "name": "Rhythm Room",
+    "city": "Phoenix",
+    "state": "AZ",
+    "raw_line": "Rhythm Room | Phoenix, AZ",
+    "pollstar_id": null
+  },
+  {
+    "name": "Rockabillies",
+    "city": "Arvada",
+    "state": "CO",
+    "raw_line": "Rockabillies | Arvada, CO",
+    "pollstar_id": null
+  },
+  {
+    "name": "Rocksteady Adventures",
+    "city": "Farmington",
+    "state": "CA",
+    "raw_line": "Rocksteady Adventures | Farmington, CA",
+    "pollstar_id": null
+  },
+  {
+    "name": "Roots Music Project",
+    "city": "Boulder",
+    "state": "CO",
+    "raw_line": "Roots Music Project | Boulder, CO",
+    "pollstar_id": null
+  },
+  {
+    "name": "Roseland Theater",
+    "city": "Portland",
+    "state": "OR",
+    "raw_line": "Roseland Theater | Portland, OR",
+    "pollstar_id": null
+  },
+  {
+    "name": "SAFE Credit Union Performing Arts",
+    "city": "Sacramento",
+    "state": "CA",
+    "raw_line": "SAFE Credit Union Performing Arts | Sacramento, CA",
+    "pollstar_id": null
+  },
+  {
+    "name": "Saint Felix Hollywood",
+    "city": "Los Angeles",
+    "state": "CA",
+    "raw_line": "Saint Felix Hollywood | Los Angeles, CA",
+    "pollstar_id": null
+  },
+  {
+    "name": "Saint Rocke",
+    "city": "Hermosa Beach",
+    "state": "CA",
+    "raw_line": "Saint Rocke | Hermosa Beach, CA",
+    "pollstar_id": null
+  },
+  {
+    "name": "Sea Monster Lounge",
+    "city": "Seattle",
+    "state": "WA",
+    "raw_line": "Sea Monster Lounge | Seattle, WA",
+    "pollstar_id": null
+  },
+  {
+    "name": "Sheridan Opera House",
+    "city": "Telluride",
+    "state": "CO",
+    "raw_line": "Sheridan Opera House | Telluride, CO",
+    "pollstar_id": null
+  },
+  {
+    "name": "Silver Star Theater",
+    "city": "Mesa",
+    "state": "AZ",
+    "raw_line": "Silver Star Theater | Mesa, AZ",
+    "pollstar_id": null
+  },
+  {
+    "name": "Sisters Art Works",
+    "city": "Sisters",
+    "state": "OR",
+    "raw_line": "Sisters Art Works | Sisters, OR",
+    "pollstar_id": null
+  },
+  {
+    "name": "SJZ Break Room",
+    "city": "San Jose",
+    "state": "CA",
+    "raw_line": "SJZ Break Room | San Jose, CA",
+    "pollstar_id": null
+  },
+  {
+    "name": "Slack Key Show - Masters of",
+    "city": "Lahaina",
+    "state": "HI",
+    "raw_line": "Slack Key Show - Masters of | Lahaina, HI",
+    "pollstar_id": null
+  },
+  {
+    "name": "Snazzy Productions Live Music",
+    "city": "Santa Cruz",
+    "state": "CA",
+    "raw_line": "Snazzy Productions Live Music | Santa Cruz, CA",
+    "pollstar_id": null
+  },
+  {
+    "name": "Soda Bar",
+    "city": "San Diego",
+    "state": "CA",
+    "raw_line": "Soda Bar | San Diego, CA",
+    "pollstar_id": null
+  },
+  {
+    "name": "Spanish Ballroom at Elks Temple",
+    "city": "Tacoma",
+    "state": "WA",
+    "raw_line": "Spanish Ballroom at Elks Temple | Tacoma, WA",
+    "pollstar_id": null
+  },
+  {
+    "name": "Spokane Comedy Club",
+    "city": "Spokane",
+    "state": "WA",
+    "raw_line": "Spokane Comedy Club | Spokane, WA",
+    "pollstar_id": null
+  },
+  {
+    "name": "Star Theater",
+    "city": "Portland",
+    "state": "OR",
+    "raw_line": "Star Theater | Portland, OR",
+    "pollstar_id": null
+  },
+  {
+    "name": "Starline Social Club",
+    "city": "Oakland",
+    "state": "CA",
+    "raw_line": "Starline Social Club | Oakland, CA",
+    "pollstar_id": null
+  },
+  {
+    "name": "Sunset Tavern",
+    "city": "Seattle",
+    "state": "WA",
+    "raw_line": "Sunset Tavern | Seattle, WA",
+    "pollstar_id": null
+  },
+  {
+    "name": "Swallow Hill Music Association",
+    "city": "Denver",
+    "state": "CO",
+    "raw_line": "Swallow Hill Music Association | Denver, CO",
+    "pollstar_id": null
+  },
+  {
+    "name": "T-Bar Social Club",
+    "city": "June Lake",
+    "state": "CA",
+    "raw_line": "T-Bar Social Club | June Lake, CA",
+    "pollstar_id": null
+  },
+  {
+    "name": "Tacoma Comedy Club - Downtown",
+    "city": "Tacoma",
+    "state": "WA",
+    "raw_line": "Tacoma Comedy Club - Downtown | Tacoma, WA",
+    "pollstar_id": null
+  },
+  {
+    "name": "Taos Mesa Brewing Taos Tap Room",
+    "city": "Taos",
+    "state": "NM",
+    "raw_line": "Taos Mesa Brewing Taos Tap Room | Taos, NM",
+    "pollstar_id": null
+  },
+  {
+    "name": "The 1905",
+    "city": "Portland",
+    "state": "OR",
+    "raw_line": "The 1905 | Portland, OR",
+    "pollstar_id": null
+  },
+  {
+    "name": "The American Comedy Co.",
+    "city": "San Diego",
+    "state": "CA",
+    "raw_line": "The American Comedy Co. | San Diego, CA",
+    "pollstar_id": null
+  },
+  {
+    "name": "The Bancroft Bar",
+    "city": "Spring Valley",
+    "state": "CA",
+    "raw_line": "The Bancroft Bar | Spring Valley, CA",
+    "pollstar_id": null
+  },
+  {
+    "name": "The Boardwalk",
+    "city": "Orangevale",
+    "state": "CA",
+    "raw_line": "The Boardwalk | Orangevale, CA",
+    "pollstar_id": null
+  },
+  {
+    "name": "The Bridge At Santa Fe Brewing",
+    "city": "Santa Fe",
+    "state": "NM",
+    "raw_line": "The Bridge At Santa Fe Brewing | Santa Fe, NM",
+    "pollstar_id": null
+  },
+  {
+    "name": "The Canyon @ The Saban Theatre",
+    "city": "Beverly Hills",
+    "state": "CA",
+    "raw_line": "The Canyon @ The Saban Theatre | Beverly Hills, CA",
+    "pollstar_id": null
+  },
+  {
+    "name": "The Colony Theatre Company",
+    "city": "Burbank",
+    "state": "CA",
+    "raw_line": "The Colony Theatre Company | Burbank, CA",
+    "pollstar_id": null
+  },
+  {
+    "name": "The Commonwealth",
+    "city": "South Salt Lake",
+    "state": "UT",
+    "raw_line": "The Commonwealth | South Salt Lake, UT",
+    "pollstar_id": null
+  },
+  {
+    "name": "The Courtyard at 610",
+    "city": "Ridgway",
+    "state": "CO",
+    "raw_line": "The Courtyard at 610 | Ridgway, CO",
+    "pollstar_id": null
+  },
+  {
+    "name": "The Cuthbert Amphitheater",
+    "city": "Eugene",
+    "state": "OR",
+    "raw_line": "The Cuthbert Amphitheater | Eugene, OR",
+    "pollstar_id": null
+  },
+  {
+    "name": "THE DEN",
+    "city": "Portland",
+    "state": "OR",
+    "raw_line": "THE DEN | Portland, OR",
+    "pollstar_id": null
+  },
+  {
+    "name": "The ELM",
+    "city": "Bozeman",
+    "state": "MT",
+    "raw_line": "The ELM | Bozeman, MT",
+    "pollstar_id": null
+  },
+  {
+    "name": "The Glass House Concert Hall",
+    "city": "Pomona",
+    "state": "CA",
+    "raw_line": "The Glass House Concert Hall | Pomona, CA",
+    "pollstar_id": null
+  },
+  {
+    "name": "The Golden Bull",
+    "city": "Oakland",
+    "state": "CA",
+    "raw_line": "The Golden Bull | Oakland, CA",
+    "pollstar_id": null
+  },
+  {
+    "name": "The Green Room Social Club",
+    "city": "Placerville",
+    "state": "CA",
+    "raw_line": "The Green Room Social Club | Placerville, CA",
+    "pollstar_id": null
+  },
+  {
+    "name": "The Guild Theatre",
+    "city": "Menlo Park",
+    "state": "CA",
+    "raw_line": "The Guild Theatre | Menlo Park, CA",
+    "pollstar_id": null
+  },
+  {
+    "name": "The Historic Bakersfield Fox",
+    "city": "Bakersfield",
+    "state": "CA",
+    "raw_line": "The Historic Bakersfield Fox | Bakersfield, CA",
+    "pollstar_id": null
+  },
+  {
+    "name": "The Holland Project",
+    "city": "Reno",
+    "state": "NV",
+    "raw_line": "The Holland Project | Reno, NV",
+    "pollstar_id": null
+  },
+  {
+    "name": "The Hotel Cafe",
+    "city": "Hollywood",
+    "state": "CA",
+    "raw_line": "The Hotel Cafe | Hollywood, CA",
+    "pollstar_id": null
+  },
+  {
+    "name": "The Jack London Revue",
+    "city": "Portland",
+    "state": "OR",
+    "raw_line": "The Jack London Revue | Portland, OR",
+    "pollstar_id": null
+  },
+  {
+    "name": "The Lariat",
+    "city": "Buena Vista",
+    "state": "CO",
+    "raw_line": "The Lariat | Buena Vista, CO",
+    "pollstar_id": null
+  },
+  {
+    "name": "The Lincoln Cheyenne",
+    "city": "Cheyenne",
+    "state": "WY",
+    "raw_line": "The Lincoln Cheyenne | Cheyenne, WY",
+    "pollstar_id": null
+  },
+  {
+    "name": "The Maverick",
+    "city": "Tucson",
+    "state": "AZ",
+    "raw_line": "The Maverick | Tucson, AZ",
+    "pollstar_id": null
+  },
+  {
+    "name": "The Mayan",
+    "city": "Los Angeles",
+    "state": "CA",
+    "raw_line": "The Mayan | Los Angeles, CA",
+    "pollstar_id": null
+  },
+  {
+    "name": "The Miracle Theater",
+    "city": "Inglewood",
+    "state": "CA",
+    "raw_line": "The Miracle Theater | Inglewood, CA",
+    "pollstar_id": null
+  },
+  {
+    "name": "The Mountain Room",
+    "city": "Seattle",
+    "state": "WA",
+    "raw_line": "The Mountain Room | Seattle, WA",
+    "pollstar_id": null
+  },
+  {
+    "name": "The New Parish",
+    "city": "Oakland",
+    "state": "CA",
+    "raw_line": "The New Parish | Oakland, CA",
+    "pollstar_id": null
+  },
+  {
+    "name": "The Nile Theater",
+    "city": "Mesa",
+    "state": "AZ",
+    "raw_line": "The Nile Theater | Mesa, AZ",
+    "pollstar_id": null
+  },
+  {
+    "name": "The Old Church Concert Hall",
+    "city": "Portland",
+    "state": "OR",
+    "raw_line": "The Old Church Concert Hall | Portland, OR",
+    "pollstar_id": null
+  },
+  {
+    "name": "The Oriental Theater",
+    "city": "Denver",
+    "state": "CO",
+    "raw_line": "The Oriental Theater | Denver, CO",
+    "pollstar_id": null
+  },
+  {
+    "name": "The Rink Studios",
+    "city": "Sacramento",
+    "state": "CA",
+    "raw_line": "The Rink Studios | Sacramento, CA",
+    "pollstar_id": null
+  },
+  {
+    "name": "The Ritz",
+    "city": "San Jose",
+    "state": "CA",
+    "raw_line": "The Ritz | San Jose, CA",
+    "pollstar_id": null
+  },
+  {
+    "name": "The Shakedown",
+    "city": "Bellingham",
+    "state": "WA",
+    "raw_line": "The Shakedown | Bellingham, WA",
+    "pollstar_id": null
+  },
+  {
+    "name": "The Siren Theater",
+    "city": "Portland",
+    "state": "OR",
+    "raw_line": "The Siren Theater | Portland, OR",
+    "pollstar_id": null
+  },
+  {
+    "name": "The Space",
+    "city": "Las Vegas",
+    "state": "NV",
+    "raw_line": "The Space | Las Vegas, NV",
+    "pollstar_id": null
+  },
+  {
+    "name": "The Starlet Room",
+    "city": "Sacramento",
+    "state": "CA",
+    "raw_line": "The Starlet Room | Sacramento, CA",
+    "pollstar_id": null
+  },
+  {
+    "name": "The United Theater on Broadway",
+    "city": "Los Angeles",
+    "state": "CA",
+    "raw_line": "The United Theater on Broadway | Los Angeles, CA",
+    "pollstar_id": null
+  },
+  {
+    "name": "The Vault Theater",
+    "city": "Hillsboro",
+    "state": "OR",
+    "raw_line": "The Vault Theater | Hillsboro, OR",
+    "pollstar_id": null
+  },
+  {
+    "name": "The Venice West",
+    "city": "Venice",
+    "state": "CA",
+    "raw_line": "The Venice West | Venice, CA",
+    "pollstar_id": null
+  },
+  {
+    "name": "The Virgil",
+    "city": "Los Angeles",
+    "state": "CA",
+    "raw_line": "The Virgil | Los Angeles, CA",
+    "pollstar_id": null
+  },
+  {
+    "name": "The Wilma",
+    "city": "Missoula",
+    "state": "MT",
+    "raw_line": "The Wilma | Missoula, MT",
+    "pollstar_id": null
+  },
+  {
+    "name": "Tim's Tavern",
+    "city": "Seattle",
+    "state": "WA",
+    "raw_line": "Tim's Tavern | Seattle, WA",
+    "pollstar_id": null
+  },
+  {
+    "name": "Top Hat Lounge",
+    "city": "Missoula",
+    "state": "MT",
+    "raw_line": "Top Hat Lounge | Missoula, MT",
+    "pollstar_id": null
+  },
+  {
+    "name": "Townhouse Venice",
+    "city": "Los Angeles",
+    "state": "CA",
+    "raw_line": "Townhouse Venice | Los Angeles, CA",
+    "pollstar_id": null
+  },
+  {
+    "name": "Troubadour",
+    "city": "West Hollywood",
+    "state": "CA",
+    "raw_line": "Troubadour | West Hollywood, CA",
+    "pollstar_id": null
+  },
+  {
+    "name": "Ullrs Tavern",
+    "city": "Winter Park",
+    "state": "CO",
+    "raw_line": "Ullrs Tavern | Winter Park, CO",
+    "pollstar_id": null
+  },
+  {
+    "name": "Upright Citizens Brigade Theatre",
+    "city": "Los Angeles",
+    "state": "CA",
+    "raw_line": "Upright Citizens Brigade Theatre | Los Angeles, CA",
+    "pollstar_id": null
+  },
+  {
+    "name": "Ute Theater and Events Center",
+    "city": "Rifle",
+    "state": "CO",
+    "raw_line": "Ute Theater and Events Center | Rifle, CO",
+    "pollstar_id": null
+  },
+  {
+    "name": "Valley Bar",
+    "city": "Phoenix",
+    "state": "AZ",
+    "raw_line": "Valley Bar | Phoenix, AZ",
+    "pollstar_id": null
+  },
+  {
+    "name": "Visalia Fox Theatre",
+    "city": "Visalia",
+    "state": "CA",
+    "raw_line": "Visalia Fox Theatre | Visalia, CA",
+    "pollstar_id": null
+  },
+  {
+    "name": "Visual Arts Collective (VAC)",
+    "city": "Garden City",
+    "state": "ID",
+    "raw_line": "Visual Arts Collective (VAC) | Garden City, ID",
+    "pollstar_id": null
+  },
+  {
+    "name": "Walter Studios",
+    "city": "Phoenix",
+    "state": "AZ",
+    "raw_line": "Walter Studios | Phoenix, AZ",
+    "pollstar_id": null
+  },
+  {
+    "name": "Walter Where? House",
+    "city": "Phoenix",
+    "state": "AZ",
+    "raw_line": "Walter Where? House | Phoenix, AZ",
+    "pollstar_id": null
+  },
+  {
+    "name": "Whiteside Theatre",
+    "city": "Corvallis",
+    "state": "OR",
+    "raw_line": "Whiteside Theatre | Corvallis, OR",
+    "pollstar_id": null
+  },
+  {
+    "name": "Wild Buffalo House Of Music Williwaw Social",
+    "city": "Anchorage",
+    "state": "AK",
+    "raw_line": "Wild Buffalo House Of Music Williwaw Social | Anchorage, AK",
+    "pollstar_id": null
+  },
+  {
+    "name": "Yucca North",
+    "city": "Flagstaff",
+    "state": "AZ",
+    "raw_line": "Yucca North | Flagstaff, AZ",
+    "pollstar_id": null
+  }
+]
