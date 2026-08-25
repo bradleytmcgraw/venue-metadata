@@ -1,16 +1,18 @@
 #!/usr/bin/env python3
 """
-Fetch detailed Google Places data for all venues using the Place Details (New) API.
+Fetch detailed Google Places data for unique Place IDs using Place Details (New).
 
-Uses the google_place_id from venues_clean.json to fetch rich detail data including:
+Uses google_place_id from venues_clean.json. Co-located listings that share a
+Place ID are fetched once. Details include:
 - Rating, review count, and individual reviews
-- Business status, price level, price range
+- Business status, price level, price range, types
 - Opening hours, phone number, website
+- Menu and food-service attributes (servesBreakfast, menuForChildren, etc.)
 - Atmosphere attributes (live music, outdoor seating, etc.)
 - Editorial summary, generative summary
 
 Outputs:
-- venues/venues_details.json  (all venues with detailed Google Places data)
+- venues/venues_details.json  (listings with nested place_details)
 
 Usage:
     export GOOGLE_PLACES_API_KEY="your-key-here"
@@ -27,6 +29,8 @@ from pathlib import Path
 from urllib.request import Request, urlopen
 from urllib.error import HTTPError, URLError
 
+from places import FIELD_MASK, extract_details
+
 # ---------------------------------------------------------------------------
 # Config
 # ---------------------------------------------------------------------------
@@ -37,56 +41,6 @@ PROGRESS_FILE = Path("venues/.details_progress.json")
 # Google Places API (New) Place Details endpoint
 # GET https://places.googleapis.com/v1/places/{PLACE_ID}
 PLACES_BASE_URL = "https://places.googleapis.com/v1/places"
-
-# Fields to request — grouped by billing tier:
-#
-# Essentials (IDs Only): id, name, photos
-# Essentials: formattedAddress, location, types, addressComponents, shortFormattedAddress
-# Pro: displayName, businessStatus, googleMapsUri, primaryType, primaryTypeDisplayName, timeZone, utcOffsetMinutes
-# Enterprise: rating, userRatingCount, websiteUri, internationalPhoneNumber, nationalPhoneNumber,
-#             priceLevel, priceRange, regularOpeningHours, currentOpeningHours
-# Enterprise + Atmosphere: editorialSummary, reviews, goodForGroups, goodForChildren,
-#             liveMusic, outdoorSeating, reservable, servesBeer, servesWine, servesCocktails,
-#             dineIn, takeout, delivery, allowsDogs, restroom, goodForWatchingSports,
-#             parkingOptions, paymentOptions, curbsidePickup, generativeSummary
-FIELD_MASK = ",".join([
-    # Pro tier
-    "displayName",
-    "businessStatus",
-    "primaryType",
-    "primaryTypeDisplayName",
-    "timeZone",
-    # Enterprise tier
-    "rating",
-    "userRatingCount",
-    "websiteUri",
-    "internationalPhoneNumber",
-    "nationalPhoneNumber",
-    "priceLevel",
-    "priceRange",
-    "regularOpeningHours",
-    "currentOpeningHours",
-    # Enterprise + Atmosphere tier
-    "editorialSummary",
-    "reviews",
-    "goodForGroups",
-    "goodForChildren",
-    "liveMusic",
-    "outdoorSeating",
-    "reservable",
-    "servesBeer",
-    "servesWine",
-    "servesCocktails",
-    "dineIn",
-    "takeout",
-    "delivery",
-    "allowsDogs",
-    "restroom",
-    "goodForWatchingSports",
-    "parkingOptions",
-    "paymentOptions",
-    "generativeSummary",
-])
 
 # Rate limiting
 REQUEST_DELAY = 0.1   # seconds between requests (Places Details is generous)
@@ -148,127 +102,6 @@ def fetch_place_details(place_id: str, api_key: str) -> dict | None:
     return None
 
 
-def extract_details(raw: dict) -> dict:
-    """
-    Extract and flatten the fields we care about from the raw Place Details response.
-    """
-    details = {}
-
-    # Basic info
-    dn = raw.get("displayName", {})
-    details["display_name"] = dn.get("text")
-    details["business_status"] = raw.get("businessStatus")
-    details["primary_type"] = raw.get("primaryType")
-    ptdn = raw.get("primaryTypeDisplayName", {})
-    details["primary_type_display_name"] = ptdn.get("text")
-
-    # Time zone
-    tz = raw.get("timeZone", {})
-    details["time_zone"] = tz.get("id") if tz else None
-
-    # Ratings & reviews
-    details["rating"] = raw.get("rating")
-    details["user_rating_count"] = raw.get("userRatingCount")
-
-    # Contact
-    details["website_uri"] = raw.get("websiteUri")
-    details["international_phone_number"] = raw.get("internationalPhoneNumber")
-    details["national_phone_number"] = raw.get("nationalPhoneNumber")
-
-    # Price
-    details["price_level"] = raw.get("priceLevel")
-    price_range = raw.get("priceRange", {})
-    if price_range:
-        start = price_range.get("startPrice", {})
-        end = price_range.get("endPrice", {})
-        details["price_range_start_cents"] = int(float(start.get("units", 0)) * 100 + float(start.get("nanos", 0)) / 1e7) if start else None
-        details["price_range_end_cents"] = int(float(end.get("units", 0)) * 100 + float(end.get("nanos", 0)) / 1e7) if end else None
-        details["price_range_currency"] = start.get("currencyCode") or end.get("currencyCode")
-    else:
-        details["price_range_start_cents"] = None
-        details["price_range_end_cents"] = None
-        details["price_range_currency"] = None
-
-    # Opening hours
-    hours = raw.get("regularOpeningHours", {})
-    details["open_now"] = raw.get("currentOpeningHours", {}).get("openNow")
-    details["weekday_descriptions"] = hours.get("weekdayDescriptions", [])
-    details["opening_hours_periods"] = hours.get("periods", [])
-
-    # Editorial / generative summaries
-    es = raw.get("editorialSummary", {})
-    details["editorial_summary"] = es.get("text") if es else None
-    gs = raw.get("generativeSummary", {})
-    if gs:
-        overview = gs.get("overview", {})
-        details["generative_summary"] = overview.get("text") if overview else None
-    else:
-        details["generative_summary"] = None
-
-    # Atmosphere booleans
-    details["live_music"] = raw.get("liveMusic")
-    details["good_for_groups"] = raw.get("goodForGroups")
-    details["good_for_children"] = raw.get("goodForChildren")
-    details["good_for_watching_sports"] = raw.get("goodForWatchingSports")
-    details["outdoor_seating"] = raw.get("outdoorSeating")
-    details["reservable"] = raw.get("reservable")
-    details["serves_beer"] = raw.get("servesBeer")
-    details["serves_wine"] = raw.get("servesWine")
-    details["serves_cocktails"] = raw.get("servesCocktails")
-    details["dine_in"] = raw.get("dineIn")
-    details["takeout"] = raw.get("takeout")
-    details["delivery"] = raw.get("delivery")
-    details["allows_dogs"] = raw.get("allowsDogs")
-    details["restroom"] = raw.get("restroom")
-    details["curbside_pickup"] = raw.get("curbsidePickup")
-
-    # Parking options
-    parking = raw.get("parkingOptions", {})
-    if parking:
-        details["parking_free"] = parking.get("freeParkingLot")
-        details["parking_paid"] = parking.get("paidParkingLot")
-        details["parking_street"] = parking.get("freeStreetParking")
-        details["parking_garage"] = parking.get("paidStreetParking")
-        details["parking_valet"] = parking.get("valetParking")
-    else:
-        details["parking_free"] = None
-        details["parking_paid"] = None
-        details["parking_street"] = None
-        details["parking_garage"] = None
-        details["parking_valet"] = None
-
-    # Payment options
-    payment = raw.get("paymentOptions", {})
-    if payment:
-        details["accepts_credit_cards"] = payment.get("acceptsCreditCards")
-        details["accepts_debit_cards"] = payment.get("acceptsDebitCards")
-        details["accepts_cash_only"] = payment.get("acceptsCashOnly")
-        details["accepts_nfc"] = payment.get("acceptsNfc")
-    else:
-        details["accepts_credit_cards"] = None
-        details["accepts_debit_cards"] = None
-        details["accepts_cash_only"] = None
-        details["accepts_nfc"] = None
-
-    # Reviews (keep the full array for later DB storage)
-    reviews_raw = raw.get("reviews", [])
-    details["reviews"] = []
-    for r in reviews_raw:
-        review = {
-            "author_name": r.get("authorAttribution", {}).get("displayName"),
-            "author_uri": r.get("authorAttribution", {}).get("uri"),
-            "rating": r.get("rating"),
-            "text": r.get("text", {}).get("text"),
-            "language": r.get("text", {}).get("languageCode"),
-            "relative_publish_time": r.get("relativePublishTimeDescription"),
-            "publish_time": r.get("publishTime"),
-            "google_maps_uri": r.get("googleMapsUri"),
-        }
-        details["reviews"].append(review)
-
-    return details
-
-
 def load_progress() -> dict:
     """Load previously saved progress."""
     if PROGRESS_FILE.exists():
@@ -323,6 +156,12 @@ def main():
 
     success_count = 0
     fail_count = 0
+    cache_hits = 0
+    details_by_place_id: dict[str, dict | None] = {}
+    for previous in results:
+        previous_id = previous.get("google_place_id")
+        if previous_id and previous_id not in details_by_place_id:
+            details_by_place_id[previous_id] = previous.get("place_details")
 
     for i, venue in venues_to_process:
         place_id = venue.get("google_place_id")
@@ -334,32 +173,38 @@ def main():
             continue
 
         if args.dry_run:
-            print(f"[{i:4d}] FETCH: {place_id} ({venue_name})")
+            cached = " (cached unique Place ID)" if place_id in details_by_place_id else ""
+            print(f"[{i:4d}] FETCH: {place_id} ({venue_name}){cached}")
+            details_by_place_id.setdefault(place_id, None)
             continue
 
-        log.info(f"[{i:4d}/{end_idx - 1}] Fetching: {venue_name} ({place_id})")
+        if place_id in details_by_place_id:
+            details = details_by_place_id[place_id]
+            cache_hits += 1
+            log.info(f"[{i:4d}/{end_idx - 1}] Reusing Place ID {place_id} for: {venue_name}")
+        else:
+            log.info(f"[{i:4d}/{end_idx - 1}] Fetching: {venue_name} ({place_id})")
+            raw = fetch_place_details(place_id, api_key)
+            details = extract_details(raw) if raw else None
+            details_by_place_id[place_id] = details
+            time.sleep(REQUEST_DELAY)
 
-        raw = fetch_place_details(place_id, api_key)
+        result = {
+            **venue,
+            "place_details": details,
+        }
+        results.append(result)
 
-        if raw:
-            details = extract_details(raw)
-            result = {
-                **venue,
-                "place_details": details,
-            }
-            results.append(result)
+        if details:
             success_count += 1
-
             review_count = len(details.get("reviews", []))
             rating = details.get("rating", "N/A")
-            log.info(f"  -> OK: rating={rating}, reviews={review_count}, status={details.get('business_status', 'N/A')}")
+            log.info(
+                f"  -> OK: rating={rating}, reviews={review_count}, "
+                f"status={details.get('business_status', 'N/A')}, "
+                f"primary_type={details.get('primary_type', 'N/A')}"
+            )
         else:
-            # Still include the venue, just without details
-            result = {
-                **venue,
-                "place_details": None,
-            }
-            results.append(result)
             fail_count += 1
             log.warning(f"  -> FAILED to fetch details for: {venue_name}")
 
@@ -368,10 +213,9 @@ def main():
             save_progress({"results": results, "last_index": i})
             log.info(f"  Progress saved ({len(results)} fetched so far)")
 
-        time.sleep(REQUEST_DELAY)
-
     if args.dry_run:
-        log.info("Dry run complete, no API calls made")
+        unique_ids = len(details_by_place_id)
+        log.info("Dry run complete, no API calls made (%s unique Place IDs)", unique_ids)
         return
 
     # Write final output
@@ -385,7 +229,10 @@ def main():
 
     # Summary
     log.info("=" * 60)
-    log.info(f"DONE: {success_count} succeeded, {fail_count} failed out of {total} processed")
+    log.info(
+        f"DONE: {success_count} succeeded, {fail_count} failed, "
+        f"{cache_hits} Place ID cache hits out of {total} processed"
+    )
 
 
 if __name__ == "__main__":
