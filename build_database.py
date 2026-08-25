@@ -178,6 +178,7 @@ def build_database(input_path: Path, db_path: Path) -> sqlite3.Connection:
         venue_count += 1
 
     conn.commit()
+    conn.execute("PRAGMA wal_checkpoint(TRUNCATE)")
 
     log.info("=" * 60)
     log.info("Database built: %s", db_path)

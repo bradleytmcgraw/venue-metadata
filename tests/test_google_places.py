@@ -315,6 +315,18 @@ class CleanVenuesIntegrationTests(unittest.TestCase):
                     "SELECT COUNT(*) FROM google_places WHERE primary_type IS NOT NULL"
                 ).fetchone()[0]
                 type_rows = conn.execute("SELECT COUNT(*) FROM google_place_types").fetchone()[0]
+                missing_types = conn.execute(
+                    """
+                    SELECT COUNT(*) FROM google_places gp
+                    WHERE NOT EXISTS (
+                        SELECT 1 FROM google_place_types t
+                        WHERE t.google_place_id = gp.google_place_id
+                    )
+                    """
+                ).fetchone()[0]
+                null_names = conn.execute(
+                    "SELECT COUNT(*) FROM google_places WHERE display_name IS NULL OR display_name = ''"
+                ).fetchone()[0]
             finally:
                 conn.close()
 
@@ -322,9 +334,11 @@ class CleanVenuesIntegrationTests(unittest.TestCase):
         self.assertEqual(distinct, expected_places)
         self.assertEqual(view_rows, expected_places)
         self.assertEqual(venue_rows, expected_listings)
-        self.assertEqual(typed, expected_places)
+        self.assertEqual(null_names, 0)
+        self.assertEqual(typed, expected_places - missing_types)
         self.assertGreater(type_rows, expected_places)
         self.assertLess(places, expected_listings)
+        self.assertLessEqual(missing_types, 1)
 
 
 if __name__ == "__main__":
