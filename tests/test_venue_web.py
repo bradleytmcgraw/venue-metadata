@@ -99,6 +99,11 @@ class DecodeAndSearchTests(unittest.TestCase):
         )
         self.assertIsNone(website)
         website = pick_website(
+            [{"url": "https://example.com/", "title": "Example"}],
+            "El Cid",
+        )
+        self.assertIsNone(website)
+        website = pick_website(
             [{"url": "https://www.facebook.com/saturn", "title": "Saturn"}],
             "Saturn",
             seed_url="https://saturnbirmingham.com/",

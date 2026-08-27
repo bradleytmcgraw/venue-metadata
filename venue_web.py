@@ -63,7 +63,9 @@ SKIP_HOSTS = frozenset({
     "last.fm", "rateyourmusic.com", "discogs.com",
     "washington.org", "archive.org", "web.archive.org", "geohack.toolforge.org",
     "census.gov", "merriam-webster.com", "wiktionary.org", "imdb.com",
-    "fandom.com", "steampowered.com",
+    "fandom.com", "steampowered.com", "example.com", "archive.today",
+    "archive.is", "archive.ph", "kbs.co.kr", "kbsso.kbs.co.kr",
+    "uncovercolorado.com", "bouldercoloradousa.com",
 })
 
 SKIP_HOST_SUFFIXES = (
