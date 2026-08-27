@@ -61,7 +61,9 @@ SKIP_HOSTS = frozenset({
     "tickpick.com", "viagogo.com", "tes.com",
     "songkick.com", "bandsintown.com", "concertarchives.org", "setlist.fm",
     "last.fm", "rateyourmusic.com", "discogs.com",
-    "washington.org", "visit",  # visit* handled via prefix below
+    "washington.org", "archive.org", "web.archive.org", "geohack.toolforge.org",
+    "census.gov", "merriam-webster.com", "wiktionary.org", "imdb.com",
+    "fandom.com", "steampowered.com",
 })
 
 SKIP_HOST_SUFFIXES = (
@@ -187,6 +189,8 @@ def classify_platform(url: str | None) -> str | None:
 def is_skip_host(url: str) -> bool:
     host = hostname(url)
     if host in SKIP_HOSTS:
+        return True
+    if host.endswith(".gov"):
         return True
     if host.endswith(".wikipedia.org") or host.endswith(".facebook.com"):
         return True
@@ -534,4 +538,105 @@ def search_query(venue: dict) -> str:
     name = venue.get("display_name") or venue.get("name") or ""
     city = venue.get("city") or ""
     state = venue.get("state") or ""
-    return f"{name} {city} {state} concert venue official website".strip()
+    return f'{name} {city} {state} concert venue'.strip()
+
+
+WIKI_VENUE_HINTS = (
+    "venue", "nightclub", "theatre", "theater", "concert", "music", "bar",
+    "club", "amphitheatre", "amphitheater", "hall", "arena", "ballroom",
+    "comedy", "auditorium", "pavilion", "lounge",
+)
+WIKI_REJECT_HINTS = (
+    "album", "planet", "mythology", "video game", "console", "fictional",
+    "disambiguation", "film", "movie", "song by", "studio album",
+    "rock band", "musical group",
+)
+
+
+def score_wiki_hit(title: str, snippet: str, venue_name: str, city: str) -> int:
+    blob = f"{title} {snippet}".lower()
+    title_l = (title or "").lower()
+    name_l = (venue_name or "").lower()
+    tokens = name_tokens(venue_name)
+    token_hits = sum(1 for token in tokens if token in title_l)
+    if name_l and name_l not in title_l and token_hits == 0:
+        return -50
+    score = 0
+    if name_l and title_l == name_l:
+        score += 50
+    elif name_l and name_l in title_l:
+        score += 25
+    score += min(30, token_hits * 10)
+    if city and city.lower() in blob:
+        score += 20
+    if any(hint in blob for hint in WIKI_VENUE_HINTS):
+        score += 15
+    if any(hint in blob for hint in WIKI_REJECT_HINTS):
+        score -= 40
+    return score
+
+
+def pick_wiki_hit(hits: list[dict], venue_name: str, city: str) -> dict | None:
+    scored = []
+    for hit in hits:
+        score = score_wiki_hit(hit.get("title") or "", hit.get("snippet") or "", venue_name, city)
+        scored.append((score, hit))
+    scored.sort(key=lambda item: item[0], reverse=True)
+    if scored and scored[0][0] >= 25:
+        return scored[0][1]
+    return None
+
+
+def parse_wikitext_website(wikitext: str) -> str | None:
+    """Pull the official website out of a Wikipedia infobox."""
+    match = re.search(r"\|\s*website\s*=\s*(.+)", wikitext or "", flags=re.I)
+    if not match:
+        return None
+    line = match.group(1).strip()
+    url_tpl = re.search(r"\{\{\s*url\s*\|\s*([^}|]+)", line, flags=re.I)
+    if url_tpl:
+        raw = url_tpl.group(1).strip()
+        if not raw.startswith("http"):
+            raw = "https://" + raw
+        return normalize_url(raw)
+    wiki_link = re.search(r"\[(https?://[^\s\]]+)", line)
+    if wiki_link:
+        return normalize_url(wiki_link.group(1))
+    plain = re.search(r"(https?://[^\s|}]+)", line)
+    if plain:
+        return normalize_url(plain.group(1).rstrip("}'\""))
+    domain = re.search(r"([a-z0-9.-]+\.[a-z]{2,})", line, flags=re.I)
+    if domain:
+        host = domain.group(1).lstrip(".")
+        if "wikipedia" in host or "wikidata" in host:
+            return None
+        return normalize_url("https://" + host)
+    return None
+
+
+def guessed_website_urls(name: str, city: str | None = None) -> list[str]:
+    compact = re.sub(r"[^a-z0-9]", "", (name or "").lower())
+    dashed = re.sub(r"[^a-z0-9]+", "-", (name or "").lower()).strip("-")
+    city_slug = re.sub(r"[^a-z0-9]", "", (city or "").lower())
+    hosts: list[str] = []
+    if city_slug:
+        for host in (
+            f"{dashed}{city_slug}",
+            f"{compact}{city_slug}",
+            f"{dashed}-{city_slug}",
+            f"{city_slug}{dashed}",
+        ):
+            if host not in hosts:
+                hosts.append(host)
+    for host in (dashed, compact):
+        if host and len(host) >= 4 and host not in hosts:
+            hosts.append(host)
+    # Prefer longer, more specific hosts first.
+    hosts.sort(key=len, reverse=True)
+    urls: list[str] = []
+    for host in hosts[:6]:
+        if len(host) < 4:
+            continue
+        urls.append(f"https://www.{host}.com/")
+        urls.append(f"https://{host}.com/")
+    return urls

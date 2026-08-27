@@ -17,7 +17,10 @@ from venue_web import (
     decode_ddg_url,
     detect_platforms,
     parse_ddg_lite_results,
+    parse_wikitext_website,
     pick_website,
+    pick_wiki_hit,
+    guessed_website_urls,
     score_shows_url,
     search_query,
     unique_place_venues,
@@ -89,7 +92,12 @@ class DecodeAndSearchTests(unittest.TestCase):
         website = pick_website(parse_ddg_lite_results(DDG_LITE_HTML), "9:30 Club")
         self.assertEqual(website, "https://www.930.com/")
 
-    def test_pick_website_uses_places_seed(self):
+    def test_pick_website_skips_city_hall(self):
+        website = pick_website(
+            [{"url": "https://www.auburnal.gov/", "title": "City of Auburn"}],
+            "Jay and Susie Gogue Performing Arts Center at Auburn University",
+        )
+        self.assertIsNone(website)
         website = pick_website(
             [{"url": "https://www.facebook.com/saturn", "title": "Saturn"}],
             "Saturn",
@@ -180,6 +188,34 @@ class UniquePlaceGrainTests(unittest.TestCase):
         self.assertIn("Saturn", query)
         self.assertIn("Birmingham", query)
         self.assertIn("AL", query)
+
+    def test_parse_wikitext_website(self):
+        self.assertEqual(
+            parse_wikitext_website("| website = {{URL|https://emptybottle.com}}"),
+            "https://emptybottle.com",
+        )
+        self.assertEqual(
+            parse_wikitext_website("| website = {{URL|930.com|Venue Website}}"),
+            "https://930.com",
+        )
+        self.assertEqual(
+            parse_wikitext_website("| website = [http://www.theark.org theark.org]"),
+            "http://www.theark.org",
+        )
+
+    def test_pick_wiki_hit_prefers_venue_over_album(self):
+        hits = [
+            {"title": "Merriweather Post Pavilion", "snippet": "album by Animal Collective"},
+            {"title": "Merriweather Post Pavilion", "snippet": "outdoor concert venue in Columbia, Maryland"},
+        ]
+        picked = pick_wiki_hit(hits, "Merriweather Post Pavilion", "Columbia")
+        self.assertIsNotNone(picked)
+        self.assertIn("venue", picked["snippet"])
+
+    def test_guessed_urls_include_city(self):
+        urls = guessed_website_urls("Saturn", "Birmingham")
+        joined = " ".join(urls)
+        self.assertIn("saturnbirmingham.com", joined)
 
 
 class VenueWebDatabaseTests(unittest.TestCase):
