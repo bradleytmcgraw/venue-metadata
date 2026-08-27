@@ -16,6 +16,8 @@ venues.db
 venues/city_venue_search.json
 venues/.city_search_progress.json
 venues/venues_details.json
+venues/.venue_web_progress.json
+venues/.venue_web_progress.tmp
 
 # Large source PDF
 venues/niva_venues.pdf
