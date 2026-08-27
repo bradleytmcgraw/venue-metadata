@@ -131,11 +131,15 @@ def origin_url(url: str) -> str:
 
 
 def canonical_website(url: str | None) -> str | None:
-    """Prefer the site root when search landed on an event-detail path."""
+    """Prefer the site root when search landed on an event-detail or utility path."""
     if not url:
         return None
     parsed = urlparse(url)
+    path = (parsed.path or "/").lower().rstrip("/")
     if EVENT_DETAIL_PATH.search(parsed.path or ""):
+        return origin_url(url)
+    first = path.lstrip("/").split("/", 1)[0]
+    if first in SHOWS_NEGATIVE:
         return origin_url(url)
     return url
 
@@ -623,6 +627,13 @@ def merge_web_record(existing: dict, incoming: dict) -> dict:
         if incoming_platform not in {None, "", "unknown"}:
             out["ticketing_platform"] = incoming_platform
             out["ticketing_platforms"] = incoming.get("ticketing_platforms") or [incoming_platform]
+        elif not out.get("ticketing_platform"):
+            out["ticketing_platform"] = incoming_platform or "unknown"
+            out["ticketing_platforms"] = incoming.get("ticketing_platforms") or ["unknown"]
+    if out.get("ticketing_platform") in {None, ""}:
+        out["ticketing_platform"] = "unknown"
+    if not out.get("ticketing_platforms"):
+        out["ticketing_platforms"] = [out["ticketing_platform"]]
     if incoming.get("fetched_at"):
         out["fetched_at"] = incoming["fetched_at"]
     for key in ("search_query", "listing_count", "city", "state", "display_name", "google_place_id"):

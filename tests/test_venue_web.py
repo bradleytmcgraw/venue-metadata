@@ -127,8 +127,8 @@ class DecodeAndSearchTests(unittest.TestCase):
             "https://saturnbirmingham.com/",
         )
         self.assertEqual(
-            canonical_website("https://www.930.com/"),
-            "https://www.930.com/",
+            canonical_website("https://saturnbirmingham.com/faq/"),
+            "https://saturnbirmingham.com/",
         )
 
 
@@ -280,6 +280,19 @@ class SecondPassHelpersTests(unittest.TestCase):
         self.assertEqual(merged["website"], "https://www.thenickrocks.com/")
         self.assertEqual(merged["upcoming_shows_url"], "https://www.thenickrocks.com/")
         self.assertEqual(merged["ticketing_platform"], "ticketmaster")
+
+        unknown_filled = merge_web_record(
+            {"display_name": "Koots", "website": None},
+            {
+                "display_name": "Koots",
+                "website": "https://koots.com/",
+                "upcoming_shows_url": "https://koots.com/events",
+                "ticketing_platform": "unknown",
+                "ticketing_platforms": ["unknown"],
+            },
+        )
+        self.assertEqual(unknown_filled["ticketing_platform"], "unknown")
+        self.assertEqual(unknown_filled["ticketing_platforms"], ["unknown"])
 
         kept = merge_web_record(
             {
