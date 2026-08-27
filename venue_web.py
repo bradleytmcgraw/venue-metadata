@@ -66,6 +66,11 @@ SKIP_HOSTS = frozenset({
     "fandom.com", "steampowered.com", "example.com", "archive.today",
     "archive.is", "archive.ph", "kbs.co.kr", "kbsso.kbs.co.kr",
     "uncovercolorado.com", "bouldercoloradousa.com",
+    "allmusic.com", "billboard.com", "latimes.com", "sfchronicle.com",
+    "encyclopedia.com", "findglocal.com", "concertlands.com",
+    "theankler.com", "crave.ca", "rvingusa.com", "outxout.com",
+    "jazzmusicarchives.com", "alabama.travel", "timeout.com",
+    "bestbuy.com", "amazon.com", "walmart.com", "pcmag.com",
 })
 
 SKIP_HOST_SUFFIXES = (
@@ -99,7 +104,23 @@ SHOWS_NEGATIVE = (
 COMMON_SHOWS_PATHS = (
     "/events", "/shows", "/calendar", "/tickets", "/upcoming",
     "/concerts", "/whats-on", "/event-calendar", "/on-sale",
+    "/upcoming-shows", "/upcoming-events", "/event-list",
+    "/buy-tickets", "/listings", "/schedule", "/whatson",
+    "/showtimes", "/lineup", "/gigs",
 )
+
+ARTICLE_PATH = re.compile(
+    r"/\d{4}/\d{2}/|/article/|/story/|/archives/|/album/|/news-wires/|/blog/",
+    re.I,
+)
+
+PUBLISHER_HOSTS = frozenset({
+    "allmusic.com", "billboard.com", "latimes.com", "sfchronicle.com",
+    "encyclopedia.com", "theankler.com", "crave.ca", "rvingusa.com",
+    "jazzmusicarchives.com", "findglocal.com", "concertlands.com",
+    "pcmag.com", "bestbuy.com", "amazon.com", "walmart.com",
+    "bhphotovideo.com", "chapman.edu",
+})
 
 EVENT_DETAIL_PATH = re.compile(r"/(e|event|events|show|shows)(/|$)", re.I)
 
@@ -199,6 +220,10 @@ def is_skip_host(url: str) -> bool:
     if any(hint in host for hint in AD_HOST_HINTS):
         return True
     if host.startswith("visit") and host.endswith(".org"):
+        return True
+    if host.endswith("-tickets.com") or host.endswith("tickets.org"):
+        return True
+    if any(host == pub or host.endswith("." + pub) for pub in PUBLISHER_HOSTS):
         return True
     return False
 
@@ -543,6 +568,131 @@ def search_query(venue: dict) -> str:
     return f'{name} {city} {state} concert venue'.strip()
 
 
+def search_query_website(venue: dict) -> str:
+    name = venue.get("display_name") or venue.get("name") or ""
+    city = venue.get("city") or ""
+    state = venue.get("state") or ""
+    return f'{name} {city} {state} official website'.strip()
+
+
+def website_should_retry(
+    url: str | None,
+    name: str = "",
+    has_shows: bool | None = None,
+) -> bool:
+    """True when a first-pass website is missing, a publisher page, or a bad guess."""
+    if not url:
+        return True
+    if is_skip_host(url):
+        return True
+    path = urlparse(url).path or ""
+    if ARTICLE_PATH.search(path):
+        return True
+    if has_shows is False and not host_matches_name(url, name):
+        return True
+    return False
+
+
+def needs_second_pass(record: dict | None) -> bool:
+    record = record or {}
+    name = record.get("display_name") or record.get("name") or ""
+    has_shows = bool(record.get("upcoming_shows_url"))
+    if website_should_retry(record.get("website"), name, has_shows=has_shows):
+        return True
+    if not has_shows:
+        return True
+    return False
+
+
+def merge_web_record(existing: dict, incoming: dict) -> dict:
+    """Fill blanks from a second pass; keep first-pass values unless they should be retried."""
+    out = dict(existing)
+    name = incoming.get("display_name") or out.get("display_name") or out.get("name") or ""
+    incoming_site = incoming.get("website")
+    existing_site = out.get("website")
+    existing_has_shows = bool(out.get("upcoming_shows_url"))
+    if website_should_retry(existing_site, name, has_shows=existing_has_shows) and incoming_site:
+        if not website_should_retry(incoming_site, name, has_shows=bool(incoming.get("upcoming_shows_url"))):
+            out["website"] = incoming_site
+        elif not existing_site:
+            out["website"] = incoming_site
+    if not out.get("upcoming_shows_url") and incoming.get("upcoming_shows_url"):
+        out["upcoming_shows_url"] = incoming["upcoming_shows_url"]
+    if out.get("ticketing_platform") in {None, "", "unknown"}:
+        incoming_platform = incoming.get("ticketing_platform")
+        if incoming_platform not in {None, "", "unknown"}:
+            out["ticketing_platform"] = incoming_platform
+            out["ticketing_platforms"] = incoming.get("ticketing_platforms") or [incoming_platform]
+    if incoming.get("fetched_at"):
+        out["fetched_at"] = incoming["fetched_at"]
+    for key in ("search_query", "listing_count", "city", "state", "display_name", "google_place_id"):
+        if incoming.get(key) and not out.get(key):
+            out[key] = incoming[key]
+    return out
+
+
+def pick_shows_from_search(candidates: list[dict[str, str]], homepage: str) -> str | None:
+    """Prefer an on-site calendar URL already present in search hits."""
+    scored: list[tuple[int, str]] = []
+    seen: set[str] = set()
+    for candidate in candidates:
+        url = normalize_url(candidate.get("url"))
+        if not url or url in seen:
+            continue
+        seen.add(url)
+        scored.append((score_shows_url(url, candidate.get("title") or "", homepage), url))
+    scored.sort(key=lambda item: item[0], reverse=True)
+    if scored and scored[0][0] >= 24:
+        return scored[0][1]
+    return None
+
+
+def osm_website_from_hits(hits: list[dict], venue_name: str, city: str) -> str | None:
+    """Pick an OSM extratags website when the hit looks like this venue."""
+    name_l = (venue_name or "").lower()
+    city_l = (city or "").lower()
+    tokens = name_tokens(venue_name)
+    best_score = 0
+    best: str | None = None
+    for hit in hits:
+        extra = hit.get("extratags") or {}
+        website = extra.get("website") or extra.get("contact:website") or extra.get("url")
+        if not website:
+            continue
+        display = (hit.get("display_name") or hit.get("name") or "").lower()
+        osm_name = (hit.get("name") or "").lower()
+        score = 0
+        if name_l and (name_l in osm_name or osm_name in name_l):
+            score += 30
+        score += 10 * sum(1 for token in tokens if token in osm_name or token in display)
+        if city_l and city_l in display:
+            score += 20
+        kind = (hit.get("type") or hit.get("class") or "")
+        if kind in {
+            "theatre", "nightclub", "bar", "pub", "arts_centre",
+            "music_venue", "events_venue", "concert_hall", "community_centre",
+        }:
+            score += 10
+        if is_skip_host(website):
+            score -= 50
+        if score > best_score:
+            best_score = score
+            best = website
+    if best_score >= 20:
+        return normalize_url(best)
+    return None
+
+
+def musicbrainz_website_from_place(place: dict) -> str | None:
+    for rel in place.get("relations") or []:
+        rel_type = (rel.get("type") or "").lower()
+        if "official homepage" in rel_type or rel_type == "blog":
+            resource = (rel.get("url") or {}).get("resource")
+            if resource and not is_skip_host(resource):
+                return normalize_url(resource)
+    return None
+
+
 WIKI_VENUE_HINTS = (
     "venue", "nightclub", "theatre", "theater", "concert", "music", "bar",
     "club", "amphitheatre", "amphitheater", "hall", "arena", "ballroom",
@@ -641,4 +791,6 @@ def guessed_website_urls(name: str, city: str | None = None) -> list[str]:
             continue
         urls.append(f"https://www.{host}.com/")
         urls.append(f"https://{host}.com/")
+        urls.append(f"https://www.{host}.org/")
+        urls.append(f"https://{host}.org/")
     return urls

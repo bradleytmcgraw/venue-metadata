@@ -21,9 +21,16 @@ from venue_web import (
     pick_website,
     pick_wiki_hit,
     guessed_website_urls,
+    is_skip_host,
+    merge_web_record,
+    musicbrainz_website_from_place,
+    needs_second_pass,
+    osm_website_from_hits,
+    pick_shows_from_search,
     score_shows_url,
     search_query,
     unique_place_venues,
+    website_should_retry,
 )
 
 FIXTURE = Path(__file__).resolve().parent / "fixtures" / "sample_listings.json"
@@ -221,6 +228,115 @@ class UniquePlaceGrainTests(unittest.TestCase):
         urls = guessed_website_urls("Saturn", "Birmingham")
         joined = " ".join(urls)
         self.assertIn("saturnbirmingham.com", joined)
+        self.assertIn("saturnbirmingham.org", joined)
+
+
+class SecondPassHelpersTests(unittest.TestCase):
+    def test_website_should_retry_publisher_and_missing(self):
+        self.assertTrue(website_should_retry(None, "The Nick"))
+        self.assertTrue(
+            website_should_retry(
+                "https://www.latimes.com/archives/blogs/pop-hiss/story/2012-02-28/desert-daze",
+                "Desert Daze",
+            )
+        )
+        self.assertTrue(website_should_retry("https://DFW.com", "Kuumbwa Jazz Center", has_shows=False))
+        self.assertFalse(website_should_retry("https://www.930.com/", "9:30 Club", has_shows=True))
+        self.assertFalse(website_should_retry("https://unionstage.com/", "Union Stage", has_shows=False))
+
+    def test_needs_second_pass_for_missing_shows(self):
+        self.assertTrue(needs_second_pass({"display_name": "The Nick"}))
+        self.assertTrue(needs_second_pass({
+            "display_name": "Union Stage",
+            "website": "https://unionstage.com/",
+            "upcoming_shows_url": None,
+        }))
+        self.assertFalse(needs_second_pass({
+            "display_name": "9:30 Club",
+            "website": "https://www.930.com/",
+            "upcoming_shows_url": "https://www.930.com/#upcoming-shows-title",
+            "ticketing_platform": "ticketmaster",
+        }))
+
+    def test_merge_web_record_fills_blanks_only(self):
+        existing = {
+            "google_place_id": "abc",
+            "display_name": "The Nick",
+            "website": None,
+            "upcoming_shows_url": None,
+            "ticketing_platform": "unknown",
+            "ticketing_platforms": ["unknown"],
+        }
+        incoming = {
+            "google_place_id": "abc",
+            "display_name": "The Nick",
+            "website": "https://www.thenickrocks.com/",
+            "upcoming_shows_url": "https://www.thenickrocks.com/",
+            "ticketing_platform": "ticketmaster",
+            "ticketing_platforms": ["ticketmaster"],
+            "fetched_at": "2026-08-27T00:00:00Z",
+        }
+        merged = merge_web_record(existing, incoming)
+        self.assertEqual(merged["website"], "https://www.thenickrocks.com/")
+        self.assertEqual(merged["upcoming_shows_url"], "https://www.thenickrocks.com/")
+        self.assertEqual(merged["ticketing_platform"], "ticketmaster")
+
+        kept = merge_web_record(
+            {
+                "display_name": "9:30 Club",
+                "website": "https://www.930.com/",
+                "upcoming_shows_url": "https://www.930.com/#shows",
+                "ticketing_platform": "ticketmaster",
+            },
+            {
+                "display_name": "9:30 Club",
+                "website": "https://www.bandsintown.com/v/930",
+                "upcoming_shows_url": "https://www.bandsintown.com/v/930",
+                "ticketing_platform": "unknown",
+            },
+        )
+        self.assertEqual(kept["website"], "https://www.930.com/")
+        self.assertEqual(kept["upcoming_shows_url"], "https://www.930.com/#shows")
+        self.assertEqual(kept["ticketing_platform"], "ticketmaster")
+
+    def test_osm_website_from_hits_requires_name_city(self):
+        hits = [{
+            "name": "Workplay",
+            "display_name": "Workplay, Birmingham, Alabama, United States",
+            "type": "theatre",
+            "extratags": {"website": "https://www.workplay.com/"},
+        }]
+        self.assertEqual(
+            osm_website_from_hits(hits, "WORKPLAY", "Birmingham"),
+            "https://www.workplay.com/",
+        )
+        self.assertIsNone(osm_website_from_hits(hits, "Unrelated Venue", "Mobile"))
+
+    def test_musicbrainz_official_homepage(self):
+        place = {
+            "relations": [
+                {"type": "wikipedia", "url": {"resource": "https://en.wikipedia.org/wiki/X"}},
+                {"type": "official homepage", "url": {"resource": "https://workplay.com/"}},
+            ]
+        }
+        self.assertEqual(musicbrainz_website_from_place(place), "https://workplay.com/")
+
+    def test_pick_shows_from_search_prefers_on_site_calendar(self):
+        homepage = "https://workplay.com/"
+        shows = pick_shows_from_search(
+            [
+                {"url": "https://workplay.com/", "title": "WORKPLAY"},
+                {"url": "https://workplay.com/events/", "title": "Shows - WORKPLAY"},
+                {"url": "https://www.livenation.com/venue/KovZ/workplay-events", "title": "Live Nation"},
+            ],
+            homepage,
+        )
+        self.assertEqual(shows, "https://workplay.com/events/")
+
+    def test_skip_ticket_aggregators(self):
+        self.assertTrue(is_skip_host("https://the-nick.birmingham-tickets.com/"))
+        self.assertTrue(is_skip_host("https://soul-kitchen.mobiletickets.org/"))
+        self.assertFalse(is_skip_host("https://www.thenickrocks.com/"))
 
 
 class VenueWebDatabaseTests(unittest.TestCase):
