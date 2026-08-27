@@ -29,6 +29,7 @@ from venue_web import (
     analyze_site,
     classify_platform,
     hostname,
+    parse_ddg_lite_results,
     pick_website,
     search_query,
     unique_place_venues,
@@ -168,7 +169,13 @@ def lookup_venue(venue: dict) -> dict:
     html = None
     final_url = None
     if website:
-        final_url, html = http_get(website)
+        if website.startswith("http://"):
+            https_url = "https://" + website[len("http://"):]
+            final_url, html = http_get(https_url)
+            if final_url:
+                website = final_url
+        if html is None:
+            final_url, html = http_get(website)
         time.sleep(FETCH_DELAY)
         if final_url:
             analysis["website"] = final_url

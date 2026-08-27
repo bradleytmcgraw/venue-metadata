@@ -12,6 +12,7 @@ from pathlib import Path
 from build_database import build_database
 from venue_web import (
     analyze_site,
+    canonical_website,
     classify_platform,
     decode_ddg_url,
     detect_platforms,
@@ -96,6 +97,20 @@ class DecodeAndSearchTests(unittest.TestCase):
         )
         self.assertEqual(website, "https://saturnbirmingham.com/")
 
+    def test_canonical_website_strips_event_detail_path(self):
+        self.assertEqual(
+            canonical_website("https://saturnbirmingham.com/e/some-show"),
+            "https://saturnbirmingham.com/",
+        )
+        self.assertEqual(
+            canonical_website("https://saturnbirmingham.com/e/"),
+            "https://saturnbirmingham.com/",
+        )
+        self.assertEqual(
+            canonical_website("https://www.930.com/"),
+            "https://www.930.com/",
+        )
+
 
 class PlatformAndShowsTests(unittest.TestCase):
     def test_classify_known_platforms(self):
@@ -133,7 +148,9 @@ class PlatformAndShowsTests(unittest.TestCase):
         home = "https://www.930.com/"
         calendar = score_shows_url("https://www.930.com/events", "Upcoming Shows", home)
         about = score_shows_url("https://www.930.com/about", "About", home)
+        policies = score_shows_url("https://www.930.com/policies", "Policies", home)
         self.assertGreater(calendar, about)
+        self.assertGreater(calendar, policies)
 
     def test_detect_platforms_empty_is_none(self):
         primary, platforms = detect_platforms(["https://www.930.com/about"], "https://www.930.com/")

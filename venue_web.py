@@ -88,13 +88,32 @@ SHOWS_TEXT_HINTS = (
 SHOWS_NEGATIVE = (
     "about", "contact", "privacy", "faq", "job", "career", "menu", "gift",
     "shop", "store", "blog", "news", "press", "login", "account", "cart",
-    "privacy", "terms", "rental", "private-event", "weddings",
+    "terms", "rental", "private-event", "weddings", "polic", "policy",
+    "policies", "accessibility", "volunteer", "donate", "sponsor",
 )
 
 COMMON_SHOWS_PATHS = (
     "/events", "/shows", "/calendar", "/tickets", "/upcoming",
     "/concerts", "/whats-on", "/event-calendar", "/on-sale",
 )
+
+EVENT_DETAIL_PATH = re.compile(r"/(e|event|events|show|shows)(/|$)", re.I)
+
+
+def origin_url(url: str) -> str:
+    parsed = urlparse(url)
+    return parsed._replace(path="/", params="", query="", fragment="").geturl()
+
+
+def canonical_website(url: str | None) -> str | None:
+    """Prefer the site root when search landed on an event-detail path."""
+    if not url:
+        return None
+    parsed = urlparse(url)
+    if EVENT_DETAIL_PATH.search(parsed.path or ""):
+        return origin_url(url)
+    return url
+
 
 NAME_STOPWORDS = frozenset({
     "the", "and", "of", "at", "club", "theatre", "theater", "hall", "center",
@@ -323,6 +342,8 @@ def score_website_candidate(url: str, title: str, venue_name: str) -> int:
     path = urlparse(url).path.rstrip("/")
     if not path:
         score += 8
+    if EVENT_DETAIL_PATH.search(urlparse(url).path or ""):
+        score -= 25
     if any(hint in path.lower() for hint in SHOWS_NEGATIVE):
         score -= 8
     return score
@@ -347,14 +368,17 @@ def pick_website(
         seen.add(url)
         scored.append((score_website_candidate(url, candidate.get("title") or "", venue_name), url))
     scored.sort(key=lambda item: item[0], reverse=True)
+    chosen: str | None = None
     for score, url in scored:
         if score > 0:
-            return url
-    # Last resort: social / directory if nothing else scored.
-    for score, url in scored:
-        if score > -100:
-            return url
-    return None
+            chosen = url
+            break
+    if chosen is None:
+        for score, url in scored:
+            if score > -100:
+                chosen = url
+                break
+    return canonical_website(chosen)
 
 
 def score_shows_url(url: str, text: str, homepage: str) -> int:
