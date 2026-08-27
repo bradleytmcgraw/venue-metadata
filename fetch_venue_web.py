@@ -47,6 +47,7 @@ from venue_web import (
     search_query_website,
     unique_place_venues,
     website_should_retry,
+    sanitize_web_record,
 )
 
 VENUES_CLEAN = Path("venues/venues_clean.json")
@@ -629,6 +630,7 @@ def main() -> None:
                 previous = existing_by_id.get(record["google_place_id"]) or {}
                 record = merge_web_record(previous, record)
                 existing_by_id[record["google_place_id"]] = record
+            record = sanitize_web_record(record)
             results.append(record)
             done_ids.add(record["google_place_id"])
             completed += 1
@@ -647,7 +649,7 @@ def main() -> None:
 
     args.output.parent.mkdir(parents=True, exist_ok=True)
     # Stable order: original unique-place order.
-    by_id = {row["google_place_id"]: row for row in results}
+    by_id = {row["google_place_id"]: sanitize_web_record(row) for row in results}
     ordered = [by_id[venue["google_place_id"]] for venue in venues if venue["google_place_id"] in by_id]
     with open(args.output, "w") as handle:
         json.dump(ordered, handle, indent=2)

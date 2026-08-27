@@ -68,9 +68,11 @@ SKIP_HOSTS = frozenset({
     "uncovercolorado.com", "bouldercoloradousa.com",
     "allmusic.com", "billboard.com", "latimes.com", "sfchronicle.com",
     "encyclopedia.com", "findglocal.com", "concertlands.com",
-    "theankler.com", "crave.ca", "rvingusa.com", "outxout.com",
+    "theankler.com",     "crave.ca", "rvingusa.com", "outxout.com",
     "jazzmusicarchives.com", "alabama.travel", "timeout.com",
     "bestbuy.com", "amazon.com", "walmart.com", "pcmag.com",
+    "iana.org", "musicrow.com", "newspapers.com", "wxii12.com",
+    "gotoeat.net", "blogspot.com",
 })
 
 SKIP_HOST_SUFFIXES = (
@@ -120,6 +122,8 @@ PUBLISHER_HOSTS = frozenset({
     "jazzmusicarchives.com", "findglocal.com", "concertlands.com",
     "pcmag.com", "bestbuy.com", "amazon.com", "walmart.com",
     "bhphotovideo.com", "chapman.edu",
+    "iana.org", "musicrow.com", "newspapers.com", "wxii12.com",
+    "blogspot.com", "tumblr.com", "gotoeat.net",
 })
 
 EVENT_DETAIL_PATH = re.compile(r"/(e|event|events|show|shows)(/|$)", re.I)
@@ -577,6 +581,41 @@ def search_query_website(venue: dict) -> str:
     city = venue.get("city") or ""
     state = venue.get("state") or ""
     return f'{name} {city} {state} official website'.strip()
+
+
+IMAGE_SUFFIXES = (".jpg", ".jpeg", ".png", ".gif", ".webp", ".svg")
+
+
+def is_junk_url(url: str | None) -> bool:
+    """True for publisher pages, social posts, images, and other non-venue URLs."""
+    if not url:
+        return True
+    if is_skip_host(url):
+        return True
+    parsed = urlparse(url)
+    path = (parsed.path or "").lower()
+    if ARTICLE_PATH.search(path):
+        return True
+    if path.endswith(IMAGE_SUFFIXES):
+        return True
+    host = hostname(url)
+    if host in {"iana.org", "example.com"} or host.endswith(".iana.org"):
+        return True
+    return False
+
+
+def sanitize_web_record(record: dict) -> dict:
+    """Drop junk website/show URLs after a lookup."""
+    out = dict(record)
+    if is_junk_url(out.get("website")):
+        out["website"] = None
+    if is_junk_url(out.get("upcoming_shows_url")):
+        out["upcoming_shows_url"] = None
+    if not out.get("ticketing_platform"):
+        out["ticketing_platform"] = "unknown"
+    if not out.get("ticketing_platforms"):
+        out["ticketing_platforms"] = [out["ticketing_platform"]]
+    return out
 
 
 def website_should_retry(

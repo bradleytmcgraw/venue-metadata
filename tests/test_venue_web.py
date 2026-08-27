@@ -27,6 +27,7 @@ from venue_web import (
     needs_second_pass,
     osm_website_from_hits,
     pick_shows_from_search,
+    sanitize_web_record,
     score_shows_url,
     search_query,
     unique_place_venues,
@@ -345,6 +346,22 @@ class SecondPassHelpersTests(unittest.TestCase):
             homepage,
         )
         self.assertEqual(shows, "https://workplay.com/events/")
+
+    def test_sanitize_drops_publisher_and_image_urls(self):
+        cleaned = sanitize_web_record({
+            "website": "https://www.latimes.com/archives/blogs/pop-hiss/story/2012-02-28/desert-daze",
+            "upcoming_shows_url": "https://cdn.gotoeat.net/hopmonk/12421-albums-1.jpg",
+            "ticketing_platform": "unknown",
+        })
+        self.assertIsNone(cleaned["website"])
+        self.assertIsNone(cleaned["upcoming_shows_url"])
+        cleaned_ok = sanitize_web_record({
+            "website": "https://www.thenickrocks.com/",
+            "upcoming_shows_url": "https://www.thenickrocks.com/calendar/",
+            "ticketing_platform": "ticketweb",
+        })
+        self.assertEqual(cleaned_ok["website"], "https://www.thenickrocks.com/")
+        self.assertEqual(cleaned_ok["upcoming_shows_url"], "https://www.thenickrocks.com/calendar/")
 
     def test_skip_ticket_aggregators(self):
         self.assertTrue(is_skip_host("https://the-nick.birmingham-tickets.com/"))
