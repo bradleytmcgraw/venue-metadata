@@ -159,7 +159,20 @@ CREATE INDEX IF NOT EXISTS idx_google_place_hours_place_id
     ON google_place_hours(google_place_id);
 CREATE INDEX IF NOT EXISTS idx_google_place_reviews_place_id
     ON google_place_reviews(google_place_id);
+-- Official website, upcoming-shows page, and ticketing platform (QUA-19).
+-- One row per unique Google Place ID; populated from venues/venue_web.json.
+CREATE TABLE IF NOT EXISTS venue_web (
+    google_place_id TEXT PRIMARY KEY REFERENCES google_places(google_place_id),
+    website TEXT,
+    upcoming_shows_url TEXT,
+    ticketing_platform TEXT,
+    ticketing_platforms TEXT,            -- JSON array of detected platforms
+    fetched_at TEXT
+);
+
 CREATE INDEX IF NOT EXISTS idx_venues_google_place_id
     ON venues(google_place_id);
 CREATE INDEX IF NOT EXISTS idx_venues_city_state
     ON venues(city, state);
+CREATE INDEX IF NOT EXISTS idx_venue_web_ticketing_platform
+    ON venue_web(ticketing_platform);

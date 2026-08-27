@@ -29,6 +29,7 @@ from places import (
 
 VENUES_DETAILS = Path("venues/venues_details.json")
 VENUES_CLEAN = Path("venues/venues_clean.json")
+VENUE_WEB = Path("venues/venue_web.json")
 DEFAULT_DB = Path("venues.db")
 
 logging.basicConfig(
@@ -64,7 +65,11 @@ def _insert_place(cursor: sqlite3.Cursor, place: dict) -> None:
     )
 
 
-def build_database(input_path: Path, db_path: Path) -> sqlite3.Connection:
+def build_database(
+    input_path: Path,
+    db_path: Path,
+    venue_web_path: Path | None = None,
+) -> sqlite3.Connection:
     """Build the SQLite database and return an open connection (caller closes)."""
     with open(input_path) as handle:
         listings = json.load(handle)
@@ -142,6 +147,39 @@ def build_database(input_path: Path, db_path: Path) -> sqlite3.Connection:
             )
             hours_count += 1
 
+    web_count = 0
+    web_skipped = 0
+    if venue_web_path is None:
+        venue_web_path = VENUE_WEB if VENUE_WEB.exists() else None
+    web_path = venue_web_path if venue_web_path and venue_web_path.exists() else None
+    if web_path:
+        with open(web_path) as handle:
+            web_rows = json.load(handle)
+        for row in web_rows:
+            place_id = row.get("google_place_id")
+            if not place_id or place_id not in places:
+                web_skipped += 1
+                continue
+            platforms = row.get("ticketing_platforms")
+            cursor.execute(
+                """
+                INSERT OR REPLACE INTO venue_web (
+                    google_place_id, website, upcoming_shows_url,
+                    ticketing_platform, ticketing_platforms, fetched_at
+                ) VALUES (?, ?, ?, ?, ?, ?)
+                """,
+                (
+                    place_id,
+                    row.get("website"),
+                    row.get("upcoming_shows_url"),
+                    row.get("ticketing_platform"),
+                    json.dumps(platforms) if isinstance(platforms, list) else platforms,
+                    row.get("fetched_at"),
+                ),
+            )
+            web_count += 1
+        log.info("Loaded venue_web rows from %s", web_path)
+
     venue_count = 0
     skipped_fk = 0
     for listing in listings:
@@ -189,6 +227,9 @@ def build_database(input_path: Path, db_path: Path) -> sqlite3.Connection:
     log.info("  Hours: %s", hours_count)
     if skipped_fk:
         log.warning("  Listings with unknown Place ID skipped for FK: %s", skipped_fk)
+    log.info("  Venue web rows inserted: %s", web_count)
+    if web_skipped:
+        log.warning("  Venue web rows skipped (unknown Place ID): %s", web_skipped)
 
     for table in [
         "google_places",
@@ -196,6 +237,7 @@ def build_database(input_path: Path, db_path: Path) -> sqlite3.Connection:
         "google_place_reviews",
         "google_place_hours",
         "venues",
+        "venue_web",
     ]:
         count = cursor.execute(f"SELECT COUNT(*) FROM {table}").fetchone()[0]
         log.info("  Table %s: %s rows", table, count)
